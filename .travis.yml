@@ -1,11 +1,12 @@
-language: go
+sudo: true
+dist: trusty
 
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y hugo
+install:
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo
 
 script:
-  - hugo 
+  - /snap/bin/hugo 
 
 deploy:
   provider: pages
@@ -15,6 +16,6 @@ deploy:
   skip-cleanup: true
   email: $GITHUB_EMAIL
   github-token: $GITHUB_TOKEN
-  keep-history: true
+  keep-history: false
   on:
     branch: master
