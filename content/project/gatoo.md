@@ -1,35 +1,21 @@
 +++
-# Date this page was created.
 date = 2016-04-27T00:00:00
-
-# Project title.
-
-# Project summary to display on homepage.
+title = "Gatoo"
 summary = "Google analytics exporter to multiple outputs."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "gatoo.png"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["google", "google-analytics", "export", "command line", "analytics"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-math = false
-
 +++
 # ![logomakr_32f2md](https://user-images.githubusercontent.com/3071208/42147664-29898cca-7dcf-11e8-9c50-2cf3845b7fe8.png)
 
 [![Build Status](https://travis-ci.org/kanekotic/gatoo.svg?branch=master)](https://travis-ci.org/kanekotic/gatoo)
 [![Coverage Status](https://coveralls.io/repos/github/kanekotic/gatoo/badge.svg?branch=master)](https://coveralls.io/github/kanekotic/gatoo?branch=master)
 
-this project will provide a command line and a library to export google analytics to your prefered endpoint (console, log management, or db).
+This project will provide a command line and a library to export google analytics to your prefered endpoint (console, log management, or db).
 
 ## Use as Command Line
 install globally with `npm install gatoo -g`. Aftyer this it can be run with the next command:
 
-```bash
+```zsh
 gatoo console <email> <ReplativePath> <viewId> <startDate> <endDate> <metrics> <dimensions>
 ```
 
@@ -129,4 +115,3 @@ example()
 
 ### Logo
 Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/32f2Md
-
