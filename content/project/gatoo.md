@@ -1,7 +1,6 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Gatoo"
-summary = "Google analytics exporter to multiple outputs"
 image_preview = "gatoo.png"
 tags = ["google", "google-analytics", "export", "command line", "analytics"]
 +++

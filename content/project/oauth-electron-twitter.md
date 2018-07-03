@@ -1,7 +1,6 @@
 +++
 date = 2016-04-27T00:00:00
 title = "OAuth Electron Twitter"
-summary = " Use Twitter OAuth inside electron app"
 image_preview = "oauthtwitter.png"
 tags = ["oauth","electron","twitter"]
 +++

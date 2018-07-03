@@ -1,7 +1,6 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Scala Local Toggle"
-summary = "feature toggle by configuration file for scala applications"
 image_preview = "scalalocaltoggle.png"
 tags = ["feature-toggle","toggle","feature-toggles","feature-flags"]
 +++

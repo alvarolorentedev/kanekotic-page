@@ -1,75 +1,53 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Express Exception Handler"
-summary = "add a general way to handle exception for express application"
 image_preview = "expressexceptionhandler.png"
 tags = ["express","expressjs","exception-handling","exception-handler","exceptions","express-middleware"]
 +++
-# ![logomakr_6etktj](https://user-images.githubusercontent.com/3071208/32364786-318debc0-c077-11e7-9064-a65d6ce35cf6.png)
+# ![logomakr_6nl700](https://user-images.githubusercontent.com/3071208/28988724-97dc463a-7971-11e7-9cec-ffc06bcc9205.png)
 
-[![Build Status](https://travis-ci.org/kanekotic/scala-local-toggle.svg?branch=master)](https://travis-ci.org/kanekotic/scala-local-toggle)
-[![Maven Status](https://maven-badges.herokuapp.com/maven-central/com.github.kanekotic/scala-local-toggle_2.12/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.kanekotic/scala-local-toggle_2.12/badge.svg?style=flat)
+## Motivation
+This package was created to add a general way to handle exception for express application with the expectation to make it simpler to handle all possible requests.
 
+## Installation
+add it to your project with `npm install express-exception-handler` or `yarn add express-exception-handler`
 
-feature toggle by configuration file for scala applications
-
-## Install
-```scala
-//Use version in badge
-libraryDependencies += "com.github.kanekotic" %% "scala-local-toggle" % <version>
-```
 
 ## Use
+there are 2 diferent ways to integrate the main functionality of this package, either by adding the handle that gets injected to the router framework
 
-1. Instantiate can be done by newing the class, it can also be register in guice or dependency injection frameworks.
-```scala
-  val toggle = new ToggleManager();
-``` 
-
-2. use default files for loading configuration, it will try to load toggles from the following (first-listed are higher priority):
-
-- system properties
-- application.conf (all resources on classpath with this name)
-- application.json (all resources on classpath with this name)
-- application.properties (all resources on classpath with this name)
-- reference.conf (all resources on classpath with this name)
-
-this files will require to have an setting for the toggles HOCON or JSON complient configuration similar to this, in any other case toggles will default to false:
-
-```hocon
-feature.local.toggles: [
-    {
-      "name": "NAME_OF_YOUR_TOGGLE",
-      "local": true
-      "development": true
-      "production": false
-    }, 
-    {
-      "name": "NAME_OF_OTHER_YOUR_TOGGLE",
-      "local": true
-      "development": false
-      "production": false
-    }
-  ]
-```
-the boolean denotes the state of the toggle depending on the environment, and the name is the identifying the value of the environment variable:
-- local maps to environment variable value LOCAL.
-- development maps to environment variable value DEVELOPMENT.
-- production maps to environment variable value PRODUCTION.
-
-aditionally the enviroment variable that will be track to know the current environment of execution can be modified by
-```hocon
-  feature.local.environment: "SOME_ENVIROMENT_VARIABLE_NAME"
-  #Defaults to ENVIRONMENT 
-``` 
-
-3. Use with the name identifier defined in the previous step
-
-```scala
-  if (toggle.isEnabled("NAME_OF_YOUR_TOGGLE")) {
-    //your code under toggle here
-  }
+```js
+var exceptionHandler = require('express-exception-handler')
+exceptionHandler.handle()
+const app = require('express')()
 ```
 
-##### LOGO
-Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/6ETKtj
+or by wraping manually the routes
+
+```js
+var wrap = require('express-exception-handler').wrap
+router.post('/', wrap(async (req, res) => {
+    ...
+}))
+```
+
+it also integrates an extended class from Error that contains a `message` and a `status` that can be used to pass diferent information to the error handle
+
+```js
+var httpError = require('express-exception-handler').exception
+router.post('/', async (req, res) => {
+    throw new HttpError('Great Message', 400, "{Response: awesome}")
+}))
+```
+
+last but not least it also contains a middleware that can be added directly to express that handles the previous named errors.
+
+```js
+var middleware = require('express-exception-handler').middleware
+const app = require('express')()
+app.use(middleware)
+```
+
+### Logo
+
+Arrows graphic by <a href="http://www.flaticon.com/authors/madebyoliver">madebyoliver</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/6nL7006nL700

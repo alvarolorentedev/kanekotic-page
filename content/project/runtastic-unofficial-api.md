@@ -1,7 +1,6 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Runtastic Unofficial API"
-summary = "unofficial runtastic api wrapper"
 image_preview = "runtasticunofficial.png"
 tags = ["runtastic","unofficial","api"]
 +++
