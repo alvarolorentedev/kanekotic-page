@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Raw Guid Converter"
-summary = "guid converter from raw database type to formated guid"
+summary = "guid converter from raw to formated guid"
 image_preview = "rawguidconverter.png"
 tags = ["guid","converter","oracle","raw"]
 +++
