@@ -1,0 +1,20 @@
+language: go
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y hugo
+
+script:
+  - hugo 
+
+deploy:
+  provider: pages
+  local-dir: public
+  repo: kanekotic/kanekotic.github.com.git
+  target-branch: master
+  skip-cleanup: true
+  email: $GITHUB_EMAIL
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
