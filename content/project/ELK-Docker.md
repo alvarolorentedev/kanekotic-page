@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "ELK Docker"
-summary = "Google analytics exporter to multiple outputs."
+summary = "a logging infrastructure with docker compose using logstash, elastic search and kibana"
 image_preview = "elkdocker.png"
 tags = ["elk-stack","elasticsearch","grafana","kibana","logstash","infrastructure"]
 +++
