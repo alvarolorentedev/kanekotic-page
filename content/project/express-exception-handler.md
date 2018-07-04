@@ -1,5 +1,5 @@
 +++
-date = 2016-04-27T00:00:00
+date = 2017-07-30T00:00:00
 title = "Express Exception Handler"
 image_preview = "expressexceptionhandler.png"
 tags = ["express","expressjs","exception-handling","exception-handler","exceptions","express-middleware"]

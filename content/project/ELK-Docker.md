@@ -1,5 +1,5 @@
 +++
-date = 2016-04-27T00:00:00
+date = 2017-07-28T00:00:00
 title = "ELK Docker"
 image_preview = "elkdocker.png"
 tags = ["elk-stack","elasticsearch","grafana","kibana","logstash","infrastructure"]

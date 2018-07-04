@@ -1,5 +1,5 @@
 +++
-date = 2016-04-27T00:00:00
+date = 2017-06-28T00:00:01 
 title = "Scala Local Toggle"
 image_preview = "scalalocaltoggle.png"
 tags = ["feature-toggle","toggle","feature-toggles","feature-flags"]

@@ -1,5 +1,5 @@
 +++
-date = 2016-04-27T00:00:00
+date = 2017-05-30T00:00:00
 title = "Runtastic Unofficial API"
 image_preview = "runtasticunofficial.png"
 tags = ["runtastic","unofficial","api"]

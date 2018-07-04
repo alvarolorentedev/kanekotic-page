@@ -1,5 +1,5 @@
 +++
-date = 2016-04-27T00:00:00
+date = 2017-05-28T00:00:00
 title = "Endomondo Unofficial API"
 image_preview = "endomondounofficial.png"
 tags = ["endomondo","unofficial","api"]
