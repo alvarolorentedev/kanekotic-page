@@ -2,6 +2,7 @@
 date = 2016-04-27T00:00:00
 title = "OAuth Electron"
 image_preview = "oauthelectron.png"
+external_link = "https://github.com/kanekotic/oauth-electron"
 tags = ["oauth","electron"]
 +++
 # ![drawing 1](https://cloud.githubusercontent.com/assets/3071208/14776049/cb6164ea-0ac3-11e6-8219-c8a46a56e3e5.png)

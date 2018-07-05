@@ -2,6 +2,7 @@
 date = 2017-05-30T00:00:00
 title = "Runtastic Unofficial API"
 image_preview = "runtasticunofficial.png"
+external_link = "https://github.com/kanekotic/runtastic-unofficial-api"
 tags = ["runtastic","unofficial","api"]
 +++
 # ![logomakr_4dzqyb](https://cloud.githubusercontent.com/assets/3071208/23109294/74bb4208-f6dd-11e6-9f09-24e7ac0d9d28.png)

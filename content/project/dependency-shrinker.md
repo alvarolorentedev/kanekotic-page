@@ -2,6 +2,7 @@
 date = 2017-06-28T00:00:00
 title = "Dependency Shrinker"
 image_preview = "dependencyshrinker.png"
+external_link = "https://github.com/kanekotic/dependency-shrinker"
 tags = ["dependencies","executable","command-line","command-line-tool"]
 +++
 # ![logomakr_6rglby](https://cloud.githubusercontent.com/assets/3071208/22743728/b6164884-ede0-11e6-9bbe-5e7643b22be7.png)

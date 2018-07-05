@@ -2,6 +2,7 @@
 date = 2017-07-29T00:00:00
 title = "Gatoo"
 image_preview = "gatoo.png"
+external_link = "https://github.com/kanekotic/gatoo"
 tags = ["google", "google-analytics", "export", "command line", "analytics"]
 +++
 # ![logomakr_32f2md](https://user-images.githubusercontent.com/3071208/42147664-29898cca-7dcf-11e8-9c50-2cf3845b7fe8.png)

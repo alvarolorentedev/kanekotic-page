@@ -2,6 +2,7 @@
 date = 2017-06-30T00:00:00
 title = "Raw Guid Converter"
 image_preview = "rawguidconverter.png"
+external_link = "https://github.com/kanekotic/raw-guid-converter"
 tags = ["guid","converter","oracle","raw"]
 +++
 # ![logomakr_5c2oee](https://user-images.githubusercontent.com/3071208/41022709-abb95bd6-696a-11e8-8564-3ad7d43d44fb.png)

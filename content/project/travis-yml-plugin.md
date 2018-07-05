@@ -2,6 +2,7 @@
 date = 2017-06-30T00:00:01
 title = "Travis YML Plugin"
 image_preview = "travisyml.png"
+external_link = "https://github.com/kanekotic/travis-yml-plugin"
 tags = ["jenkins","plugin","travis","yml"]
 +++
 # ![logomakr_5059hu](https://cloud.githubusercontent.com/assets/3071208/20248819/1e3637aa-a9ec-11e6-89b7-6c9c403af3c7.png)

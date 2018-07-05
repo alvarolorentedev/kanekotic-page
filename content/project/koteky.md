@@ -2,6 +2,7 @@
 date = 2017-06-29T00:00:00
 title = "Koteky"
 image_preview = "koteky.png"
+external_link = "https://github.com/kanekotic/koteky"
 tags = ["social","social network","twitter","facebook"]
 +++
 # ![drawing](https://cloud.githubusercontent.com/assets/3071208/14738483/22967ed8-0882-11e6-874d-4c19eb244373.png)

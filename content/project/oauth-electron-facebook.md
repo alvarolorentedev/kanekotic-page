@@ -2,6 +2,7 @@
 date = 2016-04-27T00:00:00
 title = "OAuth Electron Facebook"
 image_preview = "oauthfacebook.png"
+external_link = "https://github.com/kanekotic/oauth-electron-facebook"
 tags = ["oauth","electron","facebook"]
 +++
 # ![logo_fb](https://cloud.githubusercontent.com/assets/3071208/14721795/aa18135a-0808-11e6-987b-14583e3fbb1d.png)

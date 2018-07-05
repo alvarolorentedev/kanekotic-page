@@ -2,6 +2,7 @@
 date = 2016-04-27T00:00:00
 title = "Specflow.Rider"
 image_preview = "specflowrider.png"
+external_link = "https://github.com/kanekotic/Specflow.Rider"
 tags = ["specflow","rider","intellij","intellij-plugin"]
 +++
 # ![logomakr_8dchdu](https://user-images.githubusercontent.com/3071208/29508416-bf674688-8654-11e7-8c90-5472529cd9aa.png)

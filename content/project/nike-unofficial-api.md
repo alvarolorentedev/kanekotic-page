@@ -2,6 +2,7 @@
 date = 2017-05-29T00:00:00
 title = "Nike Unofficial API"
 image_preview = "nikeunofficial.png"
+external_link = "https://github.com/kanekotic/nike-unofficial-api"
 tags = ["nike","unofficial","api"]
 +++
 # ![logomakr_3e4ole](https://cloud.githubusercontent.com/assets/3071208/22865444/590b48ae-f12a-11e6-921c-f7a9c4b5dd48.png)

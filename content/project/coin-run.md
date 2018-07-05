@@ -2,6 +2,7 @@
 date = 2017-05-29T00:00:00
 title = "Coin Run"
 image_preview = "coinrun.png"
+external_link = "https://github.com/kanekotic/Coin-Run"
 tags = ["game","android","survival"]
 +++
 # Coin Run

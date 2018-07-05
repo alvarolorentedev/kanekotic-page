@@ -2,6 +2,7 @@
 date = 2017-07-28T00:00:00
 title = "ELK Docker"
 image_preview = "elkdocker.png"
+external_link = "https://github.com/kanekotic/ELK-Docker"
 tags = ["elk-stack","elasticsearch","grafana","kibana","logstash","infrastructure"]
 +++
 # ![logomakr_5axvtc](https://user-images.githubusercontent.com/3071208/41837679-81e03624-785e-11e8-841c-4bd25a61b5cd.png)

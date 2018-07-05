@@ -2,6 +2,7 @@
 date = 2017-06-28T00:00:01 
 title = "Scala Local Toggle"
 image_preview = "scalalocaltoggle.png"
+external_link = "https://github.com/kanekotic/scala-local-toggle"
 tags = ["feature-toggle","toggle","feature-toggles","feature-flags"]
 +++
 # ![logomakr_6etktj](https://user-images.githubusercontent.com/3071208/32364786-318debc0-c077-11e7-9064-a65d6ce35cf6.png)

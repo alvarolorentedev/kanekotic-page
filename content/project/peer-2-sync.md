@@ -2,6 +2,7 @@
 date = 2016-04-27T00:00:00
 title = "Peer2Sync"
 image_preview = "peer2sync.png"
+external_link = "https://github.com/kanekotic/Peer2Sync"
 tags = ["p2p","sync","json-rpc"]
 +++
 # ![logomakr_0ewpnu](https://cloud.githubusercontent.com/assets/3071208/17784932/e2b96a14-657e-11e6-9cf9-ad0000e3e18c.png)

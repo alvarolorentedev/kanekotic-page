@@ -2,6 +2,7 @@
 date = 2017-06-29T00:00:00
 title = "Any Prebuilt"
 image_preview = "anyprebuilt.png"
+external_link = "https://github.com/kanekotic/any-prebuilt"
 tags = ["prebuilt","prebuilt-packages"]
 +++
 # ![logomakr_3dkn9b](https://cloud.githubusercontent.com/assets/3071208/22477192/c7ce1d86-e7aa-11e6-87de-c24336e1ea3e.png)
