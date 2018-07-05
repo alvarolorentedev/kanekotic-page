@@ -1,5 +1,5 @@
 +++
-date = 2017-05-29T00:00:00
+date = 2017-05-30T00:00:01
 title = "Coin Run"
 image_preview = "coinrun.png"
 external_link = "https://github.com/kanekotic/Coin-Run"
