@@ -1,7 +1,7 @@
 +++
 date = 2015-06-29T00:00:00
 title = "Vue Atom Template"
-image_preview = "vueatomtemplate.png"
+image_preview = "project/vueatomtemplate.png"
 external_link = "https://github.com/kanekotic/package-template-vue"
 tags = ["vue","atom","template","package"]
 +++

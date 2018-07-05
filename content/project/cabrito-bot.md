@@ -1,7 +1,7 @@
 +++
 date = 2017-05-30T00:01:00
 title = "CabritoBot"
-image_preview = "cabritobot.png"
+image_preview = "project/cabritobot.png"
 external_link = "https://github.com/kanekotic/elcabrito-bot-messenger"
 tags = ["bot","messenger","advert","goat"]
 +++

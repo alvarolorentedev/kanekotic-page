@@ -1,7 +1,7 @@
 +++
 date = 2017-06-27T00:00:00
 title = "DynamoDB CLI"
-image_preview = "dynamocli.png"
+image_preview = "project/dynamocli.png"
 external_link = "https://github.com/kanekotic/dynamo-cli"
 tags = ["command line","dynamoDB","cli","aws"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = 2014-06-29T00:00:00
 title = "Gtimecarder"
-image_preview = "gtimecarder.png"
+image_preview = "project/gtimecarder.png"
 external_link = "https://github.com/kanekotic/Gtimecarder"
 tags = ["timecards","calendar","google"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = 2017-05-29T00:00:00
 title = "Nike Unofficial API"
-image_preview = "nikeunofficial.png"
+image_preview = "project/nikeunofficial.png"
 external_link = "https://github.com/kanekotic/nike-unofficial-api"
 tags = ["nike","unofficial","api"]
 +++

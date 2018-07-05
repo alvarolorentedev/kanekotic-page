@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Specflow.Rider"
-image_preview = "specflowrider.png"
+image_preview = "project/specflowrider.png"
 external_link = "https://github.com/kanekotic/Specflow.Rider"
 tags = ["specflow","rider","intellij","intellij-plugin"]
 +++

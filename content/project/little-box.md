@@ -1,7 +1,7 @@
 +++
 date = 2017-05-30T00:00:10
 title = "LittleBox"
-image_preview = "littlebox.png"
+image_preview = "project/littlebox.png"
 external_link = "https://github.com/kanekotic/LittleBox"
 tags = ["augmented reality","android"]
 +++

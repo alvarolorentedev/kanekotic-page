@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "OAuth Electron Twitter"
-image_preview = "oauthtwitter.png"
+image_preview = "project/oauthtwitter.png"
 external_link = "https://github.com/kanekotic/oauth-electron-twitter"
 tags = ["oauth","electron","twitter"]
 +++

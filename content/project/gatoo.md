@@ -1,7 +1,7 @@
 +++
 date = 2017-07-29T00:00:00
 title = "Gatoo"
-image_preview = "gatoo.png"
+image_preview = "project/gatoo.png"
 external_link = "https://github.com/kanekotic/gatoo"
 tags = ["google", "google-analytics", "export", "command line", "analytics"]
 +++

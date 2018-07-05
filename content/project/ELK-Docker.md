@@ -1,7 +1,7 @@
 +++
 date = 2017-07-28T00:00:00
 title = "ELK Docker"
-image_preview = "elkdocker.png"
+image_preview = "project/elkdocker.png"
 external_link = "https://github.com/kanekotic/ELK-Docker"
 tags = ["elk-stack","elasticsearch","grafana","kibana","logstash","infrastructure"]
 +++

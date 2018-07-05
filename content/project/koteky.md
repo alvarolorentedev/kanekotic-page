@@ -1,7 +1,7 @@
 +++
 date = 2017-06-29T00:00:00
 title = "Koteky"
-image_preview = "koteky.png"
+image_preview = "project/koteky.png"
 external_link = "https://github.com/kanekotic/koteky"
 tags = ["social","social network","twitter","facebook"]
 +++

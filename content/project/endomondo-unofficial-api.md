@@ -1,7 +1,7 @@
 +++
 date = 2017-05-28T00:00:00
 title = "Endomondo Unofficial API"
-image_preview = "endomondounofficial.png"
+image_preview = "project/endomondounofficial.png"
 external_link = "https://github.com/kanekotic/endomondo-unofficial-api"
 tags = ["endomondo","unofficial","api"]
 +++

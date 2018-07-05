@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "Peer2Sync"
-image_preview = "peer2sync.png"
+image_preview = "project/peer2sync.png"
 external_link = "https://github.com/kanekotic/Peer2Sync"
 tags = ["p2p","sync","json-rpc"]
 +++

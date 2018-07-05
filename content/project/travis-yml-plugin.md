@@ -1,7 +1,7 @@
 +++
 date = 2017-06-30T00:00:01
 title = "Travis YML Plugin"
-image_preview = "travisyml.png"
+image_preview = "project/travisyml.png"
 external_link = "https://github.com/kanekotic/travis-yml-plugin"
 tags = ["jenkins","plugin","travis","yml"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = 2017-06-29T00:00:00
 title = "Any Prebuilt"
-image_preview = "anyprebuilt.png"
+image_preview = "project/anyprebuilt.png"
 external_link = "https://github.com/kanekotic/any-prebuilt"
 tags = ["prebuilt","prebuilt-packages"]
 +++

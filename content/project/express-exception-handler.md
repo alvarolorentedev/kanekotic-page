@@ -1,7 +1,7 @@
 +++
 date = 2017-07-30T00:00:00
 title = "Express Exception Handler"
-image_preview = "expressexceptionhandler.png"
+image_preview = "project/expressexceptionhandler.png"
 external_link = "https://github.com/kanekotic/express-exception-handler"
 tags = ["express","expressjs","exception-handling","exception-handler","exceptions","express-middleware"]
 +++

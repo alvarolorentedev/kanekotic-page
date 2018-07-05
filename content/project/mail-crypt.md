@@ -1,7 +1,7 @@
 +++
 date = 2017-06-28T00:00:00
 title = "MailCrypt"
-image_preview = "mailcrypt.png"
+image_preview = "project/mailcrypt.png"
 external_link = "https://github.com/kanekotic/mailcrypt"
 tags = ["email","encrypted","pgp"]
 +++

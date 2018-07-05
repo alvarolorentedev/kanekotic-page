@@ -1,7 +1,7 @@
 +++
 date = 2016-04-27T00:00:00
 title = "OAuth Electron Facebook"
-image_preview = "oauthfacebook.png"
+image_preview = "project/oauthfacebook.png"
 external_link = "https://github.com/kanekotic/oauth-electron-facebook"
 tags = ["oauth","electron","facebook"]
 +++
