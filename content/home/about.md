@@ -21,10 +21,6 @@ weight = 10
   course = "MEng Software Engineering"
   institution = "University of Alicante"
   year = 2011
-[[education.courses]]
-  course = "Bsc Software Engineering"
-  institution = "University of Alicante"
-  year = 2011
  
 +++
 
