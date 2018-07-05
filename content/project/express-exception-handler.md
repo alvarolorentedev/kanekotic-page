@@ -2,6 +2,7 @@
 date = 2017-07-30T00:00:00
 title = "Express Exception Handler"
 image_preview = "expressexceptionhandler.png"
+external_link = "https://github.com/kanekotic/express-exception-handler"
 tags = ["express","expressjs","exception-handling","exception-handler","exceptions","express-middleware"]
 +++
 # ![logomakr_6nl700](https://user-images.githubusercontent.com/3071208/28988724-97dc463a-7971-11e7-9cec-ffc06bcc9205.png)

@@ -59,10 +59,6 @@
       {{ range $project := where $.Site.RegularPages "Type" ($page.Params.folder | default "project") }}
       {{ $.Scratch.Set "project_url" $project.Permalink }}
       {{ $.Scratch.Set "target" "" }}
-      {{ if $project.Params.external_link }}
-      {{   $.Scratch.Set "project_url" $project.Params.external_link }}
-      {{   $.Scratch.Set "target" "target=\"_blank\"" }}
-      {{ end }}
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item {{ delimit .Params.tags " " }}">
         <div class="card">
           {{ with $project.Params.image_preview }}
