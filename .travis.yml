@@ -15,8 +15,9 @@ deploy:
   target-branch: master
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  fqdn: kanekotic.com
+  fqdn: www.kanekotic.com
   committer-from-gh: true
   keep-history: true
   on:
     branch: master
+    
