@@ -11,9 +11,8 @@ weight = 10
 [interests]
   interests = [
     "Micro-services",
-    "Tools",
     "Mobile development",
-    "Artificial Intelligence",
+    "Artificial Intelligence"
   ]
 
 # List your qualifications (such as academic degrees).
