@@ -14,8 +14,9 @@ deploy:
   repo: kanekotic/kanekotic.github.com
   target-branch: master
   skip-cleanup: true
-  email: $GITHUB_EMAIL
   github-token: $GITHUB_TOKEN
+  fqdn: kanekotic.com
+  committer-from-gh: true
   keep-history: true
   on:
     branch: master
