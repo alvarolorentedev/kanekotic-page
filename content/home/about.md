@@ -10,9 +10,13 @@ weight = 10
 # List your academic interests.
 [interests]
   interests = [
+    "Event Driven Architecture",
+    "DDD",
+    "Functional Programing",
+    "Reactive Programing",
+    "Actor system", 
     "Micro-services",
-    "Mobile development",
-    "Artificial Intelligence"
+    "CI CD"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -25,4 +29,7 @@ weight = 10
 
 # Biography
 
-I am a passionate software developer that enjoys doing open source and sharing with my team and the community
+Code dreamer, Continious Creator of random stuff and global sharer, 
+
+I code for living but also for fun. It sounds like random word put together, but it really describes me. I spend the day thinking what things can work together and make my life easier, and after thinking it I will just go and implement & share them as packages or services. Because there is no value in something we cannot all enjoy.
+
