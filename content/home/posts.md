@@ -18,7 +18,7 @@ tags_include = []
 tags_exclude = []
 
 # Number of posts to list.
-count = 2
+count = 4
 
 # List format.
 #   0 = Simple

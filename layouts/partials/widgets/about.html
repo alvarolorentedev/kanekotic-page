@@ -85,6 +85,23 @@
       </div>
       {{ end }}
 
+      {{ with $page.Params.experience }}
+      <div class="col-sm-7">
+        <h3>XP</h3>
+        <ul class="ul-job fa-ul">
+          {{ range .job }}
+          <li>
+            <i class="fa-li fa fa-job-cap"></i>
+            <div class="description">
+              <p class="context">{{ .charge }} for {{ .company }}</p>
+              <p class="details">level up during {{ .years }} in {{ .location }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
     </div>
   </div>
 </div>

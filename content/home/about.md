@@ -15,8 +15,7 @@ weight = 10
     "Functional Programing",
     "Reactive Programing",
     "Actor system", 
-    "Micro-services",
-    "CI CD"
+    "Micro-services"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -24,6 +23,31 @@ weight = 10
   course = "MEng Software Engineering"
   institution = "University of Alicante"
   year = 2011
+
+# List your experience
+[[experience.job]]
+  charge = "Software Engineer"
+  company = "Schlumberger"
+  location = "United kingdom"
+  years = "2011-2014"
+
+[[experience.job]]
+  charge = "Software Engineer"
+  company = "Schlumberger"
+  location = "France"
+  years = "2014-2016"
+
+[[experience.job]]
+  charge = "Independent Software Consultant"
+  company = "Stremio"
+  location = "Bulgaria"
+  years = "2016-2017"
+
+[[experience.job]]
+  charge = "Senior Software Consultant"
+  company = "Thoughtworks"
+  location = "Barcelona"
+  years = "2017-Present"
  
 +++
 
