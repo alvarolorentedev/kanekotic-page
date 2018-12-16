@@ -59,8 +59,8 @@ enableGitInfo = false
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "ThoughtWorks", url = "https://www.thoughtworks.com/" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
-  #avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "alvarojosepl@gmail.com"
