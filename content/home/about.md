@@ -23,35 +23,9 @@ weight = 5
   course = "MEng Software Engineering"
   institution = "University of Alicante"
   year = 2011
-
-# List your experience
-[[experience.job]]
-  charge = "Software Engineer"
-  company = "Schlumberger"
-  location = "United kingdom"
-  years = "2011-2014"
-
-[[experience.job]]
-  charge = "Software Engineer"
-  company = "Schlumberger"
-  location = "France"
-  years = "2014-2016"
-
-[[experience.job]]
-  charge = "Independent Software Consultant"
-  company = "Stremio"
-  location = "Bulgaria"
-  years = "2016-2017"
-
-[[experience.job]]
-  charge = "Senior Software Consultant"
-  company = "Thoughtworks"
-  location = "Barcelona"
-  years = "2017-Present"
  
 +++
 
 ## Who?
 
-I code for living but also for fun. My description sounds like random word put together, but it really describes me. I spend the day thinking what things can work together and make my life easier, and after thinking it I will just go and implement & share them as packages or services. Because there is no value in something we cannot all enjoy.
-
+Code for living, fun and the lulz. I spend the day thinking what things can make my life easier, automating things allowing me to enjoy a moment of Laziness. Then is just hours of implementation to be able to share them with the community, because there is no value if the only one that can enjoy something is me.
