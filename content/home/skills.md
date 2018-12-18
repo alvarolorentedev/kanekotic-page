@@ -32,7 +32,7 @@ weight = 7
 [[feature]]
   icon = "old-republic"
   icon_pack = "fab"
-  name = "Poliglotism"
+  name = "Polyglotism"
   description = """
   Each language has their own practices and also their own of problems they are good at solving.
   """
@@ -40,7 +40,7 @@ weight = 7
 [[feature]]
   icon = "connectdevelop"
   icon_pack = "fab"
-  name = "Desing"
+  name = "Design"
   description = """
   Patterns are not the same everywhere, the same as there are not one size fit all solutions.
   """
