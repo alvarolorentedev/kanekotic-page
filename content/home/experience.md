@@ -1,9 +1,9 @@
 +++
 # Experience widget.
 widget = "experience"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 
-title = "Experience"
+title = "XP"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -23,7 +23,7 @@ date_format = "January 2006"
   title = "Software Engineer"
   company = "Schlumberger"
   company_url = ""
-  location = "United kingdom"
+  location = "United Kingdom"
   date_start = "2011-08-01"
   date_end = "2014-07-01"
   description = """"""
@@ -50,9 +50,8 @@ date_format = "January 2006"
   title = "Senior Software Consultant"
   company = "Thoughtworks"
   company_url = ""
-  location = "Barcelona"
+  location = "Spain"
   date_start = "2017-04-17"
   date_end = ""
   description = """"""
 +++
-

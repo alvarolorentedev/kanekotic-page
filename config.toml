@@ -52,8 +52,8 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Kanekotic"
-  role = "Senior Software Consultant"
+  name = ""
+  role = "Code dreamer, Creator of random stuff & sharing wizard"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
