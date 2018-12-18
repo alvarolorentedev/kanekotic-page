@@ -18,28 +18,41 @@ date_format = "January 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+# List your experience
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Software Engineer"
+  company = "Schlumberger"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "United kingdom"
+  date_start = "2011-08-01"
+  date_end = "2014-07-01"
+  description = """"""
+
+[[experience]]
+  title = "Software Engineer"
+  company = "Schlumberger"
+  company_url = ""
+  location = "France"
+  date_start = "2014-07-02"
+  date_end = "2016-08-29"
+  description = """"""
+
+[[experience]]
+  title = "Independent Software Consultant"
+  company = "Stremio"
+  company_url = ""
+  location = "Bulgaria"
+  date_start = "2016-09-02"
+  date_end = "2017-04-14"
+  description = """"""
+
+[[experience]]
+  title = "Senior Software Consultant"
+  company = "Thoughtworks"
+  company_url = ""
+  location = "Barcelona"
+  date_start = "2017-04-17"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
-
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  description = """"""
 +++
+
