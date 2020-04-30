@@ -8,5 +8,7 @@ exampleSite/public/
 # Jupyter
 .ipynb_checkpoints/
 
+resources/_gen
+
 # Node
 node_modules/
