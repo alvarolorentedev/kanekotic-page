@@ -1,13 +1,12 @@
 +++
 # Experience widget.
-widget = "experience"  # Do not modify this line!
+widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
+weight = 40  # Order that this section will appear.
 
 title = "XP"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 8
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -18,7 +17,6 @@ date_format = "January 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-# List your experience
 [[experience]]
   title = "Software Engineer"
   company = "Schlumberger"
@@ -47,10 +45,10 @@ date_format = "January 2006"
   description = """"""
 
 [[experience]]
-  title = "Lead Software Consultant"
+  title = "Senior Software Consultant"
   company = "Thoughtworks"
   company_url = ""
-  location = "USA"
+  location = "Spain"
   date_start = "2017-04-17"
   date_end = "2019-05-14"
   description = """"""
@@ -59,7 +57,7 @@ date_format = "January 2006"
   title = "Lead Software Consultant"
   company = "Thoughtworks"
   company_url = ""
-  location = "Spain"
+  location = "USA"
   date_start = "2019-05-14"
   date_end = "2020-03-04"
   description = """"""

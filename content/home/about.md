@@ -1,31 +1,14 @@
 +++
-# About/Biography widget.
-widget = "about"
-active = true
-date = 2016-04-20T00:00:00
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 5  # Order that this section will appear in.
 
-# Order that this section will appear in.
-weight = 5
+title = "Biography"
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Event Driven Architecture",
-    "DDD",
-    "Functional Programing",
-    "Reactive Programing",
-    "Actor system", 
-    "Micro-services"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "MEng Software Engineering"
-  institution = "University of Alicante"
-  year = 2011
- 
+# Choose the user profile to display
+# This should be the username of a profile in your `content/authors/` folder.
+# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
+author = "admin"
 +++
-
-## Who?
-
-Code for living, fun and joy. I spend the day thinking what things can make my life easier, automating things allowing me to enjoy a moment of Laziness. Then is just hours of implementation to be able to share them with the community, because there is no value if the only one that can enjoy something is me.
