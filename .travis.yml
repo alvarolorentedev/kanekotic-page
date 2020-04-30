@@ -3,7 +3,7 @@ dist: trusty
 
 install:
   - sudo apt-get --yes install snapd
-  - sudo snap install hugo
+  - sudo snap install hugo --channel=extended
 
 script:
   - /snap/bin/hugo 
