@@ -28,4 +28,4 @@ weight = 5
 
 ## Who?
 
-Code for living, fun and the lulz. I spend the day thinking what things can make my life easier, automating things allowing me to enjoy a moment of Laziness. Then is just hours of implementation to be able to share them with the community, because there is no value if the only one that can enjoy something is me.
+Code for living, fun and joy. I spend the day thinking what things can make my life easier, automating things allowing me to enjoy a moment of Laziness. Then is just hours of implementation to be able to share them with the community, because there is no value if the only one that can enjoy something is me.

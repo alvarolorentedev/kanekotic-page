@@ -47,11 +47,29 @@ date_format = "January 2006"
   description = """"""
 
 [[experience]]
-  title = "Senior Software Consultant"
+  title = "Lead Software Consultant"
+  company = "Thoughtworks"
+  company_url = ""
+  location = "USA"
+  date_start = "2017-04-17"
+  date_end = "2019-05-14"
+  description = """"""
+
+[[experience]]
+  title = "Lead Software Consultant"
   company = "Thoughtworks"
   company_url = ""
   location = "Spain"
-  date_start = "2017-04-17"
+  date_start = "2019-05-14"
+  date_end = "2020-03-04"
+  description = """"""
+
+[[experience]]
+  title = "Lead Software Consultant"
+  company = "Thoughtworks"
+  company_url = ""
+  location = "Spain"
+  date_start = "2020-03-04"
   date_end = ""
   description = """"""
 +++
