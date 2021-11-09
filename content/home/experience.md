@@ -68,6 +68,33 @@ date_format = "January 2006"
   company_url = ""
   location = "Spain"
   date_start = "2020-03-04"
+  date_end = "2020-07-07"
+  description = """"""
+
+[[experience]]
+  title = "Senior Software Engineer"
+  company = "Chartboost"
+  company_url = ""
+  location = "Spain"
+  date_start = "2020-07-07"
+  date_end = "2021-05-24"
+  description = """"""
+
+[[experience]]
+  title = "Founder"
+  company = "Togglee"
+  company_url = ""
+  location = "Spain"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = """"""
+
+[[experience]]
+  title = "Engineering Manager"
+  company = "ClimatePartner"
+  company_url = ""
+  location = "Spain"
+  date_start = "2021-06-02"
   date_end = ""
   description = """"""
 +++
