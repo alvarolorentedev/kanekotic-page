@@ -25,10 +25,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: www.kanekotic.com
-      - name: Publish articles on dev.to
-        uses: sinedied/publish-devto@v2
+      - name: Sycing Article to dev.to
+        uses: ful1e5/TheActionDev@v2
         with:
-          devto_key: ${{ secrets.DEVTO_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'content/post/**/*.md'
-          branch: main
+          api-key: ${{ secrets.DEVTO_TOKEN }}
+          directory: ./content/post
+          ignore: _index.md
