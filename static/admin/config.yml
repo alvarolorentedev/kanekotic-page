@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: kanekotic/kanekotic-page
+  branch: main
+  site_domain: gifted-allen-42e579.netlify.app
+
 media_folder: 'static/img/'
 public_folder: 'img'
 collections:
