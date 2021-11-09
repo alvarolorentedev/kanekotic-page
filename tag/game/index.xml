@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>game | Kanekotic</title><link>https://www.kanekotic.com/tag/game/</link><atom:link href="https://www.kanekotic.com/tag/game/index.xml" rel="self" type="application/rss+xml"/><description>game</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Tue, 30 May 2017 00:00:01 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>game</title><link>https://www.kanekotic.com/tag/game/</link></image><item><title>Coin Run</title><link>https://www.kanekotic.com/project/coin-run/</link><pubDate>Tue, 30 May 2017 00:00:01 +0000</pubDate><guid>https://www.kanekotic.com/project/coin-run/</guid><description>&lt;h1 id="coin-run">Coin Run&lt;/h1>
+&lt;p>Run and Jump around without touching the stones to get as many coins as you can. Use the accelerometer and tap the screen.
+This is my first app, so very simple game.
+Developed using:&lt;/p>
+&lt;ul>
+&lt;li>Unreal Engine&lt;/li>
+&lt;li>Kenney 2D Assests&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://cloud.githubusercontent.com/assets/3071208/12793489/2c808a60-cab1-11e5-8bac-47785f5593fc.png" alt="img1">
+&lt;img src="https://cloud.githubusercontent.com/assets/3071208/12793490/2c84a500-cab1-11e5-9e75-e45d61cd4d40.png" alt="img2">
+&lt;img src="https://cloud.githubusercontent.com/assets/3071208/12793491/2c8af2ca-cab1-11e5-90d1-722c242a5b05.png" alt="img3">&lt;/p></description></item></channel></rss>

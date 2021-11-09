@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>npm | Kanekotic</title><link>https://www.kanekotic.com/tag/npm/</link><atom:link href="https://www.kanekotic.com/tag/npm/index.xml" rel="self" type="application/rss+xml"/><description>npm</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Wed, 11 Jul 2018 09:27:28 +0200</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>npm</title><link>https://www.kanekotic.com/tag/npm/</link></image><item><title>Update your npm package dependencies and release with Travis</title><link>https://www.kanekotic.com/post/2018-07-11-travis-ci-update-npm-package-dependencies-and-release/</link><pubDate>Wed, 11 Jul 2018 09:27:28 +0200</pubDate><guid>https://www.kanekotic.com/post/2018-07-11-travis-ci-update-npm-package-dependencies-and-release/</guid><description>&lt;p>As a member of the community that like to generate npm packages like libraries and cli tools, sometimes is difficult to maintain everything and keep your package up to date in the dependencies side. I am a fan of having static dependencies as versioning is not being held correctly in most of the npm world. So if you dont use exact packages you could run in the issue that a broken change makes from the night to the morning your awesome tool to break.&lt;/p>
+&lt;p>This practice could bring a headache to keep dependencies up to date because is a manual process. And manual process tend to be time consuming (at this point in time I have ~17 npm packages) meaning that if i want to simply do normal maintenance i will have to run everything for all those in maybe weekly or monthly bases.&lt;/p>
+&lt;p>So is a bit of a no situation for maintainers, but if you dont maintain your package people will not use it, because there is a concern about how active the project is, even if there are no open issues. For solving both of this things what i have decided is to ad to my CI/CD pipeline a script that runs only on cron jobs from travis ci.&lt;/p>
+&lt;pre>&lt;code class="language-yml">os: osx
+language: node_js
+node_js:
+- node
+script:
+- yarn test:cov
+after_success:
+- if [[ &amp;quot;${TRAVIS_EVENT_TYPE}&amp;quot; = &amp;quot;cron&amp;quot; ]]; then ./upgrade.sh; fi
+deploy:
+skip_cleanup: true
+provider: npm
+email: $NPM_EMAIL
+api_key: $NPM_TOKEN
+on:
+tags: true
+&lt;/code>&lt;/pre>
+&lt;p>as you can see that is the normal &lt;code>.travis.yml&lt;/code> for deploying into npm (you will have to define &lt;code>NPM_EMAIL&lt;/code> and &lt;code>NPM_TOKEN&lt;/code> as enviroment variables in your build configuration), the main diference is the step after success that if its the cron job going will run the next script.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/bin/sh
+set -e
+git config --global user.email $GH_EMAIL
+git config --global user.name $GH_USER
+git remote add origin-master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+git fetch origin-master
+git checkout -b master-local origin-master/master
+yarn upgrade --latest
+git add .
+git commit --allow-empty -m &amp;quot;updated dependencies [skip ci]&amp;quot;
+yarn test
+yarn version --patch
+git push --quiet origin-master master-local:master
+git push --quiet origin-master master-local:master --tags
+&lt;/code>&lt;/pre>
+&lt;p>this script attaches the current state to a branch makes, upgrades the dependencies and if everything works fine generates a new commit and deploy a patch of the packages (you will have to define &lt;code>GH_EMAIL&lt;/code>, &lt;code>GH_USER&lt;/code> and &lt;code>GH_TOKEN&lt;/code> as environment variables in your build configuration).&lt;/p></description></item></channel></rss>

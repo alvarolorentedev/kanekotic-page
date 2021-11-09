@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Studio | Kanekotic</title><link>https://www.kanekotic.com/tag/visual-studio/</link><atom:link href="https://www.kanekotic.com/tag/visual-studio/index.xml" rel="self" type="application/rss+xml"/><description>Visual Studio</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Thu, 29 Jun 2017 01:00:10 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Visual Studio</title><link>https://www.kanekotic.com/tag/visual-studio/</link></image><item><title>PlayYoutube Visual Studio</title><link>https://www.kanekotic.com/project/playoutube-vs/</link><pubDate>Thu, 29 Jun 2017 01:00:10 +0000</pubDate><guid>https://www.kanekotic.com/project/playoutube-vs/</guid><description>&lt;h1 id="playyoutubeheaderhttpsuser-imagesgithubusercontentcom307120842363002-129d9374-80f6-11e8-9ccf-1bd222f07884png">&lt;img src="https://user-images.githubusercontent.com/3071208/42363002-129d9374-80f6-11e8-9ccf-1bd222f07884.png" alt="playyoutubeheader">&lt;/h1>
+&lt;p>
+&lt;a href="https://gitter.im/Hatisoft/PlayYouTube?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge" target="_blank" rel="noopener">&lt;img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/Hatisoft/PlayYouTube">&lt;/a>&lt;/p>
+&lt;p>Plugin for Visual studio that allows you to search and play youtube videos inside your development enviroment.&lt;/p>
+&lt;p>follow tutorials or listen what you want, without the pain of having to toggle between multiple windows.&lt;/p>
+&lt;h3 id="use">Use&lt;/h3>
+&lt;p>put your query on the search combo box and hit enter. You will be provided with a list of results, the selected results will be displayed and be streamed&lt;/p>
+&lt;p>&lt;img src="https://cloud.githubusercontent.com/assets/3071208/8636943/f13e5d16-287a-11e5-960b-21bdd390f5a2.png" alt="playyoutubecapture">&lt;/p>
+&lt;h3 id="authors-and-contributors">Authors and Contributors&lt;/h3>
+&lt;p>@kanekotic&lt;/p>
+&lt;h3 id="support-or-contact">Support or Contact&lt;/h3>
+&lt;p>Having trouble with &amp;lsquo;PlayYouTube&amp;rsquo;? Any idea of how to improve it?
+Review our
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/wiki" target="_blank" rel="noopener">documentation&lt;/a> or
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/issues" target="_blank" rel="noopener">add issue/recomendation&lt;/a> and we’ll sort it out.&lt;/p>
+&lt;p>###Build State
+CI:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/playyoutube-877b8" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/mm7u1f8dm2vn5l27?svg=true" alt="Build status">&lt;/a>&lt;/p>
+&lt;p>Release:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/playyoutube" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/qgykpbj3ifyfu0i7?svg=true" alt="Build status">&lt;/a>&lt;/p></description></item><item><title>Search Error On</title><link>https://www.kanekotic.com/project/search-error-on/</link><pubDate>Thu, 29 Jun 2017 01:00:10 +0000</pubDate><guid>https://www.kanekotic.com/project/search-error-on/</guid><description>&lt;h1 id="searchonheaderhttpsuser-imagesgithubusercontentcom307120842362398-5bb7dee6-80f3-11e8-9ecc-56dcc2bdda97png">&lt;img src="https://user-images.githubusercontent.com/3071208/42362398-5bb7dee6-80f3-11e8-9ecc-56dcc2bdda97.png" alt="searchonheader">&lt;/h1>
+&lt;p>
+&lt;a href="https://gitter.im/Hatisoft/SearchErrorOn?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge" target="_blank" rel="noopener">&lt;img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/Hatisoft/SearchErrorOn">&lt;/a>&lt;/p>
+&lt;p>This plugin for visual studio has been created to be able to find the errors generated during compilation time on your favourite web browser.&lt;/p>
+&lt;h3 id="use">Use&lt;/h3>
+&lt;p>Select one or more errors in your Error List Window. Right click and hit &amp;lsquo;Search Error On&amp;rsquo;.&lt;/p>
+&lt;p>&lt;img src="https://cloud.githubusercontent.com/assets/3071208/8430164/f75af2c2-1f2e-11e5-99c5-ae979995bd3b.png" alt="search on">&lt;/p>
+&lt;h3 id="configure">Configure&lt;/h3>
+&lt;p>Under &amp;lsquo;Tools -&amp;gt; Options-&amp;gt; Search Error On&amp;rsquo; you will be able to select one of your favourite search engines.
+&lt;img src="https://cloud.githubusercontent.com/assets/3071208/8430166/f9b19ff8-1f2e-11e5-91b4-9c7a8aae0e21.png" alt="search on configuration">&lt;/p>
+&lt;h3 id="authors-and-contributors">Authors and Contributors&lt;/h3>
+&lt;p>@kanekotic&lt;/p>
+&lt;h3 id="support-or-contact">Support or Contact&lt;/h3>
+&lt;p>Having trouble with &amp;lsquo;Search Error On&amp;hellip;&amp;rsquo;? Any idea of how to improve it?
+Review our
+&lt;a href="https://github.com/Hatisoft/SearchErrorOn/wiki" target="_blank" rel="noopener">documentation&lt;/a> or
+&lt;a href="https://github.com/Hatisoft/SearchErrorOn/issues" target="_blank" rel="noopener">add issue/recomendation&lt;/a> and we’ll sort it out.&lt;/p>
+&lt;p>###Build State
+CI:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/searcherroron" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/3dfrnphpa1l4tlyr?svg=true" alt="Build status">&lt;/a>&lt;/p>
+&lt;p>Release:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/searcherroron-5ibi9" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/1b25khghlfjq9cho?svg=true" alt="Build status">&lt;/a>&lt;/p></description></item></channel></rss>

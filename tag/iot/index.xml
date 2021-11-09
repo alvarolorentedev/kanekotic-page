@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iot | Kanekotic</title><link>https://www.kanekotic.com/tag/iot/</link><atom:link href="https://www.kanekotic.com/tag/iot/index.xml" rel="self" type="application/rss+xml"/><description>iot</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Tue, 27 Feb 2018 00:00:00 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>iot</title><link>https://www.kanekotic.com/tag/iot/</link></image><item><title>tellojs</title><link>https://www.kanekotic.com/project/tellojs/</link><pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.kanekotic.com/project/tellojs/</guid><description>&lt;h1 id="logomakr_123ujkhttpsuser-imagesgithubusercontentcom307120849430616-cddbc300-f7ab-11e8-9356-381c730d0839png">&lt;img src="https://user-images.githubusercontent.com/3071208/49430616-cddbc300-f7ab-11e8-9356-381c730d0839.png" alt="logomakr_123ujk">&lt;/h1>
+&lt;p>
+&lt;a href="https://travis-ci.org/kanekotic/tellojs" target="_blank" rel="noopener">&lt;img src="https://travis-ci.org/kanekotic/tellojs.svg?branch=master" alt="Build Status">&lt;/a>
+&lt;a href="https://coveralls.io/github/kanekotic/tellojs?branch=master" target="_blank" rel="noopener">&lt;img src="https://coveralls.io/repos/github/kanekotic/tellojs/badge.svg?branch=master" alt="Coverage Status">&lt;/a>
+&lt;a href="https://github.com/kanekotic/tellojs" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/npm/dt/tellojs.svg" alt="npm">&lt;/a>
+&lt;a href="https://github.com/kanekotic/tellojs/blob/master/LICENSE" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/github/license/kanekotic/tellojs.svg" alt="GitHub license">&lt;/a>
+&lt;a href="https://GitHub.com/kanekotic/tellojs/graphs/commit-activity" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">&lt;/a>
+&lt;a href="https://www.paypal.me/kanekotic/" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="Donate">&lt;/a>&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>Provide an async promise based unofficial sdk for the tello drone based on the official
+&lt;a href="https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf" target="_blank" rel="noopener">documentation&lt;/a>.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>add it to your project using &lt;code>npm install tellojs --save&lt;/code> or &lt;code>yarn add tellojs&lt;/code>&lt;/p>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>this sdk provide functions when you import for the next capabilities:&lt;/p>
+&lt;pre>&lt;code class="language-js">const sdk = require('tellojs')
+const x = number,
+y = number,
+z = number,
+speed = number,
+start = {x, y, z},
+end = {x, y, z}
+//CONTROL COMMANDS
+await sdk.control.connect() // Enter SDK mode.
+await sdk.control.takeoff() // Auto takeoff.
+await sdk.control.land() // Auto landing.
+await sdk.control.emergency() // Stop motors immediately
+await sdk.control.stop() // Hovers in the air
+await sdk.control.move.up(x) // Ascend to “x” cm.
+await sdk.control.move.down(x) // Descend to “x” cm.
+await sdk.control.move.left(x) // move left to “x” cm.
+await sdk.control.move.right(x) // move right to “x” cm.
+await sdk.control.move.front(x) // move forward to “x” cm.
+await sdk.control.move.back(x) // move backwards to “x” cm.
+await sdk.control.move.go(end, speed ) // fly to x y z in speed (cm/s)
+await sdk.control.move.curve(start, end, speed) // fly to x y z in speed (cm/s)
+await sdk.control.rotate.clockwise(x) // rotate clockwise 'x' degrees.
+await sdk.control.rotate.counterClockwise(x) // rotate counter clockwise 'x' degrees.
+await sdk.control.flip.left() // Flip to the left.
+await sdk.control.flip.right() // Flip to the right.
+await sdk.control.flip.back() // Flip in backward.
+await sdk.control.flip.front() // Flip in forward.
+//SET COMMANDS
+await sdk.set.speed(x) // set speed to x cm/s
+await sdk.set.rc(x, y, z, yaw) // Send RC control via four channels.
+await sdk.set.wifi(ssid, password) // Set Wi-Fi with SSID password
+//READ COMMANDS
+await sdk.read.speed() // Obtain current speed (cm/s).
+await sdk.read.battery() // Obtain current battery percentage.
+await sdk.read.time() // Obtain current flight time.
+await sdk.read.height() // Obtain get height (cm)
+await sdk.read.temperature() // Obtain temperature (°C)
+await sdk.read.attitude() // Obtain IMU attitude data
+await sdk.read.barometer() // Obtain barometer value (m)
+await sdk.read.tof() // Obtain distance value from TOF（cm）
+await sdk.read.acceleration() // Obtain IMU angular acceleration data (0.001g)
+await sdk.read.wifi() // Obtain Wi-Fi SNR.
+&lt;/code>&lt;/pre>
+&lt;h5 id="web-graphic-by-a-hrefhttpwwwflaticoncomauthorspicolpicola-from-a-hrefhttpwwwflaticoncomflaticona-is-licensed-under-a-hrefhttpcreativecommonsorglicensesby30-titlecreative-commons-by-30cc-by-30a-check-out-the-new-logo-that-i-created-on-a-hrefhttplogomakrcom-titlelogo-makrlogomakrcoma-httpslogomakrcom09u4zz">Web graphic by &lt;a href="http://www.flaticon.com/authors/picol">picol&lt;/a> from &lt;a href="http://www.flaticon.com/">Flaticon&lt;/a> is licensed under &lt;a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0&lt;/a>. Check out the new logo that I created on &lt;a href="http://logomakr.com" title="Logo Makr">LogoMakr.com&lt;/a>
+&lt;a href="https://logomakr.com/09u4Zz" target="_blank" rel="noopener">https://logomakr.com/09u4Zz&lt;/a>&lt;/h5></description></item></channel></rss>

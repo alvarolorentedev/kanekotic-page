@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>specflow | Kanekotic</title><link>https://www.kanekotic.com/tag/specflow/</link><atom:link href="https://www.kanekotic.com/tag/specflow/index.xml" rel="self" type="application/rss+xml"/><description>specflow</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>specflow</title><link>https://www.kanekotic.com/tag/specflow/</link></image><item><title>Specflow.Rider</title><link>https://www.kanekotic.com/project/specflow-rider/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://www.kanekotic.com/project/specflow-rider/</guid><description>&lt;h1 id="logomakr_8dchduhttpsuser-imagesgithubusercontentcom307120829508416-bf674688-8654-11e7-8c90-5472529cd9aapng">&lt;img src="https://user-images.githubusercontent.com/3071208/29508416-bf674688-8654-11e7-8c90-5472529cd9aa.png" alt="logomakr_8dchdu">&lt;/h1>
+&lt;p>
+&lt;a href="https://travis-ci.org/kanekotic/Specflow.Rider" target="_blank" rel="noopener">&lt;img src="https://travis-ci.org/kanekotic/Specflow.Rider.svg?branch=master" alt="Build Status">&lt;/a>&lt;/p>
+&lt;h2 id="intent">Intent&lt;/h2>
+&lt;p>Integration of Specflow autogeneration for Rider&lt;/p>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>clone this repo, and make sure you have intellij installed the community version should be enough. you can use the next Gradle commands from command line:&lt;/p>
+&lt;pre>&lt;code>gradle compile # generate the code
+gradle check # gnerate the code and test
+&lt;/code>&lt;/pre>
+&lt;h2 id="todo">TODO&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Table Support&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Parameters Support&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Move to Rider style plugin&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> XUnit Support&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> MSTest Support&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Add Files to project&lt;/li>
+&lt;/ul>
+&lt;h3 id="logo">Logo&lt;/h3>
+&lt;p>Check out the new logo that I created on &lt;a href="http://logomakr.com" title="Logo Maker">LogoMaker.com&lt;/a>
+&lt;a href="https://logomakr.com/8dchdu8dchdu" target="_blank" rel="noopener">https://logomakr.com/8dchdu8dchdu&lt;/a>&lt;/p></description></item></channel></rss>

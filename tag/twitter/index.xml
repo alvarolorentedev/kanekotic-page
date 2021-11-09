@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>twitter | Kanekotic</title><link>https://www.kanekotic.com/tag/twitter/</link><atom:link href="https://www.kanekotic.com/tag/twitter/index.xml" rel="self" type="application/rss+xml"/><description>twitter</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Thu, 29 Jun 2017 00:00:00 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>twitter</title><link>https://www.kanekotic.com/tag/twitter/</link></image><item><title>Koteky</title><link>https://www.kanekotic.com/project/koteky/</link><pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate><guid>https://www.kanekotic.com/project/koteky/</guid><description>&lt;h1 id="drawinghttpscloudgithubusercontentcomassets30712081473848322967ed8-0882-11e6-874d-4c19eb244373png">&lt;img src="https://cloud.githubusercontent.com/assets/3071208/14738483/22967ed8-0882-11e6-874d-4c19eb244373.png" alt="drawing">&lt;/h1>
+&lt;p>
+&lt;a href="https://gitter.im/Hatisoft/koteky?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge" target="_blank" rel="noopener">&lt;img src="https://badges.gitter.im/Hatisoft/koteky.svg" alt="Join the chat at https://gitter.im/Hatisoft/koteky">&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://travis-ci.org/Hatisoft/koteky" target="_blank" rel="noopener">&lt;img src="https://travis-ci.org/Hatisoft/koteky.svg?branch=master" alt="Build Status">&lt;/a>
+&lt;a href="https://ci.appveyor.com/project/kanekotic/koteky" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/np9fywosgs2ob33i?svg=true" alt="Build status">&lt;/a>
+&lt;img src="https://img.shields.io/npm/v/koteky.svg" alt="Build status">
+&lt;img src="https://img.shields.io/npm/l/koteky.svg" alt="license">
+&lt;img src="https://img.shields.io/github/issues/Hatisoft/koteky.svg" alt="Build status">
+&lt;img src="https://img.shields.io/npm/dm/koteky.svg" alt="Build status">
+&lt;img src="https://img.shields.io/npm/dt/koteky.svg" alt="Build status">
+&lt;img src="https://img.shields.io/github/downloads/Hatisoft/koteky/total.svg" alt="Build status">&lt;/p>
+&lt;p>This is a plugin based crossplatform social network manager application based on electron.&lt;/p>
+&lt;h2 id="usage-alpha">Usage (Alpha)&lt;/h2>
+&lt;p>&lt;strong>This project is still on development and is not ready for public use&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Current early use can be done by cloning repo&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code># Clone the repository
+$ git clone https://github.com/Hatisoft/koteky.git
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Plugins can be installed in app or modifying the package.json&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>{
+...
+&amp;quot;plugins&amp;quot;:
+{
+&amp;quot;name_of_plugin&amp;quot; : &amp;quot;version_or_repo&amp;quot;
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Run:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code># Go into the repository
+$ cd koteky
+# Install the dependencies and run
+$ npm install &amp;amp;&amp;amp; npm start
+&lt;/code>&lt;/pre>
+&lt;h2 id="roadmap">Roadmap&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Use plugin based architecture&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Style and Display posts&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Authentication based on Oauth for social networks&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Implement Twitter plugin&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Implement Facebook plugin&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Implement LinkedIn plugin&lt;/li>
+&lt;/ul>
+&lt;h4 id="credits">Credits&lt;/h4>
+&lt;p>Social Network graphic by &lt;a href="http://www.freepik.com">Freepik&lt;/a> from &lt;a href="http://www.flaticon.com/">Flaticon&lt;/a> is licensed under &lt;a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0&lt;/a>.Dog graphic by &lt;a href="http://www.freepik.com/">Freepik&lt;/a> from &lt;a href="http://www.flaticon.com/">Flaticon&lt;/a> is licensed under &lt;a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0&lt;/a>. Made with &lt;a href="http://logomakr.com" title="Logo Maker">Logo Maker&lt;/a>&lt;/p></description></item><item><title>OAuth Electron Twitter</title><link>https://www.kanekotic.com/project/oauth-electron-twitter/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://www.kanekotic.com/project/oauth-electron-twitter/</guid><description>&lt;h1 id="logohttpscloudgithubusercontentcomassets30712081471994455c32866-07ff-11e6-9821-1a564a0cf065png">&lt;img src="https://cloud.githubusercontent.com/assets/3071208/14719944/55c32866-07ff-11e6-9821-1a564a0cf065.png" alt="logo">&lt;/h1>
+&lt;p>Use Twitter OAuth in a simple way inside your electron App.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>add it to your elenctron project using npm command&lt;/p>
+&lt;pre>&lt;code>npm install oauth-electron-twitter --save
+&lt;/code>&lt;/pre>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>add the require for ouath and twitter specific code from this package&lt;/p>
+&lt;pre>&lt;code class="language-js">var oauth = require('oauth-electron-twitter').oauth;
+var twitter = require('oauth-electron-twitter').twitter;
+&lt;/code>&lt;/pre>
+&lt;p>declare a twitter object, and use it as parameter for the oauth in conjuntion with the electron window used to display the login. the login method return a promise with the result or the errror provided by the login pase.&lt;/p>
+&lt;pre>&lt;code class="language-js">var window = new BrowserWindow({webPreferences: {nodeIntegration: false}});
+var info = new twitter(&amp;quot;key&amp;quot;,&amp;quot;secret&amp;quot;);
+var auth = new oauth();
+auth.login(info, window).then((result) =&amp;gt; {
+console.log(result);
+}).catch((error) =&amp;gt; {
+console.log(error);
+});;
+&lt;/code>&lt;/pre>
+&lt;p>the result of this promise is a json object similar to next one&lt;/p>
+&lt;pre>&lt;code>{
+oauth_access_token: ***,
+oauth_access_token_secret: ***
+}
+&lt;/code>&lt;/pre>
+&lt;h6 id="logo-award-graphic-by-a-hrefhttpwwwfreepikcomfreepika-and-twitter-graphic-by-a-hrefhttpwwwicomoonioicomoona-from-a-hrefhttpwwwflaticoncomflaticona-are-licensed-under-a-hrefhttpcreativecommonsorglicensesby30-titlecreative-commons-by-30cc-by-30a-made-and-modified-with-a-hrefhttplogomakrcom-titlelogo-makerlogo-maker-a">logo: Award graphic by &lt;a href="http://www.freepik.com/">Freepik&lt;/a> and Twitter graphic by &lt;a href="http://www.icomoon.io">Icomoon&lt;/a> from &lt;a href="http://www.flaticon.com/">Flaticon&lt;/a> are licensed under &lt;a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0&lt;/a>. Made and modified with &lt;a href="http://logomakr.com" title="Logo Maker">Logo Maker &lt;/a>&lt;/h6></description></item></channel></rss>

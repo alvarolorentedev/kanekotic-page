@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>google-analytics | Kanekotic</title><link>https://www.kanekotic.com/tag/google-analytics/</link><atom:link href="https://www.kanekotic.com/tag/google-analytics/index.xml" rel="self" type="application/rss+xml"/><description>google-analytics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>google-analytics</title><link>https://www.kanekotic.com/tag/google-analytics/</link></image><item><title>Gatoo</title><link>https://www.kanekotic.com/project/gatoo/</link><pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate><guid>https://www.kanekotic.com/project/gatoo/</guid><description>&lt;h1 id="logomakr_32f2mdhttpsuser-imagesgithubusercontentcom307120842147664-29898cca-7dcf-11e8-9c50-2cf3845b7fe8png">&lt;img src="https://user-images.githubusercontent.com/3071208/42147664-29898cca-7dcf-11e8-9c50-2cf3845b7fe8.png" alt="logomakr_32f2md">&lt;/h1>
+&lt;p>
+&lt;a href="https://travis-ci.org/kanekotic/gatoo" target="_blank" rel="noopener">&lt;img src="https://travis-ci.org/kanekotic/gatoo.svg?branch=master" alt="Build Status">&lt;/a>
+&lt;a href="https://coveralls.io/github/kanekotic/gatoo?branch=master" target="_blank" rel="noopener">&lt;img src="https://coveralls.io/repos/github/kanekotic/gatoo/badge.svg?branch=master" alt="Coverage Status">&lt;/a>&lt;/p>
+&lt;p>This project will provide a command line and a library to export google analytics to your prefered endpoint (console, log management, or db).&lt;/p>
+&lt;h2 id="use-as-command-line">Use as Command Line&lt;/h2>
+&lt;p>install globally with &lt;code>npm install gatoo -g&lt;/code>. Aftyer this it can be run with the next command:&lt;/p>
+&lt;pre>&lt;code class="language-zsh">gatoo console &amp;lt;email&amp;gt; &amp;lt;ReplativePath&amp;gt; &amp;lt;viewId&amp;gt; &amp;lt;startDate&amp;gt; &amp;lt;endDate&amp;gt; &amp;lt;metrics&amp;gt; &amp;lt;dimensions&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h2 id="use-as-library">Use as library&lt;/h2>
+&lt;p>first step is to add this to your project throught &lt;code>yarn add gatoo&lt;/code> or &lt;code>npm install gatoo&lt;/code>&lt;/p>
+&lt;p>currently you can retrieve in a simple way data from google analytics and route it to your prefered output. An example of retrieval is the next one.&lt;/p>
+&lt;h3 id="import">Import&lt;/h3>
+&lt;pre>&lt;code class="language-js">const importer = require('../lib/index').importer
+path = require('path')
+const email = 'your email' //email account from the user credentials
+keyPath = path.join(__dirname, 'your credentials')// path to credentials json or pem
+config = {
+viewId: &amp;quot;some viewId&amp;quot;,//the view id to query
+daterange:{
+&amp;quot;endDate&amp;quot;:&amp;quot;2017-06-30&amp;quot;,
+&amp;quot;startDate&amp;quot;:&amp;quot;2016-06-30&amp;quot;
+},
+metrics: &amp;quot;ga:users&amp;quot;,
+dimensions: &amp;quot;ga:date&amp;quot;
+}
+const example = async () =&amp;gt; {
+const result = await importer(email, keyPath, config)
+console.log(JSON.stringify(result.data))
+}
+example()
+&lt;/code>&lt;/pre>
+&lt;h3 id="export">Export&lt;/h3>
+&lt;pre>&lt;code class="language-js">const exporter = require('../lib/index').exporter
+path = require('path')
+const email = 'your email' //email account from the user credentials
+keyPath = path.join(__dirname, 'your credentials')// path to credentials json or pem
+config = {
+viewId: &amp;quot;some viewId&amp;quot;,//the view id to query
+daterange:{
+&amp;quot;endDate&amp;quot;:&amp;quot;2017-06-30&amp;quot;,
+&amp;quot;startDate&amp;quot;:&amp;quot;2016-06-30&amp;quot;
+},
+metrics: &amp;quot;ga:users&amp;quot;,
+dimensions: &amp;quot;ga:date&amp;quot;
+}
+const doSomething () =&amp;gt; {}
+const example = async () =&amp;gt; {
+const result = await exporter(email, keyPath, config, doSomething)
+}
+example()
+&lt;/code>&lt;/pre>
+&lt;h3 id="export-to-console">Export to console&lt;/h3>
+&lt;pre>&lt;code class="language-js">const exporter = require('../lib/index').outputTo
+path = require('path')
+const email = 'your email' //email account from the user credentials
+keyPath = path.join(__dirname, 'your credentials')// path to credentials json or pem
+config = {
+viewId: &amp;quot;some viewId&amp;quot;,//the view id to query
+daterange:{
+&amp;quot;endDate&amp;quot;:&amp;quot;2017-06-30&amp;quot;,
+&amp;quot;startDate&amp;quot;:&amp;quot;2016-06-30&amp;quot;
+},
+metrics: &amp;quot;ga:users&amp;quot;,
+dimensions: &amp;quot;ga:date&amp;quot;
+}
+const example = async () =&amp;gt; {
+const result = await outputTo.console(email, keyPath, config)
+}
+example()
+&lt;/code>&lt;/pre>
+&lt;h2 id="todo">TODO&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Retrieve data from google analytics&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create library&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create adapter for output console&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create command line tool console&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create adapter logstash&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create adapter fluentd&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create adapter ES&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create command line tool logstash&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create command line tool fluentd&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Create command line tool ES&lt;/li>
+&lt;/ul>
+&lt;h3 id="logo">Logo&lt;/h3>
+&lt;p>Check out the new logo that I created on &lt;a href="http://logomakr.com" title="Logo Makr">LogoMakr.com&lt;/a>
+&lt;a href="https://logomakr.com/32f2Md" target="_blank" rel="noopener">https://logomakr.com/32f2Md&lt;/a>&lt;/p></description></item></channel></rss>

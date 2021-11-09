@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ci | Kanekotic</title><link>https://www.kanekotic.com/tag/ci/</link><atom:link href="https://www.kanekotic.com/tag/ci/index.xml" rel="self" type="application/rss+xml"/><description>ci</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Wed, 11 Jul 2018 09:27:28 +0200</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>ci</title><link>https://www.kanekotic.com/tag/ci/</link></image><item><title>Update your npm package dependencies and release with Travis</title><link>https://www.kanekotic.com/post/2018-07-11-travis-ci-update-npm-package-dependencies-and-release/</link><pubDate>Wed, 11 Jul 2018 09:27:28 +0200</pubDate><guid>https://www.kanekotic.com/post/2018-07-11-travis-ci-update-npm-package-dependencies-and-release/</guid><description>&lt;p>As a member of the community that like to generate npm packages like libraries and cli tools, sometimes is difficult to maintain everything and keep your package up to date in the dependencies side. I am a fan of having static dependencies as versioning is not being held correctly in most of the npm world. So if you dont use exact packages you could run in the issue that a broken change makes from the night to the morning your awesome tool to break.&lt;/p>
+&lt;p>This practice could bring a headache to keep dependencies up to date because is a manual process. And manual process tend to be time consuming (at this point in time I have ~17 npm packages) meaning that if i want to simply do normal maintenance i will have to run everything for all those in maybe weekly or monthly bases.&lt;/p>
+&lt;p>So is a bit of a no situation for maintainers, but if you dont maintain your package people will not use it, because there is a concern about how active the project is, even if there are no open issues. For solving both of this things what i have decided is to ad to my CI/CD pipeline a script that runs only on cron jobs from travis ci.&lt;/p>
+&lt;pre>&lt;code class="language-yml">os: osx
+language: node_js
+node_js:
+- node
+script:
+- yarn test:cov
+after_success:
+- if [[ &amp;quot;${TRAVIS_EVENT_TYPE}&amp;quot; = &amp;quot;cron&amp;quot; ]]; then ./upgrade.sh; fi
+deploy:
+skip_cleanup: true
+provider: npm
+email: $NPM_EMAIL
+api_key: $NPM_TOKEN
+on:
+tags: true
+&lt;/code>&lt;/pre>
+&lt;p>as you can see that is the normal &lt;code>.travis.yml&lt;/code> for deploying into npm (you will have to define &lt;code>NPM_EMAIL&lt;/code> and &lt;code>NPM_TOKEN&lt;/code> as enviroment variables in your build configuration), the main diference is the step after success that if its the cron job going will run the next script.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/bin/sh
+set -e
+git config --global user.email $GH_EMAIL
+git config --global user.name $GH_USER
+git remote add origin-master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+git fetch origin-master
+git checkout -b master-local origin-master/master
+yarn upgrade --latest
+git add .
+git commit --allow-empty -m &amp;quot;updated dependencies [skip ci]&amp;quot;
+yarn test
+yarn version --patch
+git push --quiet origin-master master-local:master
+git push --quiet origin-master master-local:master --tags
+&lt;/code>&lt;/pre>
+&lt;p>this script attaches the current state to a branch makes, upgrades the dependencies and if everything works fine generates a new commit and deploy a patch of the packages (you will have to define &lt;code>GH_EMAIL&lt;/code>, &lt;code>GH_USER&lt;/code> and &lt;code>GH_TOKEN&lt;/code> as environment variables in your build configuration).&lt;/p></description></item><item><title>Create your User/Organization GitHub Page with Hugo + Travis</title><link>https://www.kanekotic.com/post/2018-07-04-deploy-hugo-with-travis/</link><pubDate>Wed, 04 Jul 2018 08:35:42 +0200</pubDate><guid>https://www.kanekotic.com/post/2018-07-04-deploy-hugo-with-travis/</guid><description>&lt;p>I have just finished migrating my static blog from Hexo to Hugo and one of the main things I care about is to be able to do continuous deployment of my profile and blog. There are quite a few blog posts out there but they are based on using shell scripts and it really becomes a pain to give permissions etc. In the next few lines you will see the simplest way I have found to do this (and is currently as this blog post is being published).&lt;/p>
+&lt;p>You will need to have:&lt;/p>
+&lt;ul>
+&lt;li>A Github account.&lt;/li>
+&lt;li>A Travis CI account.&lt;/li>
+&lt;li>A Github repository with source code of your web page with Hugo (*1)&lt;/li>
+&lt;li>A Github repository with the name &lt;code>&amp;lt;your User or Organization&amp;gt;.github.com&lt;/code> (ex. kanekotic.github.com) (*2).&lt;/li>
+&lt;li>A developer token from GitHub with commit capabilities (can create in github &lt;code>Settings -&amp;gt; Developer Settings -&amp;gt; Personal Access Token -&amp;gt; Generate New Token&lt;/code> )&lt;/li>
+&lt;/ul>
+&lt;p>I wont cover how to create a Hugo web page as this is best explained in the
+&lt;a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">quick start&lt;/a>) of Hugo.&lt;/p>
+&lt;p>After you are happy with the content of your blog in the repository of source code (*1), and want to start deploying you will need to add a &lt;code>.travis.yml&lt;/code> with the next content&lt;/p>
+&lt;pre>&lt;code class="language-yml">sudo: true
+dist: trusty
+install:
+- sudo apt-get --yes install snapd
+- sudo snap install hugo
+script:
+- /snap/bin/hugo
+deploy:
+provider: pages
+local-dir: public
+repo: &amp;lt;User or Organization&amp;gt;/&amp;lt;User or Organization&amp;gt;.github.com
+target-branch: master
+skip-cleanup: true
+github-token: $GITHUB_TOKEN
+committer-from-gh: true
+keep-history: true
+on:
+branch: master
+&lt;/code>&lt;/pre>
+&lt;p>you will have to change the repo content to match your destination repository (*2). The previous code what does is installs hugo in the deployment machine, builds your web page and deploys using the pages plugin. If you have a custom domain make sure to set the property &lt;code>fqdn&lt;/code> to your domain, if not you will overwrite this field in each commit.&lt;/p>
+&lt;p>After adding the file you will have to go to Travis web page and toggle your code repository (*1) got to &lt;code>More Options -&amp;gt; Settings -&amp;gt; Environment Variables&lt;/code> and add &lt;code>GITHUB_TOKEN&lt;/code> as the token retrieved from github.&lt;/p>
+&lt;p>After this in any commit in the master branch of your web page you will get it deployed and go live.&lt;/p></description></item></channel></rss>

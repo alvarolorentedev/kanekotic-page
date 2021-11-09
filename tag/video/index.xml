@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>video | Kanekotic</title><link>https://www.kanekotic.com/tag/video/</link><atom:link href="https://www.kanekotic.com/tag/video/index.xml" rel="self" type="application/rss+xml"/><description>video</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>kanekotic © 2021</copyright><lastBuildDate>Thu, 29 Jun 2017 01:01:00 +0000</lastBuildDate><image><url>https://www.kanekotic.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>video</title><link>https://www.kanekotic.com/tag/video/</link></image><item><title>PlayYoutube Atom</title><link>https://www.kanekotic.com/project/playoutube-atom/</link><pubDate>Thu, 29 Jun 2017 01:01:00 +0000</pubDate><guid>https://www.kanekotic.com/project/playoutube-atom/</guid><description>&lt;h1 id="logomakr_0iwknvhttpsuser-imagesgithubusercontentcom307120842363375-bcf912a2-80f7-11e8-999b-82e107a3d1afpng">&lt;img src="https://user-images.githubusercontent.com/3071208/42363375-bcf912a2-80f7-11e8-999b-82e107a3d1af.png" alt="logomakr_0iwknv">&lt;/h1>
+&lt;p>Search and play youtube videos inside atom. Follow your favorite tutorials inside the development environment in a floating window&lt;/p>
+&lt;p>&lt;img src="https://cloud.githubusercontent.com/assets/3071208/11987290/d6f8e8c0-a9dc-11e5-8d1e-c0ee5a2922e1.gif" alt="playyoutube-atom">&lt;/p>
+&lt;h3 id="use">Use&lt;/h3>
+&lt;ul>
+&lt;li>&amp;lsquo;playyoutube-atom:search&amp;rsquo; (&amp;lsquo;ctrl-shift-y&amp;rsquo;): Display the search window:
+&lt;ul>
+&lt;li>input some search terms and hit enter.&lt;/li>
+&lt;li>Navigate the results:
+&lt;ul>
+&lt;li>Using the mouse.&lt;/li>
+&lt;li>Using up and down key.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Play video:
+&lt;ul>
+&lt;li>Click.&lt;/li>
+&lt;li>Using side key.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&amp;lsquo;playyoutube-atom:hide&amp;rsquo; (&amp;lsquo;ctrl-shift-h&amp;rsquo;): Hides the player&lt;/li>
+&lt;li>&amp;lsquo;playyoutube-atom:show&amp;rsquo; (&amp;lsquo;ctrl-shift-j&amp;rsquo;): Shows the player&lt;/li>
+&lt;li>&amp;lsquo;playyoutube-atom:close&amp;rsquo; (&amp;lsquo;ctrl-shift-c&amp;rsquo;): Clear current search and video content&lt;/li>
+&lt;/ul>
+&lt;h3 id="authors-and-contributors">Authors and Contributors&lt;/h3>
+&lt;p>@kanekotic&lt;/p>
+&lt;h3 id="support-or-contact">Support or Contact&lt;/h3>
+&lt;p>Having trouble with &amp;lsquo;playyoutube&amp;rsquo;? Any idea of how to improve it?
+Review our
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/wiki" target="_blank" rel="noopener">documentation&lt;/a> or
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/issues" target="_blank" rel="noopener">add issue/recomendation&lt;/a> and we will sort it out.&lt;/p>
+&lt;p>###Todo:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> make video frame draggable&lt;/li>
+&lt;/ul>
+&lt;h3 id="logo">Logo&lt;/h3>
+&lt;p>Check out the new logo that I created on &lt;a href="http://logomakr.com" title="Logo Makr">LogoMakr.com&lt;/a>
+&lt;a href="https://logomakr.com/0IWkNv" target="_blank" rel="noopener">https://logomakr.com/0IWkNv&lt;/a>&lt;/p></description></item><item><title>PlayYoutube Visual Studio</title><link>https://www.kanekotic.com/project/playoutube-vs/</link><pubDate>Thu, 29 Jun 2017 01:00:10 +0000</pubDate><guid>https://www.kanekotic.com/project/playoutube-vs/</guid><description>&lt;h1 id="playyoutubeheaderhttpsuser-imagesgithubusercontentcom307120842363002-129d9374-80f6-11e8-9ccf-1bd222f07884png">&lt;img src="https://user-images.githubusercontent.com/3071208/42363002-129d9374-80f6-11e8-9ccf-1bd222f07884.png" alt="playyoutubeheader">&lt;/h1>
+&lt;p>
+&lt;a href="https://gitter.im/Hatisoft/PlayYouTube?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge" target="_blank" rel="noopener">&lt;img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/Hatisoft/PlayYouTube">&lt;/a>&lt;/p>
+&lt;p>Plugin for Visual studio that allows you to search and play youtube videos inside your development enviroment.&lt;/p>
+&lt;p>follow tutorials or listen what you want, without the pain of having to toggle between multiple windows.&lt;/p>
+&lt;h3 id="use">Use&lt;/h3>
+&lt;p>put your query on the search combo box and hit enter. You will be provided with a list of results, the selected results will be displayed and be streamed&lt;/p>
+&lt;p>&lt;img src="https://cloud.githubusercontent.com/assets/3071208/8636943/f13e5d16-287a-11e5-960b-21bdd390f5a2.png" alt="playyoutubecapture">&lt;/p>
+&lt;h3 id="authors-and-contributors">Authors and Contributors&lt;/h3>
+&lt;p>@kanekotic&lt;/p>
+&lt;h3 id="support-or-contact">Support or Contact&lt;/h3>
+&lt;p>Having trouble with &amp;lsquo;PlayYouTube&amp;rsquo;? Any idea of how to improve it?
+Review our
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/wiki" target="_blank" rel="noopener">documentation&lt;/a> or
+&lt;a href="https://github.com/Hatisoft/PlayYouTube/issues" target="_blank" rel="noopener">add issue/recomendation&lt;/a> and we’ll sort it out.&lt;/p>
+&lt;p>###Build State
+CI:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/playyoutube-877b8" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/mm7u1f8dm2vn5l27?svg=true" alt="Build status">&lt;/a>&lt;/p>
+&lt;p>Release:
+&lt;a href="https://ci.appveyor.com/project/kanekotic/playyoutube" target="_blank" rel="noopener">&lt;img src="https://ci.appveyor.com/api/projects/status/qgykpbj3ifyfu0i7?svg=true" alt="Build status">&lt;/a>&lt;/p></description></item></channel></rss>
