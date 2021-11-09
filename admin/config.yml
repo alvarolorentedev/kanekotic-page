@@ -59,6 +59,36 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
+  - name: projects
+    label: Projects
+    label_singular: Projects
+    folder: 'content/projects'
+    path: '{{slug}}/index'
+    create: true  # Allow users to create new documents in this collection
+    fields:  # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish this page on", name: "date", widget: "datetime"}
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: "Featured Image"
+        name: "image"
+        required: false
+        widget: object
+        fields:
+          - label: "Upload an image named `featured.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "featured"
+            media_library:
+              config:
+                multiple: false
+          - {label: Caption, name: caption, widget: string, required: false}
+          - {label: Description for screen readers, name: alt_text, widget: string, required: false}
+          - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
+          - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
   - name: talks
     label: Talks
     label_singular: Talk
