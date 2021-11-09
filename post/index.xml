@@ -409,68 +409,6 @@ rows: 10
 }
 }
 });
-&lt;/code>&lt;/pre></description></item><item><title>Coding - C# - Complex Constructors</title><link>https://www.kanekotic.com/post/01-26-c-sharp-complex-constructors/</link><pubDate>Tue, 26 Jan 2016 09:56:49 +0200</pubDate><guid>https://www.kanekotic.com/post/01-26-c-sharp-complex-constructors/</guid><description>&lt;p>When doing complex objects using an object to help the building is welcome.&lt;/p>
-&lt;pre>&lt;code class="language-csharp">public class Complex
-{
-double x;
-double y;
-double z;
-float height;
-float width;
-string foreground;
-string background;
-public Complex()
-{
-x = 1.456;
-y = 1.234;
-z = 1.789;
-height = 10.12;
-width = 10.14;
-foreground = &amp;quot;#FFF&amp;quot;;
-background = &amp;quot;#FA1&amp;quot;;
-}
-}
-&lt;/code>&lt;/pre>
-&lt;p>In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.&lt;/p>
-&lt;pre>&lt;code class="language-csharp">public class Complex
-{
-public double X { get; set; }
-public double Y { get; set; }
-public double Z { get; set; }
-public double Height { get; set; }
-public double Width { get; set; }
-public string Foreground { get; set; }
-public string Background { get; set; }
-public Complex(ComplexBuildHelper buildHelper)
-{
-buildHelper.Construct(this);
-}
-}
-public class ComplexBuildHelper
-{
-public void Construct(Complex reference)
-{
-BuildPosition(reference);
-BuildDimension(reference);
-BuildCharacteristics(reference);
-}
-private void BuildPosition(Complex reference)
-{
-reference.X = 1.456;
-reference.Y = 1.234;
-reference.Z = 1.789;
-}
-private void BuildDimension(Complex reference)
-{
-reference.Height = 10.12;
-reference.Width = 10.14;
-}
-private void BuildCharacteristics(Complex reference)
-{
-reference.Foreground = &amp;quot;#FFF&amp;quot;;
-reference.Background = &amp;quot;#FA1&amp;quot;;
-}
-}
 &lt;/code>&lt;/pre></description></item><item><title>Gitbook - The beginning</title><link>https://www.kanekotic.com/post/01-26-gitbook-the-beginning/</link><pubDate>Tue, 26 Jan 2016 09:56:49 +0200</pubDate><guid>https://www.kanekotic.com/post/01-26-gitbook-the-beginning/</guid><description>&lt;p>So i have started writing using GitBook, to take notes of what i learn every day. a few things have shown up.&lt;/p>
 &lt;ol>
 &lt;li>There are some required files if you start from a GitHub repository that you will have to create:
