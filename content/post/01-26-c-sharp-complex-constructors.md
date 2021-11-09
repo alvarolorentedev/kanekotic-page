@@ -1,8 +1,8 @@
-+++
-title = "Coding - C# - Complex Constructors"
-date =  2016-01-26T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: "Coding - C# - Complex Constructors"
+date:  2016-01-26T09:56:49+02:00
+tags: ["daily", "learn"]
+---
 
 When doing complex objects using an object to help the building is welcome.
 ```csharp
