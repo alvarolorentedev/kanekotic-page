@@ -9,28 +9,28 @@
 <link rel=stylesheet href=https://www.kanekotic.com/css/light.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/dark.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/syntax.css>
-<title>Meteor the beginning - Kanekotic's Page</title>
+<title>Meteor - FlowRouter - Kanekotic's Page</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="Meteor the beginning">
+<meta name=description content="Meteor - FlowRouter">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://www.kanekotic.com/post/01-27-meteor-the-beginning/>
+<link rel=canonical href=https://www.kanekotic.com/post/2016-02-05-meteor-flowrouter/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Meteor the beginning - Kanekotic's Page">
-<meta name=twitter:description content="Meteor the beginning">
+<meta name=twitter:title content="Meteor - FlowRouter - Kanekotic's Page">
+<meta name=twitter:description content="Meteor - FlowRouter">
 <meta name=twitter:site content="https://www.kanekotic.com/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://www.kanekotic.com/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Meteor the beginning - Kanekotic's Page">
-<meta property="og:description" content="Meteor the beginning">
-<meta property="og:url" content="https://www.kanekotic.com/post/01-27-meteor-the-beginning/">
-<meta property="og:site_name" content="Meteor the beginning">
+<meta property="og:title" content="Meteor - FlowRouter - Kanekotic's Page">
+<meta property="og:description" content="Meteor - FlowRouter">
+<meta property="og:url" content="https://www.kanekotic.com/post/2016-02-05-meteor-flowrouter/">
+<meta property="og:site_name" content="Meteor - FlowRouter">
 <meta property="og:image" content="https://www.kanekotic.com/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2016-01-27 09:56:49 +0200 +0200">
+<meta property="article:published_time" content="2016-02-05 09:56:49 +0200 +0200">
 </head>
 <body>
 <div style=position:relative>
@@ -81,14 +81,14 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/01-27-meteor-the-beginning/>Meteor the beginning</a></strong>
+<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/2016-02-05-meteor-flowrouter/>Meteor - FlowRouter</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Wed, 27 Jan 2016 09:56:49 +0200" class=no-wrap>
-Wed, 27 Jan 2016 09:56:49 +0200</relative-time>
+Created <relative-time datetime="Fri, 05 Feb 2016 09:56:49 +0200" class=no-wrap>
+Fri, 05 Feb 2016 09:56:49 +0200</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sat, 20 Nov 2021 15:13:20 +0000" class=no-wrap>
-Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
+Modified <relative-time datetime="Sat, 20 Nov 2021 15:16:57 +0000" class=no-wrap>
+Sat, 20 Nov 2021 15:16:57 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -106,7 +106,7 @@ Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-104 Words
+149 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/daily><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -119,25 +119,34 @@ learn
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>##<strong>Documentation</strong></p>
-<p>I found a lot of interesting things in this link, i can setup my view model to a real JavaScript object.</p>
-<p><a href=https://viewmodel.meteor.com/docs>https://viewmodel.meteor.com/docs</a></p>
-<p>##<strong>Markdown</strong></p>
-<p>To add markdown support you will have to add the markdown package:</p>
-<pre tabindex=0><code>meteor add markdown
-</code></pre><p>If you also want your snippets of code to have some style you will also need to add the highlight.js package:</p>
-<pre tabindex=0><code>meteor add simple:highlight.js
-</code></pre><p>##<strong>AutoForm</strong></p>
-<p>to get a multi-line input you need to make sure you get a textarea. This can be done in the collection definition by:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>TestSchema</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>SimpleSchema</span><span class=p>({</span>
-    <span class=nx>content</span><span class=o>:</span> <span class=p>{</span>
-        <span class=nx>type</span><span class=o>:</span> <span class=nb>String</span><span class=p>,</span>
-        <span class=nx>label</span><span class=o>:</span> <span class=s2>&#34;Content&#34;</span><span class=p>,</span>
-        <span class=nx>autoform</span><span class=o>:</span> <span class=p>{</span>
-            <span class=nx>rows</span><span class=o>:</span> <span class=mi>10</span>
-        <span class=p>}</span>
-    <span class=p>}</span>
+<article class="markdown-body entry-content container-lg"><p>This package is a very useful to define the navigation on your client side application. To add it just use the next command line:</p>
+<pre tabindex=0><code>meteor add kadira:flow-router
+</code></pre><p>a static route can be done as the next code. Where name needs to be a unique identifier, and the render string has to be the name of the template.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>route</span><span class=p>(</span><span class=s1>&#39;/&#39;</span><span class=p>,</span>
+<span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;homeId&#39;</span><span class=p>,</span>
+  <span class=nx>action</span><span class=p>(){</span>
+    <span class=nx>BlazeLayout</span><span class=p>.</span><span class=nx>render</span><span class=p>(</span><span class=s1>&#39;homeTemplate&#39;</span><span class=p>);</span>
+  <span class=p>}</span>
 <span class=p>});</span>
+</code></pre></div><p>in case of requiring a dynamic page. Where the change is just the second objects where you defined the child template.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>route</span><span class=p>(</span><span class=s1>&#39;/&#39;</span><span class=p>,</span>
+<span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;mainId&#39;</span><span class=p>,</span>
+  <span class=nx>action</span><span class=p>(){</span>
+    <span class=nx>BlazeLayout</span><span class=p>.</span><span class=nx>render</span><span class=p>(</span><span class=s1>&#39;mainTemplate&#39;</span><span class=p>,</span> <span class=p>{</span><span class=nx>mainTemplate</span><span class=o>:</span> <span class=s1>&#39;dynamicTemplate&#39;</span><span class=p>});</span>
+  <span class=p>}</span>
+<span class=p>});</span>
+</code></pre></div><p>Other interesting parts of this package is the definition of variables on the route definition (like :id in the next code).</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>route</span><span class=p>(</span><span class=s1>&#39;/playlist/:id&#39;</span><span class=p>,</span>
+<span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;playlist&#39;</span><span class=p>,</span>
+  <span class=nx>action</span><span class=p>(){</span>
+    <span class=nx>BlazeLayout</span><span class=p>.</span><span class=nx>render</span><span class=p>(</span><span class=s1>&#39;main&#39;</span><span class=p>,</span> <span class=p>{</span><span class=nx>main</span><span class=o>:</span> <span class=s1>&#39;playlist&#39;</span><span class=p>});</span>
+  <span class=p>}</span>
+<span class=p>});</span>
+</code></pre></div><p>there is also a possibility to use it in any part of the client javascript code to do redirection by using:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>go</span><span class=p>(</span><span class=s1>&#39;home&#39;</span><span class=p>);</span>
 </code></pre></div></article>
 </div>
 </div>

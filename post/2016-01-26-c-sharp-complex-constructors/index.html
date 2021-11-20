@@ -9,28 +9,31 @@
 <link rel=stylesheet href=https://www.kanekotic.com/css/light.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/dark.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/syntax.css>
-<title>ubuntu not restarting or turning off - Kanekotic's Page</title>
+<title>Coding - C# - Complex Constructors - Kanekotic's Page</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="ubuntu not restarting or turning off">
+<meta name=description content="When doing complex objects using an object to help the building is welcome.
+public class Complex { double x; double y; double z; float height; float width; string foreground; string background; public Complex() { x = 1.456; y = 1.234; z = 1.789; height = 10.12; width = 10.14; foreground = &amp;#34;#FFF&amp;#34;; background = &amp;#34;#FA1&amp;#34;; } } In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://www.kanekotic.com/post/04-17-ubuntu-not-turning-off-or-restartingmd/>
+<link rel=canonical href=https://www.kanekotic.com/post/2016-01-26-c-sharp-complex-constructors/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="ubuntu not restarting or turning off - Kanekotic's Page">
-<meta name=twitter:description content="ubuntu not restarting or turning off">
+<meta name=twitter:title content="Coding - C# - Complex Constructors - Kanekotic's Page">
+<meta name=twitter:description content="When doing complex objects using an object to help the building is welcome.
+public class Complex { double x; double y; double z; float height; float width; string foreground; string background; public Complex() { x = 1.456; y = 1.234; z = 1.789; height = 10.12; width = 10.14; foreground = &amp;#34;#FFF&amp;#34;; background = &amp;#34;#FA1&amp;#34;; } } In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.">
 <meta name=twitter:site content="https://www.kanekotic.com/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://www.kanekotic.com/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ubuntu not restarting or turning off - Kanekotic's Page">
-<meta property="og:description" content="ubuntu not restarting or turning off">
-<meta property="og:url" content="https://www.kanekotic.com/post/04-17-ubuntu-not-turning-off-or-restartingmd/">
-<meta property="og:site_name" content="ubuntu not restarting or turning off">
+<meta property="og:title" content="Coding - C# - Complex Constructors - Kanekotic's Page">
+<meta property="og:description" content="When doing complex objects using an object to help the building is welcome.
+public class Complex { double x; double y; double z; float height; float width; string foreground; string background; public Complex() { x = 1.456; y = 1.234; z = 1.789; height = 10.12; width = 10.14; foreground = &amp;#34;#FFF&amp;#34;; background = &amp;#34;#FA1&amp;#34;; } } In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.">
+<meta property="og:url" content="https://www.kanekotic.com/post/2016-01-26-c-sharp-complex-constructors/">
+<meta property="og:site_name" content="Coding - C# - Complex Constructors">
 <meta property="og:image" content="https://www.kanekotic.com/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2016-03-17 09:56:49 +0200 +0200">
+<meta property="article:published_time" content="2016-01-26 09:56:49 +0200 +0200">
 </head>
 <body>
 <div style=position:relative>
@@ -81,14 +84,14 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/04-17-ubuntu-not-turning-off-or-restartingmd/>ubuntu not restarting or turning off</a></strong>
+<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/2016-01-26-c-sharp-complex-constructors/>Coding - C# - Complex Constructors</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Thu, 17 Mar 2016 09:56:49 +0200" class=no-wrap>
-Thu, 17 Mar 2016 09:56:49 +0200</relative-time>
+Created <relative-time datetime="Tue, 26 Jan 2016 09:56:49 +0200" class=no-wrap>
+Tue, 26 Jan 2016 09:56:49 +0200</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sat, 20 Nov 2021 15:13:20 +0000" class=no-wrap>
-Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
+Modified <relative-time datetime="Sat, 20 Nov 2021 15:16:57 +0000" class=no-wrap>
+Sat, 20 Nov 2021 15:16:57 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -106,7 +109,7 @@ Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-187 Words
+193 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/daily><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -119,23 +122,82 @@ learn
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>Lately I have been getting tired of my operating system just not wanting to reboot or sometimes not turning off. This happens in my version off ubuntu due a problem with the energy management.
-The way to solve this is changing the boot parameters for the operating system. So you will need to follow the next steps:</p>
-<ol>
-<li>Edit the grub settings file (if you use nano as at the end do CTRL+O to save CTRL+X to close)</li>
-</ol>
-<pre tabindex=0><code>sudo nano /etc/default/grub
-</code></pre><ol start=2>
-<li>Eddit the next line to look similar to the next one.</li>
-</ol>
-<pre tabindex=0><code>GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet splash acpi=force reboot=pci&quot;
-</code></pre><ol start=3>
-<li>Call the command line to update the grub (os selector for operating system)</li>
-</ol>
-<pre tabindex=0><code>sudo update-grub
-</code></pre><p>first reboot this will not make any difference but after your first reboot as the computer will boot with the new parameters this should solve the issue.</p>
-<p>Disclaimer: this works in my case, every installation in different hardware than the one in my computer could have different outcomes (that i cannot be held accountable for, so use at your discretion), including booting issues that you might solve by removing the previous parameters before booting Ubuntu from grub.</p>
-</article>
+<article class="markdown-body entry-content container-lg"><p>When doing complex objects using an object to help the building is welcome.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=k>public</span> <span class=k>class</span> <span class=nc>Complex</span>
+<span class=p>{</span>
+    <span class=kt>double</span> <span class=n>x</span><span class=p>;</span>
+    <span class=kt>double</span> <span class=n>y</span><span class=p>;</span>
+    <span class=kt>double</span> <span class=n>z</span><span class=p>;</span>
+
+    <span class=kt>float</span> <span class=n>height</span><span class=p>;</span>
+    <span class=kt>float</span> <span class=n>width</span><span class=p>;</span>
+
+    <span class=kt>string</span> <span class=n>foreground</span><span class=p>;</span>
+    <span class=kt>string</span> <span class=n>background</span><span class=p>;</span>
+
+    <span class=k>public</span> <span class=n>Complex</span><span class=p>()</span>
+    <span class=p>{</span>
+        <span class=n>x</span> <span class=p>=</span> <span class=m>1.456</span><span class=p>;</span>
+        <span class=n>y</span> <span class=p>=</span> <span class=m>1.234</span><span class=p>;</span>
+        <span class=n>z</span> <span class=p>=</span> <span class=m>1.789</span><span class=p>;</span>
+
+        <span class=n>height</span> <span class=p>=</span> <span class=m>10.12</span><span class=p>;</span>
+        <span class=n>width</span> <span class=p>=</span> <span class=m>10.14</span><span class=p>;</span>
+
+        <span class=n>foreground</span> <span class=p>=</span> <span class=s>&#34;#FFF&#34;</span><span class=p>;</span>
+        <span class=n>background</span> <span class=p>=</span> <span class=s>&#34;#FA1&#34;</span><span class=p>;</span>
+    <span class=p>}</span>
+
+<span class=p>}</span>
+</code></pre></div><p>In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=k>public</span> <span class=k>class</span> <span class=nc>Complex</span>
+<span class=p>{</span>
+    <span class=k>public</span> <span class=kt>double</span> <span class=n>X</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+    <span class=k>public</span> <span class=kt>double</span> <span class=n>Y</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+    <span class=k>public</span> <span class=kt>double</span> <span class=n>Z</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+
+    <span class=k>public</span> <span class=kt>double</span> <span class=n>Height</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+    <span class=k>public</span> <span class=kt>double</span> <span class=n>Width</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+
+    <span class=k>public</span> <span class=kt>string</span> <span class=n>Foreground</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+    <span class=k>public</span> <span class=kt>string</span> <span class=n>Background</span> <span class=p>{</span> <span class=k>get</span><span class=p>;</span> <span class=k>set</span><span class=p>;</span> <span class=p>}</span>
+
+    <span class=k>public</span> <span class=n>Complex</span><span class=p>(</span><span class=n>ComplexBuildHelper</span> <span class=n>buildHelper</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=n>buildHelper</span><span class=p>.</span><span class=n>Construct</span><span class=p>(</span><span class=k>this</span><span class=p>);</span>
+    <span class=p>}</span>
+
+<span class=p>}</span>
+
+<span class=k>public</span> <span class=k>class</span> <span class=nc>ComplexBuildHelper</span>
+<span class=p>{</span>
+    <span class=k>public</span> <span class=k>void</span> <span class=n>Construct</span><span class=p>(</span><span class=n>Complex</span> <span class=n>reference</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=n>BuildPosition</span><span class=p>(</span><span class=n>reference</span><span class=p>);</span>
+        <span class=n>BuildDimension</span><span class=p>(</span><span class=n>reference</span><span class=p>);</span>
+        <span class=n>BuildCharacteristics</span><span class=p>(</span><span class=n>reference</span><span class=p>);</span>
+    <span class=p>}</span>
+
+    <span class=k>private</span> <span class=k>void</span> <span class=n>BuildPosition</span><span class=p>(</span><span class=n>Complex</span> <span class=n>reference</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>X</span> <span class=p>=</span> <span class=m>1.456</span><span class=p>;</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Y</span> <span class=p>=</span> <span class=m>1.234</span><span class=p>;</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Z</span> <span class=p>=</span> <span class=m>1.789</span><span class=p>;</span>
+    <span class=p>}</span>
+
+    <span class=k>private</span> <span class=k>void</span> <span class=n>BuildDimension</span><span class=p>(</span><span class=n>Complex</span> <span class=n>reference</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Height</span> <span class=p>=</span> <span class=m>10.12</span><span class=p>;</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Width</span> <span class=p>=</span> <span class=m>10.14</span><span class=p>;</span>
+    <span class=p>}</span>
+
+    <span class=k>private</span> <span class=k>void</span> <span class=n>BuildCharacteristics</span><span class=p>(</span><span class=n>Complex</span> <span class=n>reference</span><span class=p>)</span>
+    <span class=p>{</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Foreground</span> <span class=p>=</span> <span class=s>&#34;#FFF&#34;</span><span class=p>;</span>
+        <span class=n>reference</span><span class=p>.</span><span class=n>Background</span> <span class=p>=</span> <span class=s>&#34;#FA1&#34;</span><span class=p>;</span>
+    <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div></article>
 </div>
 </div>
 </div>

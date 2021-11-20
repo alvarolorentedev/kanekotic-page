@@ -9,28 +9,28 @@
 <link rel=stylesheet href=https://www.kanekotic.com/css/light.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/dark.css>
 <link rel=stylesheet href=https://www.kanekotic.com/css/syntax.css>
-<title>C# - Extension methods overlap with linq - Kanekotic's Page</title>
+<title>Meteor - Query subdocument - Kanekotic's Page</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="C# - Extension methods overlap with linq">
+<meta name=description content="Meteor - Query subdocument">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://www.kanekotic.com/post/01-28-extension-methods-overlap-with-linq/>
+<link rel=canonical href=https://www.kanekotic.com/post/2016-02-03-meteor-query-subdocument/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="C# - Extension methods overlap with linq - Kanekotic's Page">
-<meta name=twitter:description content="C# - Extension methods overlap with linq">
+<meta name=twitter:title content="Meteor - Query subdocument - Kanekotic's Page">
+<meta name=twitter:description content="Meteor - Query subdocument">
 <meta name=twitter:site content="https://www.kanekotic.com/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://www.kanekotic.com/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C# - Extension methods overlap with linq - Kanekotic's Page">
-<meta property="og:description" content="C# - Extension methods overlap with linq">
-<meta property="og:url" content="https://www.kanekotic.com/post/01-28-extension-methods-overlap-with-linq/">
-<meta property="og:site_name" content="C# - Extension methods overlap with linq">
+<meta property="og:title" content="Meteor - Query subdocument - Kanekotic's Page">
+<meta property="og:description" content="Meteor - Query subdocument">
+<meta property="og:url" content="https://www.kanekotic.com/post/2016-02-03-meteor-query-subdocument/">
+<meta property="og:site_name" content="Meteor - Query subdocument">
 <meta property="og:image" content="https://www.kanekotic.com/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2016-01-28 09:56:49 +0200 +0200">
+<meta property="article:published_time" content="2016-02-03 09:56:49 +0200 +0200">
 </head>
 <body>
 <div style=position:relative>
@@ -81,14 +81,14 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/01-28-extension-methods-overlap-with-linq/>C# - Extension methods overlap with linq</a></strong>
+<a href=https://www.kanekotic.com/>Kanekotic</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://www.kanekotic.com/post/2016-02-03-meteor-query-subdocument/>Meteor - Query subdocument</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Thu, 28 Jan 2016 09:56:49 +0200" class=no-wrap>
-Thu, 28 Jan 2016 09:56:49 +0200</relative-time>
+Created <relative-time datetime="Wed, 03 Feb 2016 09:56:49 +0200" class=no-wrap>
+Wed, 03 Feb 2016 09:56:49 +0200</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sat, 20 Nov 2021 15:13:20 +0000" class=no-wrap>
-Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
+Modified <relative-time datetime="Sat, 20 Nov 2021 15:16:57 +0000" class=no-wrap>
+Sat, 20 Nov 2021 15:16:57 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -106,7 +106,7 @@ Sat, 20 Nov 2021 15:13:20 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-341 Words
+286 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/daily><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -119,50 +119,77 @@ learn
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>I have hit a corner case of extension methods and LINQ. Today I was declaring some extension methods to make my code more readable.So I created an extension method that gets an object and performs a direct cast:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=k>public</span> <span class=k>static</span> <span class=k>class</span> <span class=nc>GeneralExtensions</span>
-<span class=p>{</span>
-    <span class=k>public</span> <span class=k>static</span> <span class=n>T</span> <span class=n>Cast</span><span class=p>&lt;</span><span class=n>T</span><span class=p>&gt;(</span><span class=k>this</span> <span class=kt>object</span> <span class=n>o</span><span class=p>)</span>
+<article class="markdown-body entry-content container-lg"><p>To make a query over a subdocument in meteor is not posible to use directly the &lsquo;$&rsquo; or &lsquo;$elemMatch&rsquo; notation. It is necesary to use the keyword &lsquo;fields:&rsquo; to do this. To publish just part of a mongo document you should do a query similar to this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>Meteor</span><span class=p>.</span><span class=nx>publish</span><span class=p>(</span><span class=s1>&#39;chapter&#39;</span><span class=p>,</span> <span class=kd>function</span><span class=p>(</span><span class=nx>id</span><span class=p>,</span> <span class=nx>name</span><span class=p>){</span>
+  <span class=nx>check</span><span class=p>(</span><span class=nx>id</span><span class=p>,</span><span class=nb>String</span><span class=p>);</span>
+  <span class=nx>check</span><span class=p>(</span><span class=nx>name</span><span class=p>,</span><span class=nb>String</span><span class=p>);</span>
+  <span class=k>return</span> <span class=nx>Playlists</span><span class=p>.</span><span class=nx>find</span><span class=p>({</span> <span class=nx>_id</span><span class=o>:</span> <span class=nx>id</span> <span class=p>},</span> <span class=p>{</span> <span class=nx>fields</span><span class=o>:</span> <span class=p>{</span> <span class=nx>chapters</span><span class=o>:</span> <span class=p>{</span> <span class=nx>$elemMatch</span><span class=o>:</span> <span class=p>{</span> <span class=nx>name</span><span class=o>:</span> <span class=nx>name</span> <span class=p>}}}});</span>
+<span class=p>});</span>
+</code></pre></div><p>That from the original document:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;_id&#34;</span><span class=p>:</span> <span class=s2>&#34;cx8cmw5KMjHQm8czw&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=s2>&#34;Test&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;description&#34;</span><span class=p>:</span> <span class=s2>&#34;this is a test&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;chapters&#34;</span><span class=p>:</span> <span class=p>[</span>
     <span class=p>{</span>
-    	<span class=k>return</span> <span class=p>(</span><span class=n>T</span><span class=p>)</span><span class=n>o</span><span class=p>;</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=s2>&#34;First chapter&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;description&#34;</span><span class=p>:</span> <span class=s2>&#34;this is a video about blah blah blah&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;video&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;youtube&#34;</span><span class=p>:</span> <span class=s2>&#34;yoAFDy1WS94&#34;</span>
+      <span class=p>}</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=s2>&#34;Second chapter&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;description&#34;</span><span class=p>:</span> <span class=s2>&#34;this is a video about blah blah blah&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;video&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;youtube&#34;</span><span class=p>:</span> <span class=s2>&#34;yoAFDy1WS94&#34;</span>
+      <span class=p>}</span>
     <span class=p>}</span>
+  <span class=p>],</span>
+  <span class=nt>&#34;createdAt&#34;</span><span class=p>:</span> <span class=s2>&#34;2016-02-03T07:18:52.371Z&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;isPublic&#34;</span><span class=p>:</span> <span class=kc>false</span>
 <span class=p>}</span>
-</code></pre></div><p>The intention was to be able to call my direct castings by something like this:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=n>MyObject</span><span class=p>.</span><span class=n>CastTo</span><span class=p>&lt;</span><span class=n>MyInterface</span><span class=p>&gt;();</span>
-</code></pre></div><p>It happens that in the same namespace I have an extension method that has a LINQ expression</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=k>using</span> <span class=nn>System</span><span class=p>;</span>
-<span class=k>using</span> <span class=nn>System.Collections.Generic</span><span class=p>;</span>
-<span class=k>using</span> <span class=nn>System.Linq</span><span class=p>;</span>
+</code></pre></div><p>Will return:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;_id&#34;</span><span class=p>:</span> <span class=s2>&#34;cx8cmw5KMjHQm8czw&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;chapters&#34;</span><span class=p>:</span> <span class=p>[</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=s2>&#34;First chapter&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;description&#34;</span><span class=p>:</span> <span class=s2>&#34;this is a video about blah blah blah&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;video&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;youtube&#34;</span><span class=p>:</span> <span class=s2>&#34;ldkfkfkdlfjdkf&#34;</span>
+      <span class=p>}</span>
+    <span class=p>}</span>
+  <span class=p>]</span>
+<span class=p>}</span>
 
-<span class=k>public</span> <span class=k>static</span> <span class=k>class</span> <span class=nc>EnumExtenstions</span>
-<span class=p>{</span>
-	<span class=k>public</span> <span class=k>static</span> <span class=n>IEnumerable</span><span class=p>&lt;</span><span class=kt>string</span><span class=p>&gt;</span> <span class=n>UseLinq</span><span class=p>(</span><span class=k>this</span> <span class=n>IEnumerable</span><span class=p>&lt;</span><span class=kt>object</span><span class=p>&gt;</span> <span class=n>collection</span><span class=p>)</span>
-	<span class=p>{</span>
-		<span class=k>return</span> <span class=p>(</span><span class=k>from</span> <span class=kt>object</span> <span class=k>value</span> <span class=k>in</span> <span class=n>collection</span> <span class=k>select</span> <span class=k>value</span><span class=p>.</span><span class=n>ToString</span><span class=p>()</span> <span class=p>).</span><span class=n>ToList</span><span class=p>();</span>
-	<span class=p>}</span>
-<span class=p>}</span>
-</code></pre></div><p>Adding this first extension method to my code base cause the next error</p>
-<pre tabindex=0><code>Error	CS1936	Could not find an implementation of the query pattern for source type 'object'.  'Select' not found.
-</code></pre><p>Having both extension methods in different namespaces (and not referred), or rename <code>Cast&lt;T></code> to something different solves the issue. This is caused for an overlap of the extension methods where the nearest one to the code is the one called.</p>
-<p>##<strong>How bad Extension Methods over object could go?</strong></p>
-<p>This is an extract from the answer of Eric Lippert, regarding the code:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=k>public</span> <span class=k>static</span> <span class=k>class</span> <span class=nc>GeneralExtensions</span>
-<span class=p>{</span>
-    <span class=k>public</span> <span class=k>static</span> <span class=n>T</span> <span class=n>Cast</span><span class=p>&lt;</span><span class=n>T</span><span class=p>&gt;(</span><span class=k>this</span> <span class=kt>object</span> <span class=n>o</span><span class=p>)</span>
-    <span class=p>{</span>
-    	<span class=k>return</span> <span class=p>(</span><span class=n>T</span><span class=p>)</span><span class=n>o</span><span class=p>;</span>
+</code></pre></div><p>This is useful if you have big documents or don&rsquo;t want the complexity of having 2 different collections that need to be related. It will help with the performance and resources that your application uses.</p>
+<p>now if you want to use the sub-document in your UI, you should just subscribe and add a helper to access this array item, like for example:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=nx>Template</span><span class=p>.</span><span class=nx>chapter</span><span class=p>.</span><span class=nx>onCreated</span><span class=p>(</span><span class=kd>function</span><span class=p>(){</span>
+  <span class=kd>var</span> <span class=nx>self</span> <span class=o>=</span> <span class=k>this</span><span class=p>;</span>
+  <span class=nx>self</span><span class=p>.</span><span class=nx>autorun</span><span class=p>(</span><span class=kd>function</span><span class=p>(){</span>
+    <span class=kd>var</span> <span class=nx>id</span> <span class=o>=</span> <span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>getParam</span><span class=p>(</span><span class=s1>&#39;id&#39;</span><span class=p>);</span>
+    <span class=kd>var</span> <span class=nx>name</span> <span class=o>=</span> <span class=nx>FlowRouter</span><span class=p>.</span><span class=nx>getParam</span><span class=p>(</span><span class=s1>&#39;name&#39;</span><span class=p>);</span>
+    <span class=nx>self</span><span class=p>.</span><span class=nx>subscribe</span><span class=p>(</span><span class=s1>&#39;chapter&#39;</span><span class=p>,</span> <span class=nx>id</span><span class=p>,</span> <span class=nx>name</span><span class=p>);</span>
+  <span class=p>});</span>
+<span class=p>});</span>
+
+<span class=nx>Template</span><span class=p>.</span><span class=nx>chapter</span><span class=p>.</span><span class=nx>helpers</span><span class=p>({</span>
+  <span class=nx>chapter</span><span class=o>:</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
+      <span class=k>return</span> <span class=nx>Playlists</span><span class=p>.</span><span class=nx>findOne</span><span class=p>({}).</span><span class=nx>chapters</span><span class=p>[</span><span class=mi>0</span><span class=p>];</span>
     <span class=p>}</span>
-<span class=p>}</span>
-</code></pre></div><p>Side Effects of the <code>cast&lt;T></code>:</p>
-<ul>
-<li><code>Cast&lt;int>(123)</code> unnecessarily boxes the int, <code>(int)123</code> does not.</li>
-<li><code>Cast&lt; short >(123)</code> fails but <code>(short)123</code> succeeds. There is no conversion from a boxed int to a short.</li>
-<li>Suppose you have a user-defined conversion from Animal to Shape. <code>Cast&lt;Shape>(new Tiger())</code> fails but <code>(Shape) new Tiger()</code> succeeds.</li>
-<li>Suppose q is a nullable int that happens to be null. <code>Cast&lt;string>(q)</code> succeeds! But <code>(string)q</code> would fail at compile time</li>
-<li>Etc</li>
-</ul>
-<p>Cast method has some overlap with the real cast operator but is not a substitute for it. To capture the semantics of the cast operator there is a need to use dynamic, which starts the compiler at runtime and does the compile time analysis on runtime types.</p>
-</article>
+<span class=p>});</span>
+</code></pre></div><p>Finally your HTML just needs to reference the helper defined to show the information</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=p>&lt;</span><span class=nt>template</span> <span class=na>name</span><span class=o>=</span><span class=s>&#34;chapter&#34;</span><span class=p>&gt;</span>
+    <span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;chapter-body&#34;</span><span class=p>&gt;</span>
+        <span class=p>&lt;</span><span class=nt>h3</span><span class=p>&gt;</span>{{ chapter.name }}<span class=p>&lt;/</span><span class=nt>h3</span><span class=p>&gt;</span>
+        <span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;560&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;video&#34;</span>
+          <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/{{ chapter.video.youtube }}&#34;</span>
+          <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+        {{ #markdown }}{{ chapter.description }}{{ /markdown }}
+    <span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+<span class=p>&lt;/</span><span class=nt>template</span><span class=p>&gt;</span>
+</code></pre></div></article>
 </div>
 </div>
 </div>
