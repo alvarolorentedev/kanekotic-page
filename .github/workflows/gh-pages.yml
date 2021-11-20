@@ -30,4 +30,4 @@ jobs:
         with:
           api-key: ${{ secrets.DEVTO_TOKEN }}
           directory: ./content/post
-          ignore: foo/201**.md
+          ignore: 201**.md
