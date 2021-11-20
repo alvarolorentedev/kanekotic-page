@@ -16,7 +16,7 @@
     <td width="400px" style="border: none; vertical-align: top;">
       <img src="https://raw.githubusercontent.com/kanekotic/kanekotic/602c78cf2c5b673412af0d73180e28ab1655bb54/activity-community.svg">
       <img src="https://raw.githubusercontent.com/kanekotic/kanekotic/602c78cf2c5b673412af0d73180e28ab1655bb54/stackoverflow.svg">
-      <img src="https://github.com/kanekotic/kanekotic/blob/main/achievements.svg">
+      <img src="https://raw.githubusercontent.com/kanekotic/kanekotic/602c78cf2c5b673412af0d73180e28ab1655bb54/achievements.svg">
     </td>
   </tr>
   </tbody>
