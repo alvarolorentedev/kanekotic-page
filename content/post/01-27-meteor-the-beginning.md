@@ -1,8 +1,16 @@
-+++
-title = "Meteor the beginning"
-date =  2016-01-27T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Meteor the beginning
+summary: Meteor the beginning
+description: Meteor the beginning
+date:  2016-01-27T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 ##**Documentation**
 

@@ -1,8 +1,16 @@
-+++
-title = "Gitbook - The beginning"
-date =  2016-01-26T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Gitbook - The beginning
+summary: Gitbook - The beginning
+description: Gitbook - The beginning
+date:  2016-01-26T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 So i have started writing using GitBook, to take notes of what i learn every day. a few things have shown up.
 1. There are some required files if you start from a GitHub repository that you will have to create:

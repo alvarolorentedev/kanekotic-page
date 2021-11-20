@@ -1,8 +1,16 @@
-+++
-title = "Sonarqube Upgrade Error due LDAP"
-date =  2016-03-17T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Sonarqube Upgrade Error due LDAP
+summary: Sonarqube Upgrade Error due LDAP
+description: Sonarqube Upgrade Error due LDAP
+date: 2016-03-17T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 While upgrading Sonarqube i am getting the next error message
 

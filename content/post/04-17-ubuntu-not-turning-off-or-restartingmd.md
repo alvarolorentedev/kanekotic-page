@@ -1,9 +1,16 @@
-+++
-title = "ubuntu not restarting or turning off"
-date =  2016-03-17T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
-
+---
+title: ubuntu not restarting or turning off
+summary: ubuntu not restarting or turning off
+description: ubuntu not restarting or turning off
+date: 2016-03-17T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 Lately I have been getting tired of my operating system just not wanting to reboot or sometimes not turning off. This happens in my version off ubuntu due a problem with the energy management. 
 The way to solve this is changing the boot parameters for the operating system. So you will need to follow the next steps:
 1. Edit the grub settings file (if you use nano as at the end do CTRL+O to save CTRL+X to close)

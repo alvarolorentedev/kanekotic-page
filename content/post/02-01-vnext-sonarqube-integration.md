@@ -1,8 +1,16 @@
-+++
-title = "TFS 2015 - vnext and sonarqube integration"
-date =  2016-02-01T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: TFS 2015 - vnext and sonarqube integration
+summary: TFS 2015 - vnext and sonarqube integration
+description: TFS 2015 - vnext and sonarqube integration
+date: 2016-01-29T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 The modifications required to use the integrated sonarqube steps are:
 

@@ -1,8 +1,16 @@
-+++
-title = "Meteor - Query subdocument"
-date =  2016-02-03T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Meteor - Query subdocument
+summary: Meteor - Query subdocument
+description: Meteor - Query subdocument
+date: 2016-02-03T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 
 To make a query over a subdocument in meteor is not posible to use directly the '$' or '$elemMatch' notation. It is necesary to use the keyword 'fields:' to do this. To publish just part of a mongo document you should do a query similar to this:

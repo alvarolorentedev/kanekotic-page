@@ -1,8 +1,16 @@
-+++
-title = "C# - Paths to system folders"
-date =  2016-01-29T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: C# - Paths to system folders
+summary: C# - Paths to system folders
+description: C# - Paths to system folders
+date: 2016-01-29T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 In the Environment class there is a property called SpecialFolder. This will provide the paths to folders like: Program files, desktop, AppData, etc. The use is the next one:
 

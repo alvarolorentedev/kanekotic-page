@@ -1,8 +1,16 @@
-+++
-title = "Meteor - Session variables"
-date =  2016-02-04T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Meteor - Session variables
+summary: Meteor - Session variables
+description: Meteor - Session variables
+date: 2016-02-04T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 Session variables are easy to use in meteor. the can ve get and set from the javascript code using:
 

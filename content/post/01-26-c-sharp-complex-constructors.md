@@ -1,6 +1,6 @@
 ---
-title: "Coding - C# - Complex Constructors"
-description: "Coding - C# - Complex Constructors"
+title: Coding - C# - Complex Constructors
+description: Coding - C# - Complex Constructors
 date:  2016-01-26T09:56:49+02:00
 tags: 
     - daily

@@ -1,8 +1,16 @@
-+++
-title = "C# - Fluent Interfaces with Extension Methods"
-date =  2016-01-27T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: C# - Fluent Interfaces with Extension Methods
+summary: C# - Fluent Interfaces with Extension Methods
+description: C# - Fluent Interfaces with Extension Methods
+date:  2016-01-27T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 I have not experiment to much with fluent interfaces. But is something cool especially to make code that is expressive.
 

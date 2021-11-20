@@ -1,8 +1,16 @@
-+++
-title = "Meteor - FlowRouter"
-date =  2016-02-05T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
+---
+title: Meteor - FlowRouter
+summary: Meteor - FlowRouter
+description: Meteor - FlowRouter
+date: 2016-02-05T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 This package is a very useful to define the navigation on your client side application. To add it just use the next command line:
 ```

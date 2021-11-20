@@ -1,10 +1,16 @@
-+++
-title = "C# - Paths to system folders"
-date =  2016-01-29T09:56:49+02:00
-tags = ["daily", "learn"]
-+++
-
-##**GIT - Branches, Tags and Commits**
+---
+title: GIT - Branches, Tags and Commits
+summary: GIT - Branches, Tags and Commits
+description: GIT - Branches, Tags and Commits
+date: 2016-01-29T09:56:49+02:00
+tags: 
+    - daily
+    - learn
+published: false
+series: null
+cover_image: null
+canonical_url: null
+---
 
 I was concern what will happend with my comments in the case i remove a branch.
 
