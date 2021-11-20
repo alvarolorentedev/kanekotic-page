@@ -7,9 +7,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 When doing complex objects using an object to help the building is welcome.

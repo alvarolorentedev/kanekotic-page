@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 When using path.Combine if the second argument starts with a /. the first path is ignored and will give a path based on the C: drive.

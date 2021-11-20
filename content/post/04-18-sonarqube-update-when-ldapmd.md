@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 While upgrading Sonarqube i am getting the next error message

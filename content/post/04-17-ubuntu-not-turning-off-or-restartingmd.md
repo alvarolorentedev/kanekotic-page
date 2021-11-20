@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 Lately I have been getting tired of my operating system just not wanting to reboot or sometimes not turning off. This happens in my version off ubuntu due a problem with the energy management. 
 The way to solve this is changing the boot parameters for the operating system. So you will need to follow the next steps:

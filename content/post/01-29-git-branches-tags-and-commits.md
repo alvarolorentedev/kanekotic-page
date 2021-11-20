@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 I was concern what will happend with my comments in the case i remove a branch.

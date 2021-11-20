@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 This package is a very useful to define the navigation on your client side application. To add it just use the next command line:

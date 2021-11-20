@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 I have not experiment to much with fluent interfaces. But is something cool especially to make code that is expressive.

@@ -12,9 +12,6 @@ tags:
     - github
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 I have just finished migrating my static blog from Hexo to Hugo and one of the main things I care about is to be able to do continuous deployment of my profile and blog. There are quite a few blog posts out there but they are based on using shell scripts and it really becomes a pain to give permissions etc. In the next few lines you will see the simplest way I have found to do this (and is currently as this blog post is being published).
 

@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 In the Environment class there is a property called SpecialFolder. This will provide the paths to folders like: Program files, desktop, AppData, etc. The use is the next one:

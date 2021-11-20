@@ -8,9 +8,6 @@ tags:
     - learn
 draft: false
 published: false
-series: null
-cover_image: null
-canonical_url: null
 ---
 
 Session variables are easy to use in meteor. the can ve get and set from the javascript code using:
