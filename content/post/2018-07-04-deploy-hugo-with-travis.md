@@ -10,6 +10,7 @@ tags:
     - travis
     - travisci
     - github
+draft: false
 published: false
 series: null
 cover_image: null

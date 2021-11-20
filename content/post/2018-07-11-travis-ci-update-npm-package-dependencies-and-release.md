@@ -12,6 +12,7 @@ tags:
     - travisci
     - github
     - cron
+draft: false
 published: false
 series: null
 cover_image: null
