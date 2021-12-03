@@ -2,7 +2,7 @@
 title: Back to writting posts
 summary: its been more than 2 years since I write anything here
 date: 2021-12-03T13:53:18.114Z
-draft: true
+draft: false
 published: false
 tags:
   - update
