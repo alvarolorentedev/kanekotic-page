@@ -17,7 +17,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
-      - {label: "Publish to kanekotic.com", name: "draft", widget: "boolean", default: false}
+      - {label: "Is draft in kanekotic.com", name: "draft", widget: "boolean", default: false}
       - {label: "Publish to Dev.to", name: "published", widget: "boolean", default: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - label: "Featured Image"
