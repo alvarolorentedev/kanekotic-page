@@ -10,6 +10,7 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
+description: ''
 
 ---
 It has been more than 2 years since I wrote my last blog post. A lot of things have happen and i would like to get back to sharing knowledge here. Hopefully from now on I can write a bit more and you all enjoy.
