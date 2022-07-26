@@ -47,4 +47,4 @@ require('array-peek')
 ```
 ## [Github Repo](https://github.com/kanekotic/array-peek)
 
-##### Created my free [logo](https://logomakr.com/5sISSS) at [LogoMakr.com](LogoMakr.com) 
+##### Created my free [logo](https://logomakr.com/5sISSS) at [LogoMakr.com](https://LogoMakr.com) 

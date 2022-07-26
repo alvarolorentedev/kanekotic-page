@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kanekotic\'s Site',
-  tagline: 'A place for my brain & Projects',
+  tagline: 'A place for my Brain & Projects',
   url: 'https:/kanekotic.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
