@@ -31,4 +31,4 @@ pluginManager.load(config, extensionPoint)
 
 ## [Github Repo](https://github.com/kanekotic/electron-plugin)
 
-##### Created my free [logo](logomakr.com/2NQeYP) at [LogoMakr.com](https://LogoMakr.com) 
+##### Created my free [logo](https://logomakr.com/2NQeYP) at [LogoMakr.com](https://LogoMakr.com) 
