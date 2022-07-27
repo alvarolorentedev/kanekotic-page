@@ -22,3 +22,5 @@ jobs:
         run: yarn install
       - name: deploy
         run: yarn deploy
+        env: 
+          USE_SSH: true
