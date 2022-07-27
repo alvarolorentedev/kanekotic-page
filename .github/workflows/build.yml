@@ -24,3 +24,4 @@ jobs:
         run: yarn deploy
         env: 
           USE_SSH: true
+          GIT_USER: kanekotic
