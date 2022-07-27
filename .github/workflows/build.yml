@@ -18,10 +18,13 @@ jobs:
           key: ${{ runner.os }}-cache-${{ hashFiles('yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-cache-
-      - name: install dependencies
-        run: yarn install
       - name: deploy
-        run: yarn deploy
         env: 
           USE_SSH: true
-          GIT_USER: kanekotic
+          GIT_USER: git
+         run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "gh-actions"
+          yarn install --frozen-lockfile
+          yarn deploy
+
