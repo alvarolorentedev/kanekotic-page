@@ -22,7 +22,7 @@ file_template: ":filename:"
 build:
   preview_output_directory: build
   install_dependencies_command: yarn install
-  preview_docker_image: forestryio/node:16
-  mount_path: "/srv"
+  preview_docker_image: node:18
+  mount_path: "/"
   working_dir: "/srv"
   instant_preview_command: yarn start
