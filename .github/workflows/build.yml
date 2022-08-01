@@ -30,7 +30,7 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
       - name: Sycing Article to dev.to
-        uses: ful1e5/TheActionDev@v2
+        uses: ful1e5/TheActionDev@v3
         with:
           api-key: ${{ secrets.DEVTO_TOKEN }}
           directory: ./blog
