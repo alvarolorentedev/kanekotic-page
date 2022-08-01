@@ -8,6 +8,17 @@
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://kanekotic.com/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[TheActionDev]]></title>
+        <id>/2022/08/02/__replace__</id>
+        <link href="https://kanekotic.com/blog/2022/08/02/__replace__"/>
+        <updated>2022-08-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello World]]></summary>
+        <content type="html"><![CDATA[<p>First Post with <strong>TheActionDev</strong></p><p>{% github ful1e5/TheActionDev %}</p>]]></content>
+        <category label="typescript" term="typescript"/>
+        <category label="javascript" term="javascript"/>
+        <category label="github" term="github"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Stop doing PR's: Not all environment are zero trust]]></title>
         <id>/2022/08/02/stop-prs</id>
         <link href="https://kanekotic.com/blog/2022/08/02/stop-prs"/>

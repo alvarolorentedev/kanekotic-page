@@ -9,6 +9,17 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[TheActionDev]]></title>
+            <link>https://kanekotic.com/blog/2022/08/02/__replace__</link>
+            <guid>/2022/08/02/__replace__</guid>
+            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello World]]></description>
+            <content:encoded><![CDATA[<p>First Post with <strong>TheActionDev</strong></p><p>{% github ful1e5/TheActionDev %}</p>]]></content:encoded>
+            <category>typescript</category>
+            <category>javascript</category>
+            <category>github</category>
+        </item>
+        <item>
             <title><![CDATA[Stop doing PR's: Not all environment are zero trust]]></title>
             <link>https://kanekotic.com/blog/2022/08/02/stop-prs</link>
             <guid>/2022/08/02/stop-prs</guid>
