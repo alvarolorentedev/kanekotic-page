@@ -29,3 +29,8 @@ fields:
 - type: boolean
   name: published
   label: published
+- name: series
+  type: text
+  config:
+    required: false
+  label: series
