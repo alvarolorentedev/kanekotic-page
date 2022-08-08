@@ -3,7 +3,7 @@ title: MacroInfrastructure due Microservice Obsesion
 description: The over-engineering of our age
 authors: [kanekotic]
 tags: [agile,webdev,programming,architecture]
-draft: false
+draft: true
 published: false
 ---
 

@@ -3,7 +3,7 @@ title: APIs the Singleton of our generation
 description: In the current world of development we solve all with APIs
 authors: [kanekotic]
 tags: [agile,webdev,programming,productivity]
-draft: false
+draft: true
 published: false
 ---
  

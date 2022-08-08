@@ -3,7 +3,7 @@ title: Resource VS Process Microservices - Round 1
 description: Resource VS Process Microservices
 authors: [kanekotic]
 tags: [agile,webdev,programming,architecture]
-draft: false
+draft: true
 published: false
 ---
 

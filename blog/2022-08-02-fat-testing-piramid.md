@@ -3,7 +3,7 @@ title: The testing piramid is actually fat
 description: In the world of microservices testing rules have changed
 authors: [kanekotic]
 tags: [agile,webdev,programming,testing]
-draft: false
+draft: true
 published: false
 ---
 
