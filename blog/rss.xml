@@ -21,99 +21,10 @@
             <category>productivity</category>
         </item>
         <item>
-            <title><![CDATA[APIs the Singleton of our generation]]></title>
-            <link>https://kanekotic.com/blog/2022/08/02/api-singleton</link>
-            <guid>/2022/08/02/api-singleton</guid>
-            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[In the current world of development we solve all with APIs]]></description>
-            <content:encoded><![CDATA[<p>Human are a expectable result being, we want simple thinks we can relate to, and communication is no different, if its not natural or complex we tend to rechasar it.
-This naturality is in part why the singleton pattern was so widely overused. Humans have a requirement of feeling they are in control, in this case the control of the entity you speak to, example of this is you will preffer to speak with a friend about your issue than actually go around on the street talking with anyone because you will be unable to control who this entity will comunicate your message to in the future.
-The web has a similar control pattern that we relate to as humans, always been powered by servers and architectures have been normally been based on a request/response expectation. I think normally because we are used to this as humans, when you talk to someone you expect them to answer.
-Now every single web has their own api, specially due the proliferations of SPA, this became a must have, but is this what every web/service requires to comunicate with fellow machines? and with humans?</p>]]></content:encoded>
-            <category>agile</category>
-            <category>webdev</category>
-            <category>programming</category>
-            <category>productivity</category>
-        </item>
-        <item>
-            <title><![CDATA[The testing piramid is actually fat]]></title>
-            <link>https://kanekotic.com/blog/2022/08/02/fat-testing-piramid</link>
-            <guid>/2022/08/02/fat-testing-piramid</guid>
-            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[In the world of microservices testing rules have changed]]></description>
-            <content:encoded><![CDATA[<p>During a long time we have all refered to the test piramid as a normal piramid, but is this the correct shape? should unit tests run always in complete isolation?
-When unit testing, dependencies tend to be moved to their own responsible portions of code. This latter on is passed into other portions of code that will use it, this is basee on the principle of inversion of control. This is great becuase we want classes or functions to do single things, and do it right.
-Sometimes dependency injection becomes an obsession and we generate unrequired layers, adapters, helpers, etc. This overengineering was necesary on the past to have fully tested code as external interactions where complex and costly to simulate.
-Nowadays this is not an issue anymore with docker and databases that can simulate real behaviour in memory.
-, so how do we make sure that logic embeded in queries are correct? or interactions with other services are correct?</p>]]></content:encoded>
-            <category>agile</category>
-            <category>webdev</category>
-            <category>programming</category>
-            <category>testing</category>
-        </item>
-        <item>
-            <title><![CDATA[MacroInfrastructure due Microservice Obsesion]]></title>
-            <link>https://kanekotic.com/blog/2022/08/02/macroInfrastructure-microservice-obsesion</link>
-            <guid>/2022/08/02/macroInfrastructure-microservice-obsesion</guid>
-            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[The over-engineering of our age]]></description>
-            <content:encoded><![CDATA[<p>Cloud services and infrastructure as code during the last decade have revolutionized our industry, they have allowed us to be able to procure infrastructure in a very simple way and adaptable to the needs based on traffic. This allowed us to move from writing humongous monolithic applications to write smaller applications that run in their own infrastructure and communicate between themselves.
-One of the most accepted definition of a microservice can be expressed as:
-A self-contained portion of code that do not share resources with other services, can be deployed independently and should be easy to rewrite in a small portion of time.
-This sounds actually great when we talk about individual parts of a software projects. I was definetly sold on it after understanding that definition.
-Nevertheless when thinking about systems and how they operate. There is a point to make about granularity as software does never work on complete isolated units. It requires interactions to fullfill their purpose.
-Most of the monolithic applications of the past had an issue of being over-engineered to allow changes that might never happen. Could that happen also with infrastructure? Is it currently a real problem for delivery?</p><p>Lost Overview Of The Domain
-When a system grows to much in small pieces, it becomes more and more complex to have an overview of the goal of the moving parts. When pieces are to small domain events start becoming exchange of information in between nodes of a network. All this removes cohesion on the knowledge over the domain of a system, making it difficult to grasp the real intention and capabilities of concepts and actors across a system.</p><p>Why… if YAGNI
-One of the main ideas of micro-services was to be able to validate assumptions fast. Before bootstrapping new services or infrastructure, there is a need to ask ourselves about the existence of a service or infrastructure that contains the domain knowledge required for the experiment in the current ecosystem.
-If we are not careful experiments wont be experiments. They will be MVPs, where domain knowledge is re-implemented, just for the sake of have it as a standalone node on the system.</p><p>Repeating Yourself
-When we create pieces of code that are independent there is always a certain level of bootstrapping that is required and repeated in each nodes of our systems.
-This will cause not only a set of duplicated code, but also has a development time cost attached to it. Bootstraping a project in a high granularity system can be complex to standardize.</p><p>Babel tower Issue
-The more parts a system has, the less heterogeneous it becomes. This at the same time translates into a more complex environment with more integration's, frameworks and bigger learning curves that affects delivery. There need to be a balance of when and where in a system a new technology is added. Decisions need to be based on needs and not on preferences.</p><p>Implicit runtime dependencies
-The more a system get split the more dependency on certain node it will have. This tend to cause more dependencies in between the pieces of your infrastructure based puzzle where you start having god infrastructure points that become single point of failure, or you have chain of dependent infra that need to be deployed in a go or certain order.</p><p>Hidden Complexity
-The more your microservice environment grows the more it requires a growing support infrastructure for monitoring, alerting and other services not used as part of the main system. This normally is a separate effort and has its own cost. The more a system grows those hidden complexities become a dependency for all the nodes in the system, making it a complex task to evolve and change those dependencies.</p><p>Microservices, the cloud and infrastructure as a service have definitely revolutionized our industry, nevertheless as everything there is a need for balance. Making sure we use the right tool for the job and we don't over-engineer things, not only at a code level but also at infrastructure level, as everything has a cost.</p>]]></content:encoded>
-            <category>agile</category>
-            <category>webdev</category>
-            <category>programming</category>
-            <category>architecture</category>
-        </item>
-        <item>
-            <title><![CDATA[Resource VS Process Microservices - Round 1]]></title>
-            <link>https://kanekotic.com/blog/2022/08/02/resource-process-microservices</link>
-            <guid>/2022/08/02/resource-process-microservices</guid>
-            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Resource VS Process Microservices]]></description>
-            <content:encoded><![CDATA[<p>During the last decade micro-services have been taking traction in the development world. Nevertheless moving from a monolithic view to a more self-served set of pieces is not an easy mental migration.
-I have seen in my experience two different approaches with two very different outcomes. One is based on resources and the other one is based on process.
-The resource approach is based on the idea of Object Orientation. Meaning everything should be abstracted as an object that can be manipulated overtime by the consumers of that resource. In this approach the Data is on the drivers seat.
-The process approach is based on the more functional view of the world. Meaning data is transform as part of a process to achieve a specific end. In this approach the Process is on the drivers seat.
-this has ramification at a few different levels.
-Resource Approach
-This approach makes simple to understand concepts, but tends to be very chatty and cause a high cognitive load when understanding the overal interactins. It requires either an interface to the outside world that orchestrates all the calls. Or it requires the consumer to know all the required resources and do the process on their side.
-Independence
-The orchestration approach, requires normally to sync different microservices and teams. This will most of the time require a set of calls that are synchronous to retrieve the correct information to query another micro-service.
-This brings to the picture a concept that Jonas Boner calls microliths in this article. The idea is that if you have synchronous calls in between services to serve information, services are not independent, and cant not be treated as individual pieces.
-This has the side effect that releasing microservices cant be achieved as independent pieces, ending up in releases at absurd times where it wont affect customers and a lot of environments due the complex understanding of stability of services. Causing longer release cycles and more heavy process required.
-Domain Understanding
-The resource view makes it very simple to understand individual pieces, and the domain of teams becomes that individual resources. This causes a need of a different layer of Domain Understanding in the orchestrator or the consuming applications. That can cause a cognitive overload.
-Normally this environments require a lot of overlook from an environment perspective as they are based on having sources ofd true for each abstraction of the data. The more an environment growths the more the cognitive overload will be there causing a possible misalignment.
-Business Organization
-This approach normally causes an organization to be a layared one as the vertical separation is not possible, due the need to sync multiple resources. This affects at the same time independence of teams. As a team cant own from an understanding perspective any user process view, due the lack of the business domain understanding.
-Process Approach
-The process approach tends to be more self contained its based on the idea that duplicated data is not an issue. You do not have a source of true for the resource, what you have is a chain of custody of that resource data.
-Independence
-Communication on this systems normally happen through queues and teams are in charge of specific process. Based on this idea, the indirection layer provided by this allows teams and service to be in control of their own environment and have a lower amount of external dependencies simplifying.
-Domain Understanding
-Business Organization</p>]]></content:encoded>
-            <category>agile</category>
-            <category>webdev</category>
-            <category>programming</category>
-            <category>architecture</category>
-        </item>
-        <item>
             <title><![CDATA[Stop doing PR's in your Office]]></title>
-            <link>https://kanekotic.com/blog/2022/08/02/stop-prs</link>
-            <guid>/2022/08/02/stop-prs</guid>
-            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
+            <link>https://kanekotic.com/blog/2022/08/08/stop-prs</link>
+            <guid>/2022/08/08/stop-prs</guid>
+            <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Update your npm package dependencies and release with Travis]]></description>
             <content:encoded><![CDATA[<p>Over the last few years some practices seem to be more a dogma than a value adding practice. One of this is <code>Pull Requests</code>. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-prs-exist">Why PR's exist<a class="hash-link" href="#why-prs-exist" title="Direct link to heading">​</a></h3><ul><li><strong>Malicious Code Prevention</strong>: Pull requests exist mostly as a practice accepted for <code>zero trust environments</code> (ex. Open Source). An attack vector on this type of environments is the ability of anyone to contribute meaning you could inject code that could create know vulnerabilities that packages will inherit. That is why maintainers validate code from unknown users.</li></ul><p><img loading="lazy" src="https://github.com/kanekotic/diagrams/blob/main/Stop%20doing%20PR.drawio.png?raw=true" alt="Malicious actors" class="img_ev3q"></p><ul><li><strong>Highly Distributed Teams</strong>: PR's can be use for highly distributed teams (around the clock) as a way to do knowledge sharing. If someone in side A of the world can follow and understand the changes for a feature that is being developed in side B of the world.</li></ul><p><img loading="lazy" src="https://github.com/kanekotic/diagrams/blob/main/Stop%20doing%20PR-Around%20The%20Clock.drawio.png?raw=true" alt="Distributed Teams" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-issue">The issue<a class="hash-link" href="#the-issue" title="Direct link to heading">​</a></h3><p>IS there any value of doing PRs when people work collocated? What is the cost of PRs in trust environments?</p><p>The value that normally people give to PRs is the one of having a <strong>peer review process</strong>. Nevertheless, we will see later in this article that there are less invasive ways to do this.</p><p>Some costs of PRs are: </p><ul><li><p><strong>Slow Delivery</strong>: PRs are a start and stop strategy where there is a gateway to merge code. This is time that needs to be taken by developers (writting &amp; preparing a PR) and reviewers (reviewing, commenting, etc) to go through the process, and at the same time is more time the code takes to get to production (merging, re-testing, etc). This is significant for features bit also for fixes, meaning you can go from a response time of minutes to hours.</p></li><li><p><strong>Isolation work</strong>: When working on branches devs work on code that works in isolation but needs to be merge with a continious stream of changes. This means that any test in isolation will probably be invalidated upon merging.</p></li><li><p><strong>Lack of ownership</strong>: As work is done in isolation the developer that creates a PR delegates part or the responsability to the reviewer. Humans don't have compilers or containers to run the code in our brain, meaning catching errors tends to be out of our realm.</p></li><li><p><strong>Egos</strong>: As catching errors tends to be out of our realm PRs tend to become a thing related to preferences (Style, patterns, etc). This hardly provides any value to the code as either tools like linters can do this automatically or it brings premature optimizations. </p></li><li><p><strong>Late feedback</strong>: Any valid recomendation is actually provided quite late in the process when the code has already been written and validated. Causing rework that takes time.</p></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-alternatives">The Alternatives<a class="hash-link" href="#the-alternatives" title="Direct link to heading">​</a></h3><p><code>Pull requests</code> are just one of the asyncronous peer code reviews styles. Is not the only way of doing peer reviews. </p><p>Some other types of peer reviews that I personally like are:</p><ul><li><strong>Over-the-shoulder</strong>: The bases of this is to have a conversation over what has been or is being implemented. This creates a syncronous feedback loop on an async process. It does not fix all the shortcommings of a PR but it creates a faster feedback loop. </li><li><strong>Pair Programming / Mob Programming</strong>: The idea is that multiple developers work in the same code base in the same computer creating a syncronoous feedback loop in a syncronous process. This in conjunction with <code>Trunk based development</code> allows very fast feedback loops at product level, and with the correct tools generates resiliance and ownership among developers.</li></ul><p>The disclaimer here is I have worked pair programming, TDD and trunk based development for more than 5 years in multiple size companies and it has always been a bliss, so I encourage every developer to actually try it.</p>]]></content:encoded>
             <category>agile</category>
