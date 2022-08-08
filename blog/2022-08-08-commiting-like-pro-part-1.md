@@ -4,7 +4,7 @@ description: Using git hooks to make sure your commits do what you expect
 authors: [kanekotic]
 tags: [agile,webdev,programming,productivity]
 draft: false
-published: false
+published: true
 series: "commiting Like a Pro in NodeJs"
 ---
 
