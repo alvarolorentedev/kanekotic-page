@@ -6,9 +6,6 @@ fields:
   name: title
   label: title
 - type: text
-  name: summary
-  label: summary
-- type: text
   name: description
   label: description
 - type: datetime
