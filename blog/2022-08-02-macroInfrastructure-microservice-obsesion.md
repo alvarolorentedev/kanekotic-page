@@ -12,6 +12,8 @@ draft: true
 published: false
 
 ---
+## The Context
+
 Cloud and infrastructure as code have revolutionized our industry. They allowed us to be able to procure infrastructure in a simple, adaptable way.   
 This allowed us to move from writing huge monolithic applications to write microservices that interact between them.   
 One of the most accepted definition of a microservice can be expressed as: 
