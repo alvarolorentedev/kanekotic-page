@@ -75,16 +75,6 @@
             <category>github</category>
         </item>
         <item>
-            <title><![CDATA[C# - Path.Combine]]></title>
-            <link>https://kanekotic.com/blog/2016/02/04/csharp-path-combine</link>
-            <guid>/2016/02/04/csharp-path-combine</guid>
-            <pubDate>Thu, 04 Feb 2016 07:56:49 GMT</pubDate>
-            <description><![CDATA[C# - Path.Combine]]></description>
-            <content:encoded><![CDATA[<p>When using path.Combine if the second argument starts with a /. the first path is ignored and will give a path based on the C: drive.</p><div class="language-csharp codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-csharp codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">var path = Path.Combine(firstpath,$@"\myfolder\myfile.txt");</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>will not return &lt;firstpath\myfolder\myfile.txt&gt; will return &lt;C:<!-- -->\<!-- -->\myfolder\myfile.txt&gt;.</p>]]></content:encoded>
-            <category>daily</category>
-            <category>learn</category>
-        </item>
-        <item>
             <title><![CDATA[C# - Extension methods overlap with linq]]></title>
             <link>https://kanekotic.com/blog/2016/01/28/extension-methods-overlap-with-linq</link>
             <guid>/2016/01/28/extension-methods-overlap-with-linq</guid>
