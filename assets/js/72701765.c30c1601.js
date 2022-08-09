@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[270],{9743:e=>{e.exports=JSON.parse('{"title":"Maintained","slug":"/category/maintained","permalink":"/docs/category/maintained","navigation":{"previous":{"title":"Welcome","permalink":"/docs/intro"},"next":{"title":"Express Exception Handler","permalink":"/docs/maintained/express-exception-handler"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3648],{2492:e=>{e.exports=JSON.parse('{"title":"Archived","slug":"/category/archived","permalink":"/docs/category/archived","navigation":{"previous":{"title":"Coin Run","permalink":"/docs/maintained/coin-run"},"next":{"title":"Search Error On","permalink":"/docs/archived/search-error-on"}}}')}}]);
