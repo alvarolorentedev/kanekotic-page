@@ -10,6 +10,7 @@ tags:
 - productivity
 draft: true
 published: false
+date: 2022-08-10T22:05:47+02:00
 
 ---
 The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases.   
