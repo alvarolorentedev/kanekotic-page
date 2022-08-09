@@ -9,7 +9,7 @@ tags:
 - programming
 - productivity
 draft: false
-published: false
+published: true
 series: commiting Like a Pro in NodeJs
 
 ---
