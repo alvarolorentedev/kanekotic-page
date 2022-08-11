@@ -1,5 +1,5 @@
 ---
-title: 'Micriservices: APIs the New Singleton'
+title: 'Double-edge Microservices: APIs the New Singleton'
 description: In the current world of development we solve all with APIs
 authors:
 - kanekotic
