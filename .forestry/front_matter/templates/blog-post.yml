@@ -34,3 +34,5 @@ fields:
   config:
     required: false
   label: series
+pages:
+- blog/double-edge-microservices-premature.md
