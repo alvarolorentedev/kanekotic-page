@@ -1,15 +1,15 @@
 ---
-title: 'Bounded Context in Microservices: Resource VS Process'
-description: How should we split our systems in the cloud era
+title: 'Double-edge Microservices: Resource VS Process'
+description: Is there a good way and a bad way of splitting microservices
 authors:
 - kanekotic
 tags:
-- agile
-- webdev
+- api
 - programming
 - architecture
 draft: true
 published: false
+series: microservices a double-edged sword
 
 ---
 During the last decade micro-services have been taking traction in the development world. Nevertheless moving from a monolithic view to a more self-served set of pieces is not an easy mental migration.
