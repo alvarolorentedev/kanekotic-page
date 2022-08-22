@@ -2,19 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-08-21T22:00:00.000Z</updated>
+    <updated>2022-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://kanekotic.com/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>/test</id>
-        <link href="https://kanekotic.com/blog/test"/>
-        <updated>2022-08-21T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[test]]></summary>
-        <content type="html"><![CDATA[<p>test</p>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Commiting Like a Pro in NodeJs: The Message]]></title>
         <id>/2022/08/09/commiting-like-pro-part-2</id>
