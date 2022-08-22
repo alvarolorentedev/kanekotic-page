@@ -4,10 +4,18 @@
         <title>Kanekotic's Site Blog</title>
         <link>https://kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
-        <lastBuildDate>Tue, 09 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Aug 2022 22:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[test]]></title>
+            <link>https://kanekotic.com/blog/test</link>
+            <guid>/test</guid>
+            <pubDate>Sun, 21 Aug 2022 22:00:00 GMT</pubDate>
+            <description><![CDATA[test]]></description>
+            <content:encoded><![CDATA[<p>test</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Commiting Like a Pro in NodeJs: The Message]]></title>
             <link>https://kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2</link>
