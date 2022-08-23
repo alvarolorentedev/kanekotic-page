@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-08-09T00:00:00.000Z</updated>
+    <updated>2022-08-23T12:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Power Automate: Automating Social Media]]></title>
+        <id>/power-automate-automating-social-media</id>
+        <link href="https://kanekotic.com/blog/power-automate-automating-social-media"/>
+        <updated>2022-08-23T12:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Testing how this really will work</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Commiting Like a Pro in NodeJs: The Message]]></title>
         <id>/2022/08/09/commiting-like-pro-part-2</id>
