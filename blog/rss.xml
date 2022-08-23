@@ -4,17 +4,10 @@
         <title>Kanekotic's Site Blog</title>
         <link>https://kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
-        <lastBuildDate>Tue, 23 Aug 2022 12:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[Power Automate: Automating Social Media]]></title>
-            <link>https://kanekotic.com/blog/power-automate-automating-social-media</link>
-            <guid>/power-automate-automating-social-media</guid>
-            <pubDate>Tue, 23 Aug 2022 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Testing how this really will work</p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Commiting Like a Pro in NodeJs: The Message]]></title>
             <link>https://kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2</link>
