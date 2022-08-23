@@ -36,5 +36,4 @@ fields:
     required: false
   label: series
 pages:
-- blog/double-edge-microservices-premature.md
 - blog/power-automate-automating-social-media.md
