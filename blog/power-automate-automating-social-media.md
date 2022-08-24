@@ -9,5 +9,15 @@ published: false
 series: ''
 
 ---
-I am currently starting some new open-source projects and I feel it is tedious to do some recurrent tasks. Like, for example, promote this blog post in social media or announce a new release.  
-automate.drawio.png?raw=true
+I am currently starting some new open-source projects and I feel it is tedious to do some recurrent tasks. For example: 
+
+* Promote this blog post in social media 
+* Announce a new release.
+
+[Power Automate](https://powerautomate.microsoft.com/en-us/) & [IFTTT](https://ifttt.com/) integrations allow just this, by a process of action and reaction.  
+![](https://github.com/kanekotic/diagrams/blob/main/automate.drawio.png?raw=true)
+
+ These systems provide:
+
+* **Triggers**: they are the starting point of what will happen after.
+* **Actions**: they react to previous steps on the described flow.
