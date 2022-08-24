@@ -4,7 +4,7 @@ description: how to automate tedius tasks with low code platforms
 date: 2022-08-24T00:00:00+02:00
 authors: []
 tags: []
-draft: true
+draft: false
 published: true
 series: ''
 
