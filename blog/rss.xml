@@ -4,18 +4,10 @@
         <title>Kanekotic's Site Blog</title>
         <link>https://kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
-        <lastBuildDate>Thu, 25 Aug 2022 13:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Aug 2022 22:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[example post]]></title>
-            <link>https://kanekotic.com/blog/example-post</link>
-            <guid>/example-post</guid>
-            <pubDate>Thu, 25 Aug 2022 13:05:00 GMT</pubDate>
-            <description><![CDATA[troloro]]></description>
-            <content:encoded><![CDATA[<p><em>something</em> to <strong>integrate</strong> with medium</p><p><img loading="lazy" src="https://github.com/kanekotic/kanekotic/raw/main/header.svg" class="img_ev3q"></p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Automate Anything: Power Automate + Trello + IFTTT]]></title>
             <link>https://kanekotic.com/blog/power-automate-automating-social-media</link>
