@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-08-23T22:00:00.000Z</updated>
+    <updated>2022-08-25T13:05:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[example post]]></title>
+        <id>/example-post</id>
+        <link href="https://kanekotic.com/blog/example-post"/>
+        <updated>2022-08-25T13:05:00.000Z</updated>
+        <summary type="html"><![CDATA[troloro]]></summary>
+        <content type="html"><![CDATA[<p><em>something</em> to <strong>integrate</strong> with medium</p><p><img loading="lazy" src="https://github.com/kanekotic/kanekotic/raw/main/header.svg" class="img_ev3q"></p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automate Anything: Power Automate + Trello + IFTTT]]></title>
         <id>/power-automate-automating-social-media</id>
