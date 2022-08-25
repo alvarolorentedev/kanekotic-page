@@ -36,4 +36,5 @@ fields:
     required: false
   label: series
 pages:
+- blog/example-post.md
 - blog/power-automate-automating-social-media.md
