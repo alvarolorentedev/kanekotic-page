@@ -20,6 +20,8 @@ fields:
     max: 
     source:
       type: simple
+    options:
+    - kanekotic
   label: authors
 - type: list
   name: tags
@@ -27,6 +29,7 @@ fields:
 - type: boolean
   name: draft
   label: draft
+  default: true
 - type: boolean
   name: published
   label: published
