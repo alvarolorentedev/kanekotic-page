@@ -17,6 +17,7 @@ series: ''
 ## Video
 
 ![Automate your social media vide](https://www.youtube.com/watch?v=dNmQtYxzbRo)
+{% dNmQtYxzbRo %}
 
 ## Long Version
 
