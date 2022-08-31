@@ -14,6 +14,12 @@ published: true
 series: ''
 
 ---
+## Video
+
+![Automate your social media vide](https://www.youtube.com/watch?v=dNmQtYxzbRo)
+
+## Long Version
+
 I am currently starting some new open-source projects and I feel it is tedious to do some recurrent tasks. For example:
 
 * Promote this blog post in social media
