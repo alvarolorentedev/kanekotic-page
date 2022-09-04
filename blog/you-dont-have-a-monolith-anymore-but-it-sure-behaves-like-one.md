@@ -6,8 +6,11 @@ description: ''
 authors:
 - kanekotic
 tags:
+- api
+- microservices
+- programming
 - architecture
-published: false
+published: true
 series: The journey from the monolith to microservices
 
 ---
