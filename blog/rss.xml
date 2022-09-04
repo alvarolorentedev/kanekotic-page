@@ -18,6 +18,9 @@
 <!-- -->If we have well-defined contracts in between our pieces, we don't need to finish things synchronously, we can promise our users things will happen. And let our services do their work at their speed.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion-and-follow-ups">Conclusion and follow-ups<a class="hash-link" href="#conclusion-and-follow-ups" title="Direct link to heading">​</a></h2><p>Are we doomed?<br>
 <img loading="lazy" src="https://microlithalternatives.kanekotic.com/images/timetopanic.jpg" class="img_ev3q"></p><p>The answer is no, we are not doomed! We can design our services with the correct division using some DDD tooling and also use the correct tools to decouple our microservices.<br>
 <!-- -->Let's talk about this on the next chapters of this series.</p>]]></content:encoded>
+            <category>api</category>
+            <category>microservices</category>
+            <category>programming</category>
             <category>architecture</category>
         </item>
         <item>

@@ -21,6 +21,9 @@
             <name>Alvaro Jose</name>
             <uri>https://github.com/kanekotic</uri>
         </author>
+        <category label="api" term="api"/>
+        <category label="microservices" term="microservices"/>
+        <category label="programming" term="programming"/>
         <category label="architecture" term="architecture"/>
     </entry>
     <entry>
