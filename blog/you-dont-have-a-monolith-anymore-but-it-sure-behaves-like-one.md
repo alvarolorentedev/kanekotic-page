@@ -1,6 +1,6 @@
 ---
 date: 2022-09-04T09:32:34+02:00
-draft: true
+draft: false
 title: You dont have a monolith anymore but it sure behaves like one
 description: ''
 authors:
@@ -24,11 +24,15 @@ Nevertheless, it tends to outgrow itself and become more a pain than a solution.
 
 Due to these pains, microservices were created. To give team/domain independence to create focused solutions on a business that has already been validated.
 
+![monolith](https://user-images.githubusercontent.com/3071208/188307798-0e34ade4-a102-4aef-bff4-73eebc4bb358.JPG)
+
 ## The Microservices
 
 Let's start with a [definition of a microservice](https://aws.amazon.com/microservices/):
 
 > Microservices are an architectural and organizational approach to software development where software is composed of small independent services that communicate over well-defined APIs. These services are owned by small, self-contained teams.
+
+![microservices](https://user-images.githubusercontent.com/3071208/188307797-7c30c8cb-bff7-4755-822b-7cf469cba372.JPG)
 
 All sounds like flowers and happiness when we talk about microservice. Nevertheless, does microservices solve the entire issue by itself?
 
@@ -61,10 +65,31 @@ Having microliths comes from multiple misconceptions we have. Some of them are:
 
 Every so often, when we divide the monolith, we think about domains being resources. Due to how we normally have divided API's and DB's as we think about splitting what already exists and not about extracting the processes being achieved.
 
-When thinking about a microservice, we should think about what part of the process it is trying to solve, this will help us define good boundaries for our bounded context. 
+When thinking about a microservice, we should think about what part of the process it is trying to solve, this will help us define good boundaries for our bounded context.
 
 When we think in a process, data is secondary. The process will require different pieces of existing data to fulfill their capabilities, and it is ok for it to own its copy of what is needed to fulfill his mission.
 
 #### Independence != Single Source
 
-A single source of data does not mean independence, as whenever your software requires complementary data 
+A single source of data does not mean independence, as whenever your software requires complementary data, it will have to acquire it from somewhere else, what means a direct  dependency. This also affects boundaries as you must enter other team's domain.
+
+If you strive for independence, copy the information you require for your process, even if it exists somewhere else.
+
+#### Fast != Synchronous
+
+Humans think that a direct response is always faster than sending out a message. While occasionally this is true, in microservices this could start a cascade of synchronous calls from one service to the next one, leaving our users in a timeout limbo.
+
+Think if really your system requires calling others directly or if you can message them to start their process.
+
+#### Resilience != Complete
+
+Making sure the entire process has been completed, is normally confused by resiliency. Resiliency only refers to the capability to complete the process.   
+If we have well-defined contracts in between our pieces, we don't need to finish things synchronously, we can promise our users things will happen. And let our services do their work at their speed.
+
+## Conclusion and follow-ups
+
+Are we doomed?  
+![](https://microlithalternatives.kanekotic.com/images/timetopanic.jpg)
+
+The answer is no, we are not doomed! We can design our services with the correct division using some DDD tooling and also use the correct tools to decouple our microservices.  
+Let's talk about this on the next chapters of this series.
