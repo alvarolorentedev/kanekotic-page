@@ -1,8 +1,8 @@
 ---
 date: 2022-09-04T09:32:34+02:00
 draft: false
-title: You dont have a monolith anymore but it sure behaves like one
-description: ''
+title: Comon mistakes when spliting the monolith
+description: A set of the moth common mistakes when splitting your monolith into microservices
 authors:
 - kanekotic
 tags:
