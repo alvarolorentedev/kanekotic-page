@@ -1,5 +1,5 @@
 ---
-date: 2022-09-04T12:32:34+02:00
+date: 2022-09-04T12:32:34.000+02:00
 draft: false
 title: Common mistakes when splitting the monolith
 description: A set of the most common mistakes when splitting your monolith into microservices
@@ -27,7 +27,7 @@ Nevertheless, it tends to outgrow itself and become more a pain than a solution.
 
 Due to these pains, microservices were created. To give team/domain independence to create focused solutions on a business that has already been validated.
 
-![monolith](https://user-images.githubusercontent.com/3071208/188307798-0e34ade4-a102-4aef-bff4-73eebc4bb358.JPG)
+![](https://www.kanekotic.com/img/monolith.JPG)
 
 ## The Microservices
 
@@ -86,7 +86,7 @@ Think if really your system requires calling others directly or if you can messa
 
 #### Resilience != Complete
 
-Making sure the entire process has been completed, is normally confused by resiliency. Resiliency only refers to the capability to complete the process.   
+Making sure the entire process has been completed, is normally confused by resiliency. Resiliency only refers to the capability to complete the process.  
 If we have well-defined contracts in between our pieces, we don't need to finish things synchronously, we can promise our users things will happen. And let our services do their work at their speed.
 
 ## Conclusion and follow-ups
