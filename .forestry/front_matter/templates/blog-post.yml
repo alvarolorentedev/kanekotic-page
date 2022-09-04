@@ -40,3 +40,4 @@ fields:
   label: series
 pages:
 - blog/power-automate-automating-social-media.md
+- blog/you-dont-have-a-monolith-anymore-but-it-sure-behaves-like-one.md
