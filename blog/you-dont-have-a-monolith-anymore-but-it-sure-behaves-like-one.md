@@ -20,7 +20,7 @@ Nevertheless, it tends to outgrow itself and become more a pain than a solution.
 * We all work on the same code base, and conflicts and side effects start to happen.
 * You need to release the entire solution, even if different teams have different cycles.
 * There are code freezes to go through validation cycles.
-* It scales as a whole, not only the portion that has an increase in traffic. 
+* It scales as a whole, not only the portion that has an increase in traffic.
 
 Due to these pains, microservices were created. To give team/domain independence to create focused solutions on a business that has already been validated.
 
@@ -43,7 +43,7 @@ What is happening?
 
 ### Microliths
 
-The smells mention before are caused by what [Jonas Boner](http://jonasboner.com/) call Microliths, a great word for what is happening here.   
+The smells mention before are caused by what [Jonas Boner](http://jonasboner.com/) call Microliths, a great word for what is happening here.  
 Even if we think this are 'independent' services, synchronous communication can cause side effects we don't want:
 
 * There can be cascading events between your services.
@@ -52,3 +52,19 @@ Even if we think this are 'independent' services, synchronous communication can 
 * There is additional latency on the network calls.
 
 ![](https://microlithalternatives.kanekotic.com/images/microliths.jpg)
+
+### What got lost in translation?
+
+Having microliths comes from multiple misconceptions we have. Some of them are:
+
+#### Domains != Resources
+
+Every so often, when we divide the monolith, we think about domains being resources. Due to how we normally have divided API's and DB's as we think about splitting what already exists and not about extracting the processes being achieved.
+
+When thinking about a microservice, we should think about what part of the process it is trying to solve, this will help us define good boundaries for our bounded context. 
+
+When we think in a process, data is secondary. The process will require different pieces of existing data to fulfill their capabilities, and it is ok for it to own its copy of what is needed to fulfill his mission.
+
+#### Independence != Single Source
+
+A single source of data does not mean independence, as whenever your software requires complementary data 
