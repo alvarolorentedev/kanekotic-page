@@ -38,5 +38,3 @@ fields:
   config:
     required: false
   label: series
-pages:
-- blog/power-automate-automating-social-media.md
