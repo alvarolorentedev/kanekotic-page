@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Kanekotic's Site Blog</title>
-        <link>https://kanekotic.com/blog</link>
+        <link>https://www.kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
         <lastBuildDate>Sun, 04 Sep 2022 07:32:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Common mistakes when splitting the monolith]]></title>
-            <link>https://kanekotic.com/blog/you-dont-have-a-monolith-anymore-but-it-sure-behaves-like-one</link>
+            <link>https://www.kanekotic.com/blog/you-dont-have-a-monolith-anymore-but-it-sure-behaves-like-one</link>
             <guid>/you-dont-have-a-monolith-anymore-but-it-sure-behaves-like-one</guid>
             <pubDate>Sun, 04 Sep 2022 07:32:34 GMT</pubDate>
             <description><![CDATA[A set of the most common mistakes when splitting your monolith into microservices]]></description>
@@ -26,7 +26,7 @@
         </item>
         <item>
             <title><![CDATA[Automate Anything: Power Automate + Trello + IFTTT]]></title>
-            <link>https://kanekotic.com/blog/power-automate-automating-social-media</link>
+            <link>https://www.kanekotic.com/blog/power-automate-automating-social-media</link>
             <guid>/power-automate-automating-social-media</guid>
             <pubDate>Tue, 23 Aug 2022 22:00:00 GMT</pubDate>
             <description><![CDATA[how to automate tedius tasks with low code platforms]]></description>
@@ -39,7 +39,7 @@
         </item>
         <item>
             <title><![CDATA[Commiting Like a Pro in NodeJs: The Message]]></title>
-            <link>https://kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2</link>
+            <link>https://www.kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2</link>
             <guid>/2022/08/09/commiting-like-pro-part-2</guid>
             <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Using tools to create descriptive commits]]></description>
@@ -51,7 +51,7 @@
         </item>
         <item>
             <title><![CDATA[Commiting Like a Pro in NodeJs: The hooks]]></title>
-            <link>https://kanekotic.com/blog/2022/08/08/commiting-like-pro-part-1</link>
+            <link>https://www.kanekotic.com/blog/2022/08/08/commiting-like-pro-part-1</link>
             <guid>/2022/08/08/commiting-like-pro-part-1</guid>
             <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Using git hooks to make sure your commits do what you expect]]></description>
@@ -63,7 +63,7 @@
         </item>
         <item>
             <title><![CDATA[Stop doing PR's inside the Office]]></title>
-            <link>https://kanekotic.com/blog/2022/08/08/stop-prs</link>
+            <link>https://www.kanekotic.com/blog/2022/08/08/stop-prs</link>
             <guid>/2022/08/08/stop-prs</guid>
             <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[PRs should only be part of certain environments and not a general practice]]></description>
@@ -75,7 +75,7 @@
         </item>
         <item>
             <title><![CDATA[Update your npm package dependencies and release with Travis]]></title>
-            <link>https://kanekotic.com/blog/2018/07/11/travis-ci-update-npm-package-dependencies-and-release</link>
+            <link>https://www.kanekotic.com/blog/2018/07/11/travis-ci-update-npm-package-dependencies-and-release</link>
             <guid>/2018/07/11/travis-ci-update-npm-package-dependencies-and-release</guid>
             <pubDate>Wed, 11 Jul 2018 07:27:28 GMT</pubDate>
             <description><![CDATA[Update your npm package dependencies and release with Travis]]></description>
@@ -91,7 +91,7 @@
         </item>
         <item>
             <title><![CDATA[Create your User/Organization GitHub Page with Hugo + Travis]]></title>
-            <link>https://kanekotic.com/blog/2018/07/04/deploy-hugo-with-travis</link>
+            <link>https://www.kanekotic.com/blog/2018/07/04/deploy-hugo-with-travis</link>
             <guid>/2018/07/04/deploy-hugo-with-travis</guid>
             <pubDate>Wed, 04 Jul 2018 06:35:42 GMT</pubDate>
             <description><![CDATA[Create your User/Organization GitHub Page with Hugo + Travis]]></description>
@@ -105,7 +105,7 @@
         </item>
         <item>
             <title><![CDATA[C# - Extension methods overlap with linq]]></title>
-            <link>https://kanekotic.com/blog/2016/01/28/extension-methods-overlap-with-linq</link>
+            <link>https://www.kanekotic.com/blog/2016/01/28/extension-methods-overlap-with-linq</link>
             <guid>/2016/01/28/extension-methods-overlap-with-linq</guid>
             <pubDate>Thu, 28 Jan 2016 07:56:49 GMT</pubDate>
             <description><![CDATA[C# - Extension methods overlap with linq]]></description>
@@ -115,7 +115,7 @@
         </item>
         <item>
             <title><![CDATA[C# - Fluent Interfaces with Extension Methods]]></title>
-            <link>https://kanekotic.com/blog/2016/01/27/interface-with-extension-methods</link>
+            <link>https://www.kanekotic.com/blog/2016/01/27/interface-with-extension-methods</link>
             <guid>/2016/01/27/interface-with-extension-methods</guid>
             <pubDate>Wed, 27 Jan 2016 07:56:49 GMT</pubDate>
             <description><![CDATA[C# - Fluent Interfaces with Extension Methods]]></description>
@@ -125,7 +125,7 @@
         </item>
         <item>
             <title><![CDATA[Coding - C# - Complex Constructors]]></title>
-            <link>https://kanekotic.com/blog/2016/01/26/c-sharp-complex-constructors</link>
+            <link>https://www.kanekotic.com/blog/2016/01/26/c-sharp-complex-constructors</link>
             <guid>/2016/01/26/c-sharp-complex-constructors</guid>
             <pubDate>Tue, 26 Jan 2016 07:56:49 GMT</pubDate>
             <description><![CDATA[Coding - C# - Complex Constructors]]></description>
