@@ -1,7 +1,7 @@
 ---
 date: 2022-09-04T09:32:34+02:00
 draft: false
-title: Comon mistakes when spliting the monolith
+title: Common mistakes when splitting the monolith
 description: A set of the moth common mistakes when splitting your monolith into microservices
 authors:
 - kanekotic
