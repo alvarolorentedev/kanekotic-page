@@ -14,9 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
-          <Logo style={{width: '40px', height: '40px'}} />
-          {siteConfig.title}
-          <Logo style={{width: '40px', height: '40px'}} />
+          <Logo style={{width: '200px', height: '200px'}} />
         </h1>
         <div style={{
           display: 'flex',
@@ -46,18 +44,6 @@ function HomepageHeader() {
             <img src="https://raw.githubusercontent.com/kanekotic/kanekotic/602c78cf2c5b673412af0d73180e28ab1655bb54/stackoverflow.svg" />
             <img src="https://raw.githubusercontent.com/kanekotic/kanekotic/602c78cf2c5b673412af0d73180e28ab1655bb54/achievements.svg" />
           </div>
-        </div>
-        <div className={styles.buttons}>
-          <Link style={{ margin: '1rem' }}
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Projects
-          </Link>
-          <Link style={{ margin: '1rem' }}
-            className="button button--secondary button--lg"
-            to="/blog">
-            Blog
-          </Link>
         </div>
       </div>
     </header>
