@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Kanekotic\'s Site',
   tagline: 'A place for my Brain & Projects',
-  url: 'https:/kanekotic.com',
+  url: 'https://www.kanekotic.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
