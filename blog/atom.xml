@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-09-04T10:32:34.000Z</updated>
+    <updated>2022-09-05T06:22:55.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://www.kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Patterns to avoiding microlithic microservices]]></title>
+        <id>/2022/09/05/patterns-to-avoiding-microlithic-microservices</id>
+        <link href="https://www.kanekotic.com/blog/2022/09/05/patterns-to-avoiding-microlithic-microservices"/>
+        <updated>2022-09-05T06:22:55.000Z</updated>
+        <summary type="html"><![CDATA[how can we decouple services to avoid some common pitfalls]]></summary>
+        <content type="html"><![CDATA[<p>On the previous installment of this series, we discussed the pitfalls that could happen when we split a monolith into microservices. In specific, we talked about creating what are called microliths.<br>
+<img loading="lazy" src="https://www.kanekotic.com/img/microliths.jpg" class="img_ev3q"></p><p>Given that you have followed the recommendations on designing your domains correctly. Today we are going to elaborate on patterns to remove that synchronous communication in between 'microservices'. This will help our services to become more resilient.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-patterns">The Patterns<a class="hash-link" href="#the-patterns" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="circuit-breakers">Circuit Breakers<a class="hash-link" href="#circuit-breakers" title="Direct link to heading">​</a></h3><p>The most simple solution we can go for is called <strong>circuit breakers</strong>. As it implies, is just a piece of code that upon multiple request failed to a downstream service will fail silently and allow service to resume their normal behavior.</p><p><img loading="lazy" src="https://www.kanekotic.com/img/circuitbreakerdesignpattern.png" class="img_ev3q"></p><p>What are we solving and what are we letting unsolved:</p><ul><li>✔️ We don’t fail continuously if some other service fails.</li><li>❌ We silently don’t finish the entire process requested.</li><li>❌ We require all chain of dependencies to be called.</li><li>❌ We force other services to scale to our needs.</li><li>❌ Data is mutable, so errors will be propagated and not solvable.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="outbox-pattern">Outbox Pattern<a class="hash-link" href="#outbox-pattern" title="Direct link to heading">​</a></h3><p>The next level in solving our microlithic issue is to decouple our services using Pub/Sub to exchange models in between services.<br>
+<!-- -->Our service will consume and store the necessary information to run the process locally, and will broadcast the outcome models. This will mean there will always be a strong consistency in the outbox, and eventual consistency on the service database (if it exists).</p><p><img loading="lazy" src="https://www.kanekotic.com/img/reactivemicroliths.jpg" class="img_ev3q"></p><p>What are we solving and what are we letting unsolved:</p><ul><li>✔️ We don’t fail continuously if some other service fails.</li><li>✔️ We always finish our process and promise the rest will be done.</li><li>✔️ We just require our service to do what we promise.</li><li>✔️ Fast services will be fast, and slow services can go slow.</li><li>❌ Data is mutable, so errors will be propagated and not solvable.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="event-sourcing">Event Sourcing<a class="hash-link" href="#event-sourcing" title="Direct link to heading">​</a></h3><p>The last level is <strong>event sourcing</strong>. The idea is to use the events that generated a specific state and not use the calculated state that a service can provide us.</p><p>This allows a higher resilience due to the immutability of the data. In this case, calculation issues of the past can be solved, as we can reprocess the entire set of events that took us to a certain state.<br>
+<img loading="lazy" src="https://www.kanekotic.com/img/microsystems.jpg" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion-and-follow-ups">Conclusion and follow-ups<a class="hash-link" href="#conclusion-and-follow-ups" title="Direct link to heading">​</a></h2><p>These are some of the patterns that can make our services more independent and resilient. Nevertheless, each of them has a different complexity, meaning it also affects the complexity of our code. For this, we need to make sure we use the correct tool for the job.</p>]]></content>
+        <author>
+            <name>Alvaro Jose</name>
+            <uri>https://github.com/kanekotic</uri>
+        </author>
+        <category label="api" term="api"/>
+        <category label="microservices" term="microservices"/>
+        <category label="programming" term="programming"/>
+        <category label="architecture" term="architecture"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Common mistakes when splitting the monolith]]></title>
         <id>/2022/09/04/common-mistakes-when-splitting-the-monolith</id>
