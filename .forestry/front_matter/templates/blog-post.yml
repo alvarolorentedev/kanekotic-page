@@ -39,4 +39,4 @@ fields:
     required: false
   label: series
 pages:
-- blog/patterns-to-avoiding-microlithic-microservices.md
+- blog/2022-09-05-patterns-to-avoiding-microlithic-microservices.md
