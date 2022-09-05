@@ -5,7 +5,11 @@ title: Patterns to avoiding microlithic microservices
 description: how can we decouple services to avoid some common pitfalls
 authors:
 - kanekotic
-tags: []
+tags:
+- api
+- microservices
+- programming
+- architecture
 published: false
 series: The journey from the monolith to microservices
 
