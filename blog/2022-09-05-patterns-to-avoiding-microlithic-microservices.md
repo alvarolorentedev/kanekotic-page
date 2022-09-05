@@ -10,3 +10,5 @@ published: false
 series: ''
 
 ---
+On the previous installment of this series, we discussed the pitfalls that could happen when we split a monolith into microservices. In specific, we talked about creating what are called microliths.  
+![](https://www.kanekotic.com/img/microliths.jpg)
