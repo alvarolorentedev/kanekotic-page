@@ -21,19 +21,31 @@ Given that you have followed the recommendations on designing your domains corre
 
 ## The Patterns
 
-### Circuit Braked Microliths
+### Circuit Breakers
 
-The most simple solution we can go for is called circuit breakers. As it implies, is just a having a piece of code that upon multiple request failed to a downstream service will fail silently. 
+The most simple solution we can go for is called **circuit breakers**. As it implies, is just a piece of code that upon multiple request failed to a downstream service will fail silently and allow service to resume their normal behavior.
 
 ![](https://www.kanekotic.com/img/circuitbreakerdesignpattern.png)
 
-What are we solving and what are we letting unsolved:  
-✔️ We don’t fail continuously if some other service fails
+What are we solving and what are we letting unsolved:
 
-❌ We silently don’t finish the entire process requested
+* ✔️ We don’t fail continuously if some other service fails.
+* ❌ We silently don’t finish the entire process requested.
+* ❌ We require all chain of dependencies to be called. 
+* ❌ We force other services to scale to our needs.
+* ❌ Data is mutable, so errors will be propagated and not solvable.
 
-❌ We require all chain of dependencies to be called
+### Outbox Pattern
 
-❌ We force other services to scale to our needs
+The next level in solving our microlithic issue is to decouple our services using Pub/Sub to exchange models in between services.   
+Our service will consume and store the necessary information to run the process locally, and will broadcast the outcome models. This will mean there will always be a strong consistency in the outbox, and eventual consistency on the service database (if it exists).
 
-❌ Data is mutable, so errors will be propagated and not solvable
+![](https://www.kanekotic.com/img/reactivemicroliths.jpg)
+
+What are we solving and what are we letting unsolved:
+
+* ✔️ We don’t fail continuously if some other service fails.
+* ✔️ We always finish our process and promise the rest will be done.
+* ✔️ We just require our service to do what we promise.
+* ✔️ Fast services will be fast, and slow services can go slow.
+* ❌ Data is mutable, so errors will be propagated and not solvable.
