@@ -31,13 +31,13 @@ What are we solving and what are we letting unsolved:
 
 * ✔️ We don’t fail continuously if some other service fails.
 * ❌ We silently don’t finish the entire process requested.
-* ❌ We require all chain of dependencies to be called. 
+* ❌ We require all chain of dependencies to be called.
 * ❌ We force other services to scale to our needs.
 * ❌ Data is mutable, so errors will be propagated and not solvable.
 
 ### Outbox Pattern
 
-The next level in solving our microlithic issue is to decouple our services using Pub/Sub to exchange models in between services.   
+The next level in solving our microlithic issue is to decouple our services using Pub/Sub to exchange models in between services.  
 Our service will consume and store the necessary information to run the process locally, and will broadcast the outcome models. This will mean there will always be a strong consistency in the outbox, and eventual consistency on the service database (if it exists).
 
 ![](https://www.kanekotic.com/img/reactivemicroliths.jpg)
@@ -49,3 +49,14 @@ What are we solving and what are we letting unsolved:
 * ✔️ We just require our service to do what we promise.
 * ✔️ Fast services will be fast, and slow services can go slow.
 * ❌ Data is mutable, so errors will be propagated and not solvable.
+
+### Event Sourcing
+
+The last level is **event sourcing**. The idea is to use the events that generated a specific state and not use the calculated state that a service can provide us.
+
+This allows a higher resilience due to the immutability of the data. In this case, calculation issues of the past can be solved, as we can reprocess the entire set of events that took us to a certain state.  
+![](https://www.kanekotic.com/img/microsystems.jpg)
+
+## Conclusion and follow-ups
+
+These are some of the patterns that can make our services more independent and resilient. Nevertheless, each of them has a different complexity, meaning it also affects the complexity of our code. For this, we need to make sure we use the correct tool for the job.
