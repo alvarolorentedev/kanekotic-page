@@ -25,4 +25,26 @@ Event storming is a technique that is part of [DDD](https://en.wikipedia.org/wik
 
 This process is run with stickies in a physical or digital board during a session, and requires the 'experts' on the process to be present to provide the context what/whom/how. The outcome is an understanding of the **business process**, not the technical one. To be able to separate them into different steps with clear responsibilities.
 
-### Example
+### Step-By-Step Guide
+
+#### Prepare a board and the people for the session
+
+Event storming requires people to share a common view and brainstorm and discuss on it. This process takes to count time as a dimension. And has multiple types of stickies that can be used.  
+You can see an example board on the next image:
+
+![](https://www.kanekotic.com/img/event-storming.png)
+
+Regarding the Stickies, their color represent a specific meaning:
+
+* **Events (orange):** These are the most important and widely used component in Event Storming and represent the domain events and anything that is relevant to a domain expert. They are written in past tense and provide the underlying details that feed into the later categorization steps.
+
+
+* **Commands (blue):** These are requests to do something. They can originate from a user or system or by another event.
+* **System (pink):** These represent systems involved in the domain. They may issue commands or receive commands along with triggering events.
+* **User (yellow):** These are human users involved in the process. They may be a single person or a department/team. Yellow sticky notes help show how complicated the workflow of a business process can be based on the number of departments involved and the amount of back and forth.
+* **Aggregate (tan):** This is the first level of categorization and can be thought of as the “thing” that a group of events operate on. Typically they’re a noun and can be identified when there’s a cluster of events dependent on one another.
+* **Read Model (green):** This represents data that may be critical for a user or system to make a decision. I have not seen this one used often, but it can be helpful when there needs to be emphasis on what data the user sees.
+* **Policy (grey):** These represent standards or rules that may need to be executed, such as rules for a compliance policy.  
+  Some of them are used very commonly and others very rarely. 
+
+#### Define the events of your system
