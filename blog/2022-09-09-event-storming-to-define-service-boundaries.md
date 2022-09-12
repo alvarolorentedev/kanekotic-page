@@ -86,4 +86,16 @@ Commands can be positive or negative actions, causing bifurcation and showing di
 now we are left to define where each of the sub-process that conform our system starts and ends. This is done by grouping the stickies with an enclosing and giving a noun + verb to it, as it's a sub-process and it evokes action.  
 ![](https://www.kanekotic.com/img/event-storming-bounded-contexts-drawio.png)
 
+Now you have a set of split actions that can become their microservices and provide part of the process independently.
+
+#### Create **Capabilities Matrix** (Optional)
+
+Now, with the bounded context, we can start defining the capabilities of our services. This is straightforward to express in a matrix.
+
+#### Devise your **Goal Architecture** (Optional)
+
+This 
+
+#### Define a **plan** on how to split the Monolith (Optional)
+
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
