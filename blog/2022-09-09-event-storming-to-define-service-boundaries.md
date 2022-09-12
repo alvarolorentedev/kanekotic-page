@@ -103,8 +103,11 @@ Now, with the bounded context, we can start defining the capabilities of our ser
 Knowing our current architecture, it's good to think where we want to go.   
 This is not only a technical challenge, but an organizational challenge due to [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law). If we would like to be successful in splitting a monolith our communication, meaning the teams structure involved, need to resemble this target state.
 
+![](https://www.kanekotic.com/img/event-storming-goal-architecture-drawio.png)
+
 #### Define a **plan** on how to split the Monolith (Optional)
 
-Things don't happen 
+A change so big as the one shown on the previous image can be overwhelming for an organization and create a paralysis and doubts. It's always good to split the problem in steps to understand progress and be always on a better state. This will improve morale.  
+![](https://www.kanekotic.com/img/event-storming-plan-architecture-drawio.png)
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
