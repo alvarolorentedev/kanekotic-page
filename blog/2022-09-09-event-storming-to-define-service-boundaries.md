@@ -27,7 +27,7 @@ This process is run with stickies in a physical or digital board during a sessio
 
 ### Step-By-Step Guide
 
-let's do an example of how a 
+let's do an example of how a company sets up our internet connection
 
 #### Prepare a board and the people for the session
 
@@ -39,17 +39,29 @@ You can see an example board on the next image:
 Regarding the Stickies, their color represent a specific meaning\[1\]:
 
 * **Events (orange):** Represent the factual events and anything that is relevant to a domain expert.
-
-
 * **Commands (blue):** These are requests to do something. They can originate from a user or system or by another event.
 * **System (pink):** These represent systems involved in the domain. They may issue commands or receive commands along with triggering events.
 * **User (yellow):** These are human users involved in the process. They may be a single person or a department/team.
-* **Aggregate (tan):** This is the first level of categorization and can be thought of as the “thing” that a group of events operates on. 
+* **Aggregate (tan):** This is the first level of categorization and can be thought of as the “thing” that a group of events operates on.
 * **Read Model (green):** This represents data that may be critical for a user or system to decide.
 * **Policy (gray):** These represent standards or rules that may need to be executed, such as rules for a compliance policy.
 
 #### Define the events of your system
 
-Events are the most important information of our board. They represent facts regarding the process and helps encapsulate the knowledge of the 'experts'.
+Events are the most important information of our board. They represent facts regarding the process and helps encapsulate the knowledge of the 'experts'.  
+As we mention before, time is a significant dimension. A process always happens in a period of time. Starting by organizing this 'things' that happen in a timeline is a good way to start.  
+![](https://www.kanekotic.com/img/event-storming-map-events-drawio.png)
+
+In our example, you can see on the previous image we go from checking coverage, to creating a user, to creating a contract and connecting our user to the network.
+
+#### Identify the systems involved (Optional)
+
+The intent of this step is to identify the existing systems and their interdependency. When we discuss systems, they can be internal or external.
+
+![](https://www.kanekotic.com/img/event-storming-map-systems-drawio.png)
+
+In our example, all starts with the website, but soon enough it becomes apparent most of the process is taken care by the monolith. 
+
+This step is optional in the case you have a greenfield. Nevertheless, I highly recommend it if you are splitting a monolith. 
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
