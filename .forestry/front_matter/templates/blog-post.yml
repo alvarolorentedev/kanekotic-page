@@ -40,4 +40,4 @@ fields:
   label: series
 pages:
 - blog/2022-09-05-patterns-to-avoiding-microlithic-microservices.md
-- blog/2022-09-09-event-storming-to-define-service-boundaries.md
+- blog/2022-09-09-event-storming-to-split-the-monolith-into-microservices.md
