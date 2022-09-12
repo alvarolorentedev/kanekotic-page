@@ -91,6 +91,11 @@ Now you have a set of split actions that can become their microservices and prov
 #### Create **Capabilities Matrix** (Optional)
 
 Now, with the bounded context, we can start defining the capabilities of our services. This is straightforward to express in a matrix.
+| Context | Capabilities |
+|---|---|
+| Network Management | Check coverage <br/> Enable Network <br/> 3rd party Hardware management integration |
+| User Management | Create User <br/> User Email Verification |
+| contract Management | Create Contract <br/> User Email Verification <br/> 3rd party digital signature integration |
 
 #### Devise your **Goal Architecture** (Optional)
 
