@@ -27,6 +27,8 @@ This process is run with stickies in a physical or digital board during a sessio
 
 ### Step-By-Step Guide
 
+let's do an example of how a 
+
 #### Prepare a board and the people for the session
 
 Event storming requires people to share a common view and brainstorm and discuss on it. This process takes to count time as a dimension. And has multiple types of stickies that can be used.  
