@@ -60,9 +60,9 @@ The intent of this step is to identify the existing systems and their interdepen
 
 ![](https://www.kanekotic.com/img/event-storming-map-systems-drawio.png)
 
-In our example, all starts with the website, but soon enough it becomes apparent most of the process is taken care by the monolith. 
+In our example, all starts with the website, but soon enough it becomes apparent most of the process is taken care by the monolith.
 
-This step is optional in the case you have a greenfield. Nevertheless, I highly recommend it if you are splitting a monolith. 
+This step is optional in the case you have a greenfield. Nevertheless, I highly recommend it if you are splitting a monolith.
 
 #### Add the **Actors**
 
@@ -75,7 +75,7 @@ In our case, the user is the one starting the process, but there needs to be a t
 
 Now we are left with events that are done by someone and take effect in parts of our system. But we are missing the cause and effect that made this look this way.
 
-Commands allow exactly this, is a specific action or decision that will push our system into a certain direction. 
+Commands allow exactly this, is a specific action or decision that will push our system into a certain direction.
 
 ![](https://www.kanekotic.com/img/event-storming-map-commands-drawio.png)
 
@@ -91,16 +91,20 @@ Now you have a set of split actions that can become their microservices and prov
 #### Create **Capabilities Matrix** (Optional)
 
 Now, with the bounded context, we can start defining the capabilities of our services. This is straightforward to express in a matrix.
+
 | Context | Capabilities |
-|---|---|
+| --- | --- |
 | Network Management | Check coverage <br/> Enable Network <br/> 3rd party Hardware management integration |
 | User Management | Create User <br/> User Email Verification |
 | contract Management | Create Contract <br/> User Email Verification <br/> 3rd party digital signature integration |
 
 #### Devise your **Goal Architecture** (Optional)
 
-This 
+Knowing our current architecture, it's good to think where we want to go.   
+This is not only a technical challenge, but an organizational challenge due to [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law). If we would like to be successful in splitting a monolith our communication, meaning the teams structure involved, need to resemble this target state.
 
 #### Define a **plan** on how to split the Monolith (Optional)
+
+Things don't happen 
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
