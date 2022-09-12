@@ -77,6 +77,12 @@ Now we are left with events that are done by someone and take effect in parts of
 
 Commands allow exactly this, is a specific action or decision that will push our system into a certain direction. 
 
+![](https://www.kanekotic.com/img/event-storming-map-commands-drawio.png)
+
 Commands can be positive or negative actions, causing bifurcation and showing different cases that our system needs to cope with.
+
+#### Define **Bounded Context**
+
+now we are left to define where each of the sub-process that conform our system starts and ends.
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
