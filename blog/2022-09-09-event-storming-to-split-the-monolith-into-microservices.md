@@ -11,7 +11,7 @@ tags:
 - microservices
 - programming
 - architecture
-published: false
+published: true
 series: The journey from the monolith to microservices
 
 ---
