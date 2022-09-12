@@ -1,6 +1,6 @@
 ---
 date: 2022-09-09T09:28:48+02:00
-draft: true
+draft: false
 title: Event Storming to define Service Boundaries & Capabilities
 description: how can we define what is the scope of a service, event storming is here
   to help us
