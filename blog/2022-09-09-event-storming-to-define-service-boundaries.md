@@ -83,6 +83,7 @@ Commands can be positive or negative actions, causing bifurcation and showing di
 
 #### Define **Bounded Context**
 
-now we are left to define where each of the sub-process that conform our system starts and ends.
+now we are left to define where each of the sub-process that conform our system starts and ends. This is done by grouping the stickies with an enclosing and giving a noun + verb to it, as it's a sub-process and it evokes action.  
+![](https://www.kanekotic.com/img/event-storming-bounded-contexts-drawio.png)
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
