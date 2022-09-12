@@ -46,7 +46,7 @@ Regarding the Stickies, their color represent a specific meaning\[1\]:
 * **Read Model (green):** This represents data that may be critical for a user or system to decide.
 * **Policy (gray):** These represent standards or rules that may need to be executed, such as rules for a compliance policy.
 
-#### Define the events of your system
+#### Define the **Events** of your system
 
 Events are the most important information of our board. They represent facts regarding the process and helps encapsulate the knowledge of the 'experts'.  
 As we mention before, time is a significant dimension. A process always happens in a period of time. Starting by organizing this 'things' that happen in a timeline is a good way to start.  
@@ -54,7 +54,7 @@ As we mention before, time is a significant dimension. A process always happens 
 
 In our example, you can see on the previous image we go from checking coverage, to creating a user, to creating a contract and connecting our user to the network.
 
-#### Identify the systems involved (Optional)
+#### Identify the **Systems** involved (Optional)
 
 The intent of this step is to identify the existing systems and their interdependency. When we discuss systems, they can be internal or external.
 
@@ -63,5 +63,20 @@ The intent of this step is to identify the existing systems and their interdepen
 In our example, all starts with the website, but soon enough it becomes apparent most of the process is taken care by the monolith. 
 
 This step is optional in the case you have a greenfield. Nevertheless, I highly recommend it if you are splitting a monolith. 
+
+#### Add the **Actors**
+
+These are real people who are part of the process, they tend to be the starting point of a chain of events, or even on a manual process we are trying to automate the executors of the individual step.
+
+![](https://www.kanekotic.com/img/event-storming-map-actors-drawio.png)  
+In our case, the user is the one starting the process, but there needs to be a technician doing the last steps manually.
+
+#### Connect the dots with **Commands**
+
+Now we are left with events that are done by someone and take effect in parts of our system. But we are missing the cause and effect that made this look this way.
+
+Commands allow exactly this, is a specific action or decision that will push our system into a certain direction. 
+
+Commands can be positive or negative actions, causing bifurcation and showing different cases that our system needs to cope with.
 
 ###### \[1\] [https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/](https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/ "https://www.capitalone.com/tech/software-engineering/event-storming-for-microservice-architecture/")
