@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Event Storming to define Service Boundaries & Capabilities]]></title>
+            <title><![CDATA[Event Storming to split Monolith into Microservices]]></title>
             <link>https://www.kanekotic.com/blog/2022/09/09/event-storming-to-define-service-boundaries</link>
             <guid>/2022/09/09/event-storming-to-define-service-boundaries</guid>
             <pubDate>Fri, 09 Sep 2022 07:28:48 GMT</pubDate>

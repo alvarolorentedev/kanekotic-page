@@ -8,7 +8,7 @@
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://www.kanekotic.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Event Storming to define Service Boundaries & Capabilities]]></title>
+        <title type="html"><![CDATA[Event Storming to split Monolith into Microservices]]></title>
         <id>/2022/09/09/event-storming-to-define-service-boundaries</id>
         <link href="https://www.kanekotic.com/blog/2022/09/09/event-storming-to-define-service-boundaries"/>
         <updated>2022-09-09T07:28:48.000Z</updated>
