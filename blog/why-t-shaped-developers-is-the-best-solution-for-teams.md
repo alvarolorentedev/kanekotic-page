@@ -11,3 +11,10 @@ published: false
 series: ''
 
 ---
+In software development, we elaborate on cross-functional teams, as a good split of responsibilities to provide autonomy.
+
+## Before Cross-functional teams
+
+## Cross-functional Teams
+
+## T-shaped Developers Cross-Functional Teams
