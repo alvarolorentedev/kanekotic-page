@@ -11,10 +11,19 @@ published: false
 series: ''
 
 ---
-In software development, we elaborate on cross-functional teams, as a good split of responsibilities to provide autonomy.
+In software development, we elaborate on cross-functional teams, as a good split of responsibilities to provide autonomy.  
+Let's discuss the chronology of how teams haven been evolving. 
 
-## Before Cross-functional teams
+## Specialization-Based Teams
 
-## Cross-functional Teams
+Not so many years ago, teams were separated by their expertise  
 
-## T-shaped Developers Cross-Functional Teams
+![](https://www.kanekotic.com/img/t-shapped-cross-functional-drawio-1.png)
+
+## Specialized Cross-functional Teams
+
+![](https://www.kanekotic.com/img/t-shapped-cross-functional-expertise-crossfunctional-teams-drawio.png)
+
+## T-shaped Cross-Functional Teams
+
+![](https://www.kanekotic.com/img/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png)
