@@ -43,11 +43,11 @@ This might look like the next image:
 
 What are the pros and cons of this model:
 
-* ✔️ Aligned priorities for all the roles in the team.
 * ✔️ Common domain expertise, allowing faster and informed decisions.
 * ✔️ Single domain will not require a lot of context switch.
 * ✔️ Helps design on microservices environments due to [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).
 * ✔️ Teams tend to stay small and follow [Dunbar's Number](https://en.wikipedia.org/wiki/Dunbar%27s_number "dunbars") on human relationships (ex. Amazon 2 large pizza team size).
+* ❌ Bottlenecks in between team members, due to process dependency.
 * ❌ Lack of depth of knowledge from peers.
 * ❌ Lack of breath of knowledge being shared.
 * ❌ Bus factor tends to be small.
@@ -64,7 +64,7 @@ T-shaped development tries to solve this by making sure all team members can wor
 
 What are the pros and cons of this model:
 
-* ✔️ Aligned priorities for all the roles in the team.
+* ✔️ No bottlenecks as all team members can chip in to the different needs.
 * ✔️ Common domain expertise, allowing faster and informed decisions.
 * ✔️ Single domain will not require a lot of context switch.
 * ✔️ Helps design on microservices environments due to [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).
