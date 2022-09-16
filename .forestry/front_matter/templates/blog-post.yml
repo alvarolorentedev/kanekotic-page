@@ -26,6 +26,13 @@ fields:
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - a
+    - b
 - type: boolean
   name: draft
   label: draft
