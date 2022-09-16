@@ -1,12 +1,16 @@
 ---
-date: 2022-09-13T10:07:58+02:00
+date: 2022-09-13T10:07:58.000+02:00
 draft: true
 title: 'The future of teams: Crossfuctional & T-Shaped'
 description: Team structure matters, how can we enable teams to be more productive
-  & independant
+  & independent
 authors:
 - kanekotic
-tags: []
+tags:
+- softwaredevelopment
+- architecture
+- technology
+- productivity
 published: false
 series: ''
 
