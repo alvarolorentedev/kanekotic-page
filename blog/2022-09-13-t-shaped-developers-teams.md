@@ -1,9 +1,9 @@
 ---
 date: 2022-09-13T10:07:58+02:00
 draft: true
-title: T-Shaped developers teams the agile option
-description: how do productive teams look like, and what kind of developer is the
-  developer of the future
+title: 'The future of teams: Crossfuctional & T-Shaped'
+description: Team structure matters, how can we enable teams to be more productive
+  & independant
 authors:
 - kanekotic
 tags: []
