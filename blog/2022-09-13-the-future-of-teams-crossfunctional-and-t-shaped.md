@@ -1,6 +1,6 @@
 ---
 date: 2022-09-13T10:07:58.000+02:00
-draft: true
+draft: false
 title: 'The future of teams: Crossfuctional & T-Shaped'
 description: Team structure matters, how can we enable teams to be more productive
   & independent
