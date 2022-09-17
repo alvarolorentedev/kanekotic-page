@@ -11,7 +11,7 @@ tags:
 - architecture
 - technology
 - productivity
-published: false
+published: true
 series: ''
 
 ---
