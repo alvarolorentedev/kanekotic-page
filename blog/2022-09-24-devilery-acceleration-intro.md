@@ -2,9 +2,13 @@
 date: 2022-09-24T14:35:55+02:00
 draft: true
 title: 'Devilery Acceleration: Intro'
-description: ''
-authors: []
+description: Why do teams perform differently and what are the tools & practices some
+  team use to differentiate themselves
+authors:
+- kanekotic
 tags:
+- programming
+- softwaredevelopment
 - devops
 - productivity
 published: false
