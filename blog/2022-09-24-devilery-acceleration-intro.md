@@ -11,7 +11,7 @@ tags:
 - softwaredevelopment
 - devops
 - productivity
-published: false
+published: true
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
@@ -61,4 +61,4 @@ As this twitter thread shows, this is not one size fits all, the challenges of a
 
 ## Next
 
-So in the following installments I will walk backwards from having something in production and how to keep it running in a healthy manner stress-free up to coding techniques that enable Trunk-based development.
+In the following installments, I will walk backwards from having something in production and how to keep it running in a healthy manner stress-free up to coding techniques that enable Trunk-based development.
