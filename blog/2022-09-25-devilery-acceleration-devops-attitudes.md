@@ -87,6 +87,6 @@ This affect the next DORA 4 metrics:
 As the development team is also in charge of running the service, some of them will require after working hour support. On call is just this, the disposition of team members to take care of their services around the clock.  
 This tends to sound bad, but there are ways to not make this suck. I can't express it better than [Chris Ford](https://twitter.com/ctford) has already done in this [page](https://ctford.github.io/oncall-charter/).
 
-This affect the next DORA 4 metrics:
+This affect the next DORA 4 metric:
 
 * ✔️ **Mean Time To Recovery**
