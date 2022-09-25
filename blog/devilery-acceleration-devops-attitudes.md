@@ -70,3 +70,23 @@ This affect the next DORA 4 metrics:
 ## Practices
 
 ### Firefighter Role
+
+The firefighter role is a rotating role inside the team. They are responsible for being the first responder to incidents and helping solve them.  
+At the same time, to make sure this person does not suffer from cognitive load due to context switching, this person is not involved on the normal pair rotation and development tasks.  
+In exchange, they focus during the week in improving the specific tooling of the project (ex. DB migration tooling).
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Deployment frequency**
+* ✔️ **Lead Time for change**
+* ✔️ **Mean Time To Recovery**
+* ✔️ **Change Failure Rate**
+
+### On Call Rotation
+
+As the development team is also in charge of running the service, some of them will require after working hour support. On call is just this, the disposition of team members to take care of their services around the clock.  
+This tends to sound bad, but there are ways to not make this suck. I can't express it better than [Chris Ford](https://twitter.com/ctford) has already done in this [page](https://ctford.github.io/oncall-charter/).
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Mean Time To Recovery**
