@@ -39,7 +39,27 @@ This affect the next DORA 4 metrics:
 * ✔️ **Mean Time To Recovery**
 * ✔️ **Change Failure Rate**
 
-###  Be a Boy Scout
+### Embrace Ownership in Failure Culture
+
+> the problem is not breaking things, is the inability to recover from it
+
+Normally, developers feel they need a safety net to feel comfortable to introduce changes to production, this tends to translate in delegating the ownership to others trough peer review or other validation step.  
+This lack of ownership have massive effects on the capacity to recover and the gates that code needs to go through, affecting the feedback cycle.
+
+To improve this failure culture is necessary to promote this behavior, having no blame reduces the amount of stress people go through. 
+
+> If something fails is not an issue of the individual but of the process itself.
+
+Imagine that every commit goes to production, changes will be so small that fixing or rolling back can be done in minutes or seconds. At the same time, developers will be able to create the correct tooling to feel more comfortable with this practice.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Deployment frequency**
+* ✔️ **Lead Time for change**
+* ✔️ **Mean Time To Recovery**
+* ✔️ **Change Failure Rate**
+
+### Be a Boy Scout
 
 > Don’t continue the same path if you think something can be done better
 
@@ -90,3 +110,7 @@ This tends to sound bad, but there are ways to not make this suck. I can't expre
 This affect the next DORA 4 metric:
 
 * ✔️ **Mean Time To Recovery**
+
+## Conclusion
+
+These are the starting point to feel comfortable running things in production without the concern that any issue is a catastrophic thing. Failing is not an issue, the important part is to be able to recover as soon as possible from any problem that arises.
