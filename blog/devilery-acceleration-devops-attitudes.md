@@ -32,7 +32,12 @@ For many years, this was not the case. Operations & development were handled by 
 
 With the 'you build it, you run it' mentality, devs focus on their service or work, while Ops becomes a product team that focus on providing the correct tooling for Developers.
 
-Hos does this affect the DORA 4:
+This affect the DORA 4 in then next way:
+
+* ✔️ **Deployment frequency**:
+* ✔️ **Lead Time for change**: 
+* ✔️ **Mean Time To Recovery**: 
+* ✔️ **Change Failure Rate**:
 
 ###  Be a Boy Scout
 
@@ -40,4 +45,28 @@ Hos does this affect the DORA 4:
 
 As individuals, need to bring change to our products. If we see any new practice, tool, services… that can support the work of the team, bring it forward. Don't shy away because the team is currently doing it.
 
+This affect the DORA 4 in then next way:
+
+* ✔️ **Deployment frequency**:
+* ✔️ **Lead Time for change**: 
+* ✔️ **Mean Time To Recovery**: 
+* ✔️ **Change Failure Rate**:
+
+### Learn & Adapt
+
+Not everything is solved in the same way, don't follow:
+
+> If your only tool is a hammer then every problem looks like a nail
+
+For this, learn and take your time for it. When you have a new problem, as it's possible, you don't have the correct tool in your toolbox. 
+
+This affect the DORA 4 in then next way:
+
+* ✔️ **Deployment frequency**:
+* ✔️ **Lead Time for change**: 
+* ✔️ **Mean Time To Recovery**: 
+* ✔️ **Change Failure Rate**:
+
 ## Practices
+
+### Firefighter
