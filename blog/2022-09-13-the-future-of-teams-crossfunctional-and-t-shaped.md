@@ -13,6 +13,8 @@ tags:
 - productivity
 published: true
 series: ''
+canonical_url: https://www.kanekotic.com/blog/2022/09/13/the-future-of-teams-crossfunctional-and-t-shaped
+cover_image: https://www.kanekotic.com/img/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png
 
 ---
 In software development, over the last years we always talk about on cross-functional teams, as a good split of responsibilities to provide autonomy in teams. What does that mean? Why is this so? And what does it look like?
