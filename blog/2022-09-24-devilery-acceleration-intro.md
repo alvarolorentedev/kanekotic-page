@@ -1,7 +1,7 @@
 ---
 date: 2022-09-24T14:35:55+02:00
 draft: false
-title: 'Devilery Acceleration: Intro'
+title: 'Delivery Acceleration: Intro'
 description: Why do teams perform differently and what are the tools & practices some
   team use to differentiate themselves
 authors:
