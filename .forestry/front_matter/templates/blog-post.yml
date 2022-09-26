@@ -138,6 +138,16 @@ fields:
 - type: boolean
   name: published
   label: published
+- name: canonical_url
+  type: text
+  config:
+    required: false
+  label: canonical url
+- name: cover_image
+  type: text
+  config:
+    required: false
+  label: cover image
 - name: series
   type: text
   config:
