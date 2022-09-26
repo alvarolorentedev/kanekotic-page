@@ -1,5 +1,5 @@
 ---
-date: 2022-09-12T09:28:48+02:00
+date: 2022-09-12T09:28:48.000+02:00
 draft: false
 title: Event Storming to split Monolith into Microservices
 description: how can we define what is the scope of a service, event storming is here
@@ -13,6 +13,8 @@ tags:
 - architecture
 published: true
 series: The journey from the monolith to microservices
+canonical_url: https://www.kanekotic.com/blog/2022/09/09/event-storming-to-split-the-monolith-into-microservices
+cover_image: https://www.kanekotic.com/img/event-storming.png
 
 ---
 On our previous installments, we discussed the smells that can happen when splitting microservices, and the strategies that exist to make them as independent as possible. But how do we define boundaries? How do we define the process that our microservice is in charge off?
