@@ -1,7 +1,7 @@
 ---
 date: 2022-09-25T17:14:19+02:00
 draft: true
-title: 'Devilery Acceleration: DevOps Mentality & Practices'
+title: 'Delivery Acceleration: DevOps Mentality & Practices'
 description: When we run services in production, mentality can make or break our intent
   to move towards real CI/CD
 authors:
@@ -13,6 +13,8 @@ tags:
 - programming
 published: false
 series: Accelerate Continious Integration & Delivery Practices
+canonical_url: ''
+cover_image: ''
 
 ---
 When we start our journey towards continuous integration & delivery, the first thing to take in count is the mentality. There are a few of them that will make or break our intent. Let's see the most important and also some practices.
