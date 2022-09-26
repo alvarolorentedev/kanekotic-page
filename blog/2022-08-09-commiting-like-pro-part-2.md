@@ -11,6 +11,8 @@ tags:
 draft: false
 published: true
 series: commiting Like a Pro in NodeJs
+canonical_url: https://www.kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2
+cover_image: https://commitizen-tools.github.io/commitizen/images/demo.gif
 
 ---
 ## Why are messages important?
