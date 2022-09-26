@@ -11,6 +11,7 @@ tags:
 draft: false
 published: true
 series: commiting Like a Pro in NodeJs
+canonical_url: https://www.kanekotic.com/blog/2022/08/08/commiting-like-pro-part-1
 
 ---
 ## What & Why Git hooks?
