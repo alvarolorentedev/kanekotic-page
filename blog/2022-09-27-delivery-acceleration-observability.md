@@ -13,7 +13,7 @@ tags:
 - productivity
 published: false
 canonical_url: ''
-cover_image: ''
+cover_image: https://www.kanekotic.com/img/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
