@@ -12,7 +12,7 @@ tags:
 - devops
 - productivity
 published: false
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover_image: https://www.kanekotic.com/img/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
 
@@ -74,10 +74,10 @@ let's get practical on how would this work.
 ![](https://www.kanekotic.com/img/observability-drawio.png)
 
 * Implement your service
-* Create metrics and send them to your metrics system (ex. Datadog, Grafana)
-* Create logs and send them to your logging system (ex. Datadog, Kibana, CloudWatch).
+* Create metrics and send them to your metrics system (ex. [Datadog](https://www.datadoghq.com/), [Grafana](https://grafana.com/))
+* Create logs and send them to your logging system (ex. [Datadog](https://www.datadoghq.com/), [Kibana](https://www.elastic.co/kibana/), [CloudWatch](https://aws.amazon.com/cloudwatch/)).
 * Create dashboards:
   * Single Status dashboard. Use only simple boxes with green and red backgrounds that represent in one view the health of your system & subsystems.
   * Multiple Detail dashboards. Create a dashboard for each subsystem with as much data as necessary to understand where the issue is, so you can later pinpoint the root cause in your logs.
 * Create alarms based on the status dashboard boxes.
-* Connect your notification system (ex. Opsgenie, PagerDuty, Slack channel) to the created alarms, so you get push notifications as something goes wrong.
+* Connect your notification system (ex. [Opsgenie](https://www.atlassian.com/software/opsgenie), [PagerDuty](https://www.pagerduty.com/), [Slack ](https://slack.com/)channel) to the created alarms, so you get push notifications as something goes wrong.
