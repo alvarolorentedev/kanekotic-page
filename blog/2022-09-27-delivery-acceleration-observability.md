@@ -1,6 +1,6 @@
 ---
 date: 2022-09-27T21:40:40+02:00
-draft: true
+draft: false
 title: 'Delivery Acceleration: Observability'
 description: When runing services in production the most important thing is to understand
   the health of it
@@ -25,10 +25,12 @@ When we talk about observability, we talk about:
 
 We don't want users or clients to be the ones noticing something is wrong. For this, there are multiple tools that fall under the observability category.
 
+## Tools
+
 ### Alarms
 
 This is the first line of defense against issues, the intent is to get notified if any potential issue arises.  
-The intent of this is to provide a notification if any parameter of our application is out of range (ex. to many 5xx). 
+The intent of this is to provide a notification if any parameter of our application is out of range (ex. to many 5xx).
 
 This allows us to use our mental bandwidth to focus in creating value and not continuously check if the parameters are in range.
 
@@ -47,7 +49,6 @@ This metrics are shown in dashboards that allow us to visually understand what i
 
 It's important to not mix this 2 together, as they have different purposes. Like with alarms, it helps focus our mental bandwidth in the correct place.
 
-  
 ![](https://www.kanekotic.com/img/dashboards.jpeg)
 
 As you see in the previous image, the left represents a detail dashboard that makes it difficult to know on a single view if there is an issue. For this, as in the image on the right,  we have a status dashboard that in a single glance we can spot where to look next.
@@ -65,3 +66,18 @@ When thinking about logging, it is significant not log everything. Due to the ad
 This affect the next DORA 4 metrics:
 
 * ✔️ **Mean Time To Recovery**
+
+## Example
+
+let's get practical on how would this work.
+
+![](https://www.kanekotic.com/img/observability-drawio.png)
+
+* Implement your service
+* Create metrics and send them to your metrics system (ex. Datadog, Grafana)
+* Create logs and send them to your logging system (ex. Datadog, Kibana, CloudWatch).
+* Create dashboards:
+  * Single Status dashboard. Use only simple boxes with green and red backgrounds that represent in one view the health of your system & subsystems.
+  * Multiple Detail dashboards. Create a dashboard for each subsystem with as much data as necessary to understand where the issue is, so you can later pinpoint the root cause in your logs.
+* Create alarms based on the status dashboard boxes.
+* Connect your notification system (ex. Opsgenie, PagerDuty, Slack channel) to the created alarms, so you get push notifications as something goes wrong.
