@@ -6,6 +6,7 @@ description: some article
 authors:
 - kanekotic
 tags: []
+published: true
 canonical_url: ''
 cover_image: ''
 series: ''
