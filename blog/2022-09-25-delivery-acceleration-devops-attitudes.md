@@ -11,7 +11,7 @@ tags:
 - devops
 - softwaredevelopment
 - programming
-published: 2030-08-02T00:00:00.000+02:00
+published: 2022-09-29T22:00:00+02:00
 series: Accelerate Continious Integration & Delivery Practices
 canonical_url: https://www.kanekotic.com/blog/2022/09/25/delivery-acceleration-devops-attitudes
 cover_image: https://www.kanekotic.com/img/run_it.jpg
