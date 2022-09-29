@@ -6,7 +6,6 @@ description: some article
 authors:
 - kanekotic
 tags: []
-published: 2020-09-28T09:21:25+02:00
 canonical_url: ''
 cover_image: ''
 series: ''
