@@ -1,13 +1,12 @@
 ---
 date: 2022-09-29T09:21:25+02:00
 draft: true
-published: 2023-09-28T09:21:25+02:00
 title: test article
 description: some article
 authors:
 - kanekotic
 tags: []
-published: false
+published: 2023-09-28T09:21:25+02:00
 canonical_url: ''
 cover_image: ''
 series: ''
