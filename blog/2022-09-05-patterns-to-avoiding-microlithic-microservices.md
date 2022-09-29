@@ -10,7 +10,7 @@ tags:
 - microservices
 - programming
 - architecture
-published: true
+published: 2022-09-05T08:22:55.000+02:00
 series: The journey from the monolith to microservices
 canonical_url: https://www.kanekotic.com/blog/2022/09/05/patterns-to-avoiding-microlithic-microservices
 cover_image: https://www.kanekotic.com/img/microliths.jpg

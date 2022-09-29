@@ -10,7 +10,7 @@ tags:
 - showdev
 - productivity
 draft: false
-published: true
+published: 2022-08-24T00:00:00.000+02:00
 series: ''
 canonical_url: https://www.kanekotic.com/blog/2022/08/24/power-automate-automating-social-media
 cover_image: https://github.com/kanekotic/diagrams/blob/main/automate.drawio.png?raw=true

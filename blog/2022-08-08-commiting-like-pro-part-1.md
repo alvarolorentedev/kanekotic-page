@@ -1,6 +1,7 @@
 ---
 title: 'Commiting Like a Pro in NodeJs: The hooks'
 description: Using git hooks to make sure your commits do what you expect
+date: 2022-08-08T00:00:00.000+02:00
 authors:
 - kanekotic
 tags:
@@ -9,7 +10,7 @@ tags:
 - programming
 - productivity
 draft: false
-published: true
+published: 2022-08-08T00:00:00.000+02:00
 series: commiting Like a Pro in NodeJs
 canonical_url: https://www.kanekotic.com/blog/2022/08/08/commiting-like-pro-part-1
 

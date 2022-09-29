@@ -7,7 +7,7 @@ tags:
     - daily
     - learn
 draft: false
-published: false
+published: 2030-08-02T00:00:00.000+02:00
 ---
 
 I have hit a corner case of extension methods and LINQ. Today I was declaring some extension methods to make my code more readable.So I created an extension method that gets an object and performs a direct cast:

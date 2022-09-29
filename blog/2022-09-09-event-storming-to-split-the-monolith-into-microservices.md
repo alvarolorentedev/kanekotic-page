@@ -11,7 +11,7 @@ tags:
 - microservices
 - programming
 - architecture
-published: true
+published: 2022-09-12T09:28:48.000+02:00
 series: The journey from the monolith to microservices
 canonical_url: https://www.kanekotic.com/blog/2022/09/09/event-storming-to-split-the-monolith-into-microservices
 cover_image: https://www.kanekotic.com/img/event-storming.png

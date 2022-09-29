@@ -135,7 +135,7 @@ fields:
   name: draft
   label: draft
   default: true
-- type: boolean
+- type: datetime
   name: published
   label: published
 - name: canonical_url

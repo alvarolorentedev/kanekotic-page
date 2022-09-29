@@ -5,7 +5,7 @@ title: The hoax of green coding
 description: ''
 authors: []
 tags: []
-published: false
+published: 2030-08-02T00:00:00.000+02:00
 series: ''
 
 ---

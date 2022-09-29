@@ -7,7 +7,7 @@ tags:
     - daily
     - learn
 draft: false
-published: false
+published: 2030-08-02T00:00:00.000+02:00
 ---
 
 I have not experiment to much with fluent interfaces. But is something cool especially to make code that is expressive.

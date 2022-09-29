@@ -2,7 +2,7 @@
 title: Update your npm package dependencies and release with Travis
 summary: Update your npm package dependencies and release with Travis
 description: Update your npm package dependencies and release with Travis
-date:  2018-07-11T09:27:28+02:00
+date: 2018-07-11T09:27:28+02:00
 tags: 
     - ci
     - cd
@@ -13,7 +13,7 @@ tags:
     - github
     - cron
 draft: false
-published: false
+published: 2030-08-02T00:00:00.000+02:00
 ---
 
 As a member of the community that like to generate npm packages like libraries and cli tools, sometimes is difficult to maintain everything and keep your package up to date in the dependencies side. I am a fan of having static dependencies as versioning is not being held correctly in most of the npm world. So if you dont use exact packages you could run in the issue that a broken change makes from the night to the morning your awesome tool to break.

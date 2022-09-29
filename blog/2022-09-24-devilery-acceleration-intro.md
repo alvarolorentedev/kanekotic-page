@@ -11,7 +11,7 @@ tags:
 - softwaredevelopment
 - devops
 - productivity
-published: true
+published: 2022-09-24T14:35:55+02:00
 series: Accelerate Continious Integration & Delivery Practices
 canonical_url: https://www.kanekotic.com/blog/2022/09/24/devilery-acceleration-intro
 cover_image: https://www.kanekotic.com/img/key_metrics.png

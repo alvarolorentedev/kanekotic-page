@@ -1,6 +1,7 @@
 ---
 title: 'Double-edge Microservices: APIs the New Singleton'
 description: In the current world of development we solve all with APIs
+date: 2022-08-02T00:00:00.000+02:00
 authors:
 - kanekotic
 tags:
@@ -10,7 +11,7 @@ tags:
 - programming
 draft: true
 published: false
-date: 2022-08-10T22:05:47+02:00
+published: 2030-08-02T00:00:00.000+02:00
 series: microservices a double-edged sword
 
 ---
