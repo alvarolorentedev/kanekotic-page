@@ -1,7 +1,7 @@
 ---
 date: 2022-09-29T09:21:25+02:00
 draft: true
-publish: 2022-08-28T09:21:25+02:00
+published: 2023-09-28T09:21:25+02:00
 title: test article
 description: some article
 authors:
