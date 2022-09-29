@@ -1,5 +1,5 @@
 ---
-date: 2022-09-27T21:40:40+02:00
+date: 2022-09-27T21:40:40.000+02:00
 draft: false
 title: 'Delivery Acceleration: Observability'
 description: When runing services in production the most important thing is to understand
@@ -11,7 +11,7 @@ tags:
 - programming
 - devops
 - productivity
-published: 2030-08-02T00:00:00.000+02:00
+published: 2022-09-29T21:00:00+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover_image: https://www.kanekotic.com/img/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
