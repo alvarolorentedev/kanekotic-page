@@ -1,5 +1,5 @@
 ---
-date: 2022-09-25T17:14:19.000+02:00
+date: 2022-09-25T17:14:19+02:00
 draft: false
 title: 'Delivery Acceleration: DevOps Mentality & Practices'
 description: When we run services in production, mentality can make or break our intent
