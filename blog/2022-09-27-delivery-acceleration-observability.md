@@ -1,5 +1,5 @@
 ---
-date: 2022-10-05T21:40:40+02:00
+date: 2022-09-28T21:40:40+02:00
 draft: false
 title: 'Delivery Acceleration: Observability'
 description: When runing services in production the most important thing is to understand
