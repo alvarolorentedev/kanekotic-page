@@ -15,7 +15,8 @@ published: 2022-10-05T21:40:00+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover_image: https://www.kanekotic.com/img/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
-
+domain: https://kanekotic.hashnode.dev/
+canonical: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 ---
 When we talk about observability, we talk about:
 
