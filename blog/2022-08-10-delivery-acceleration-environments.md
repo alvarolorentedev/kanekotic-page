@@ -32,4 +32,11 @@ Nevertheless, let's reflect why these are 3 different practices. As they are ste
 
 ## The trap of Multiple Environments
 
-As you can imagine with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment. 
+As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.   
+![](https://www.kanekotic.com/img/environments.jpeg)
+
+The intent of having multiple environments is to reduce change failure rate. Nevertheless, is this a reality?
+
+## Only prod, is it so crazy?
+
+![](https://www.kanekotic.com/img/single_environment.jpeg)
