@@ -19,10 +19,7 @@
             <name>Alvaro Jose</name>
             <uri>https://github.com/kanekotic</uri>
         </author>
-        <category label="softwaredevelopment" term="softwaredevelopment"/>
-        <category label="programming" term="programming"/>
         <category label="devops" term="devops"/>
-        <category label="productivity" term="productivity"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Delivery Acceleration: DevOps Mentality & Practices]]></title>
