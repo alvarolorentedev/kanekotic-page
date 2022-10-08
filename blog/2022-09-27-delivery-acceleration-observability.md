@@ -6,7 +6,8 @@ description: When runing services in production the most important thing is to u
   the health of it
 authors:
 - kanekotic
-tags: devops
+tags:
+- devops
 published: 2022-10-05T21:40:00+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover_image: https://www.kanekotic.com/img/no_alarms.png
