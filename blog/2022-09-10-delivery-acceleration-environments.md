@@ -45,6 +45,7 @@ The intent of having multiple environments is to reduce change failure rate, are
 * Stress and ownership of moving things to production
 * Accumulation of code in lower environments (meaning more bugs).
 * Longer feedback loop.
+* Continuous misalignment due to development cycles in between different teams.
 
 As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate. Affecting negatively other DORA 4 metrics:
 
@@ -53,8 +54,26 @@ As you can see, this makes a fake sense of safety, but it does not affect positi
 * ❌ **Mean Time To Recovery**
 * 〰️ **Change Failure Rate**
 
-## Only prod, is it so crazy?
+## Achieving Continuous Deployment, Only prod, is it so crazy?
+
+How can a team Continuous deployment, the answer tends to be simple, making every commit go to production and testing in it.  
+Be aware this does not mean to have our users experience possible bugs or see test data, as we can hide functionalities behind toggles, headers, or parameters that allow access to only the development team.
+
+An example strategy is the one in the next diagram.
 
 ![](https://www.kanekotic.com/img/single_environment.jpeg)
 
-How can a team Continuous deployment? 
+What have we solved:
+
+* Real performance & behavior.
+* Continuous alignment with other teams.
+* Smaller feedback cycles.
+* Control of rollout.
+* Smaller $ cost.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Deployment frequency**
+* ✔️ **Lead Time for change**
+* ✔️ **Mean Time To Recovery**
+* 〰️ **Change Failure Rate**
