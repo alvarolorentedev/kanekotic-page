@@ -17,9 +17,11 @@ fields:
   type: text
   config:
     required: true
+  label: domain
+  hidden: true
+  default: kanekotic.hashnode.dev
 - name: canonical
   type: text
   config:
     required: false
   label: canonical urls
-
