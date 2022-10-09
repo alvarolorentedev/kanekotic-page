@@ -1,6 +1,6 @@
 ---
 date: 2022-10-08T21:26:12.000+02:00
-draft: true
+draft: false
 title: 'Delivery Acceleration: Deployment Environments'
 description: How do we run services?, is it worth having multiple environments?
 authors:
@@ -49,7 +49,9 @@ The intent of having multiple environments is to reduce change failure rate, are
 * Longer feedback loop.
 * Continuous misalignment due to development cycles in between different teams.
 
-As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate. Affecting negatively other DORA 4 metrics:
+As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate.
+
+This affects mostly negatively most of DORA 4 metrics:
 
 * ❌ **Deployment frequency**
 * ❌ **Lead Time for change**
@@ -59,13 +61,13 @@ As you can see, this makes a fake sense of safety, but it does not affect positi
 ## Achieving Continuous Deployment, Only prod, is it so crazy?
 
 How can a team Continuous deployment? The answer tends to be simple, making every commit go to production and testing in it.  
-Be aware this does not mean to have our users experience possible bugs or see test data, as we can hide functionalities behind toggles, headers, or parameters that allow access to only the development team.
+Be aware this does not mean to have our users experience possible bugs or see test data, as we can hide functionalities behind toggles, headers, or parameters that allow access to only the development team. As we will see in future installments of this series.
 
 An example strategy is the one in the next diagram.
 
 ![](https://www.kanekotic.com/img/single_environment.jpeg)
 
-What have we solved:
+This allows us to keep only one environment that discriminates in between test and non-test data that can be clean periodically, while it provides the real environment with the real behavior. With this, we solved:
 
 * Real performance & behavior.
 * Continuous alignment with other teams.
