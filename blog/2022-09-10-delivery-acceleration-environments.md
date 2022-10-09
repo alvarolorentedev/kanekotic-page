@@ -46,7 +46,12 @@ The intent of having multiple environments is to reduce change failure rate, are
 * Accumulation of code in lower environments (meaning more bugs).
 * Longer feedback loop.
 
-As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate. 
+As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate. Affecting negatively other DORA 4 metrics:
+
+* ❌ **Deployment frequency**
+* ❌ **Lead Time for change**
+* ❌ **Mean Time To Recovery**
+* 〰️ **Change Failure Rate**
 
 ## Only prod, is it so crazy?
 
