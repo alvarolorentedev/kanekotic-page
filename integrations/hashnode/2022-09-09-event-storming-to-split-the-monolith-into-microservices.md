@@ -2,6 +2,7 @@
 title: Event Storming to split Monolith into Microservices
 subtitle: how can we define what is the scope of a service, event storming is here
   to help us
+domain: kanekotic.hashnode.dev
 tags: api, microservices, programming, architecture
 canonical: https://www.kanekotic.com/blog/2022/09/09/event-storming-to-split-the-monolith-into-microservices
 cover: https://www.kanekotic.com/img/event-storming.png

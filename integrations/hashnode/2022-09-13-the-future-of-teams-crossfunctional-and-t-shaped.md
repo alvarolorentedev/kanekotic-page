@@ -2,6 +2,7 @@
 title: 'The future of teams: Crossfuctional & T-Shaped'
 subtitle: Team structure matters, how can we enable teams to be more productive
   & independent
+domain: kanekotic.hashnode.dev
 tags:
 - softwaredevelopment
 - architecture
