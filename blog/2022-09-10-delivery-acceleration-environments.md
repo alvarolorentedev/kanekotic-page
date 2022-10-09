@@ -56,3 +56,5 @@ As you can see, this makes a fake sense of safety, but it does not affect positi
 ## Only prod, is it so crazy?
 
 ![](https://www.kanekotic.com/img/single_environment.jpeg)
+
+How can a team Continuous deployment? 
