@@ -2,7 +2,8 @@
 date: 2022-10-08T21:26:12.000+02:00
 draft: false
 title: 'Delivery Acceleration: Deployment Environments'
-description: How do we run services?, is it worth having multiple environments?
+description: Where should we run our services? are there hidden consts on certain
+  practices?
 authors:
 - kanekotic
 tags:
@@ -10,9 +11,9 @@ tags:
 - programming
 - productivity
 - devops
-published: 
-canonical_url: ''
-cover_image: ''
+published: 2022-10-12T01:00:00+02:00
+canonical_url: https://www.kanekotic.com/blog/2022/09/10/delivery-acceleration-environments
+cover_image: https://www.kanekotic.com/img/cicd.png
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
@@ -51,7 +52,7 @@ The intent of having multiple environments is to reduce change failure rate, are
 
 As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate.
 
-This affects mostly negatively most of DORA 4 metrics:
+This affects mostly negatively, most of DORA 4 metrics:
 
 * ❌ **Deployment frequency**
 * ❌ **Lead Time for change**
