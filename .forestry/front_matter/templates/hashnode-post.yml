@@ -1,0 +1,25 @@
+---
+label: Hashnode post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: tags
+  label: tags
+  config:
+    required: true
+- name: domain
+  type: text
+  config:
+    required: true
+- name: canonical
+  type: text
+  config:
+    required: false
+  label: canonical urls
+

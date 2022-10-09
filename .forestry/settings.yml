@@ -12,6 +12,13 @@ sections:
   templates:
   - blog-post
 - type: directory
+  path: integrations/hashnode
+  label: Hashnode
+  create: all
+  match: "**/*"
+  templates:
+  - hashnode-post
+- type: directory
   path: docs
   label: Projects
   create: all
