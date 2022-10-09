@@ -1,5 +1,5 @@
 ---
-date: 2022-10-08T21:26:12+02:00
+date: 2022-10-08T21:26:12.000+02:00
 draft: true
 title: 'Delivery Acceleration: CI/CD Environments'
 description: How do we run services?, is it worth having multiple environments?
@@ -20,7 +20,7 @@ Our services need to run somewhere, so our users can access it. It's a very comm
 
 ## CI vs. CD vs. CD
 
-when people talk about continuous integration, delivery and deployment, they normally talk about it as a whole. 
+when people talk about continuous integration, delivery and deployment, they normally talk about it as a whole.
 
 Nevertheless, let's reflect why these are 3 different practices. As they are steps in a journey, you can do one and not the next one.
 
@@ -32,10 +32,21 @@ Nevertheless, let's reflect why these are 3 different practices. As they are ste
 
 ## The trap of Multiple Environments
 
-As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.   
+As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.  
 ![](https://www.kanekotic.com/img/environments.jpeg)
 
-The intent of having multiple environments is to reduce change failure rate. Nevertheless, is this a reality?
+The intent of having multiple environments is to reduce change failure rate, are we actually achieving this with the practices? The answer is normally not due to:
+
+* A non-production environment will never be the same as a production.
+  * Different data
+  * Different performance
+  * Different security practices
+  * Etc…
+* Stress and ownership of moving things to production
+* Accumulation of code in lower environments (meaning more bugs).
+* Longer feedback loop.
+
+As you can see, this makes a fake sense of safety, but it does not affect positively the change failure rate. 
 
 ## Only prod, is it so crazy?
 

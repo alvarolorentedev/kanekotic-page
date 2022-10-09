@@ -154,7 +154,6 @@ fields:
     required: false
   label: series
 pages:
-- blog/2022-08-10-delivery-acceleration-environments.md
 - blog/2022-09-05-patterns-to-avoiding-microlithic-microservices.md
 - blog/2022-09-09-event-storming-to-split-the-monolith-into-microservices.md
 - blog/2022-09-13-the-future-of-teams-crossfunctional-and-t-shaped.md
