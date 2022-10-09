@@ -1,7 +1,7 @@
 ---
 date: 2022-10-08T21:26:12.000+02:00
 draft: true
-title: 'Delivery Acceleration: CI/CD Environments'
+title: 'Delivery Acceleration: Deployment Environments'
 description: How do we run services?, is it worth having multiple environments?
 authors:
 - kanekotic
