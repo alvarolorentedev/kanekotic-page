@@ -35,7 +35,6 @@ Nevertheless, let's reflect why these are 3 different practices. As they are ste
 
 As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.
 
-  
 ![](https://www.kanekotic.com/img/environments.jpeg)
 
 The intent of having multiple environments is to reduce change failure rate, are we actually achieving this with the practices? The answer is normally not due to:
@@ -82,3 +81,13 @@ This affect the next DORA 4 metrics:
 * ✔️ **Lead Time for change**
 * ✔️ **Mean Time To Recovery**
 * 〰️ **Change Failure Rate**
+
+## Conclusion
+
+There is no one size fit all, but modern practices tend to go towards simplicity and fast feedback loops. There are many practices involved on this simplicity that enables us to feel comfortable with only production environments. We will talk about them on this series.   
+  
+## Related Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UBtiBA5QTEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9C0efJkT0Hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
