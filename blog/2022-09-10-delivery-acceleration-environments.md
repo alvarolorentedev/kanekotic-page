@@ -32,7 +32,9 @@ Nevertheless, let's reflect why these are 3 different practices. As they are ste
 
 ## The trap of Multiple Environments
 
-As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.  
+As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.
+
+  
 ![](https://www.kanekotic.com/img/environments.jpeg)
 
 The intent of having multiple environments is to reduce change failure rate, are we actually achieving this with the practices? The answer is normally not due to:
@@ -56,7 +58,7 @@ As you can see, this makes a fake sense of safety, but it does not affect positi
 
 ## Achieving Continuous Deployment, Only prod, is it so crazy?
 
-How can a team Continuous deployment, the answer tends to be simple, making every commit go to production and testing in it.  
+How can a team Continuous deployment? The answer tends to be simple, making every commit go to production and testing in it.  
 Be aware this does not mean to have our users experience possible bugs or see test data, as we can hide functionalities behind toggles, headers, or parameters that allow access to only the development team.
 
 An example strategy is the one in the next diagram.
