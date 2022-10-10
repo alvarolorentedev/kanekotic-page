@@ -3,7 +3,7 @@ title: 'The future of teams: Crossfuctional & T-Shaped'
 subtitle: Team structure matters, how can we enable teams to be more productive &
   independent
 domain: kanekotic.hashnode.dev
-tags: softwaredevelopment, architecture, technology, productivity
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/13/the-future-of-teams-crossfunctional-and-t-shaped
 cover: https://www.kanekotic.com/img/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png
 ignorePost: false

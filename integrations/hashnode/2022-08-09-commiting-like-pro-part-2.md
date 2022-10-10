@@ -2,7 +2,7 @@
 title: 'Commiting Like a Pro in NodeJs: The Message'
 subtitle: Using tools to create descriptive commits
 domain: kanekotic.hashnode.dev
-tags: webdev, git, programming, productivity
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/08/09/commiting-like-pro-part-2
 cover: https://commitizen-tools.github.io/commitizen/images/demo.gif
 

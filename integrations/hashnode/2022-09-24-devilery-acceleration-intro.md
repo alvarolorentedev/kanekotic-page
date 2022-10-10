@@ -3,7 +3,7 @@ title: 'Delivery Acceleration: Intro'
 subtitle: Why do teams perform differently and what are the tools & practices some
   team use to differentiate themselves
 domain: kanekotic.hashnode.dev
-tags: programming, softwaredevelopment, devops, productivity
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/24/devilery-acceleration-intro
 cover: https://www.kanekotic.com/img/key_metrics.png
 ignorePost: false

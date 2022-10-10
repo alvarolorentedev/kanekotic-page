@@ -3,7 +3,7 @@ title: 'Delivery Acceleration: DevOps Mentality & Practices'
 subtitle: When we run services in production, mentality can make or break our intent
   to move towards real CI/CD
 domain: kanekotic.hashnode.dev
-tags: productivity, devops, softwaredevelopment, programming
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/25/delivery-acceleration-devops-attitudes
 cover: https://www.kanekotic.com/img/run_it.jpg
 ignorePost: false

@@ -2,7 +2,7 @@
 title: 'Automate Anything: Power Automate + Trello + IFTTT'
 subtitle: how to automate tedius tasks with low code platforms
 domain: kanekotic.hashnode.dev
-tags: lowcode, serverless, showdev, productivity
+tags: software-development, devops, programming, developer
 canonical: https://www.kanekotic.com/blog/2022/08/24/power-automate-automating-social-media
 cover: https://github.com/kanekotic/diagrams/blob/main/automate.drawio.png?raw=true
 

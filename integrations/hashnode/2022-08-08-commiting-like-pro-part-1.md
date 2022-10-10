@@ -2,7 +2,7 @@
 title: 'Commiting Like a Pro in NodeJs: The hooks'
 subtitle: Using git hooks to make sure your commits do what you expect
 domain: kanekotic.hashnode.dev
-tags: agile, webdev, programming, productivity
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/08/08/commiting-like-pro-part-1
 ---
 ## What & Why Git hooks?

@@ -2,7 +2,7 @@
 title: Patterns to avoiding microlithic microservices
 subtitle: how can we decouple services to avoid some common pitfalls
 domain: kanekotic.hashnode.dev
-tags: api, microservices, programming, architecture
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/05/patterns-to-avoiding-microlithic-microservices
 cover: https://www.kanekotic.com/img/microliths.jpg
 
