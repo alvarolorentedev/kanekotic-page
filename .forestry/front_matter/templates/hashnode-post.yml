@@ -13,6 +13,7 @@ fields:
   label: tags
   config:
     required: true
+  default: software-development, devops, programming, developer
 - name: domain
   type: text
   config:
