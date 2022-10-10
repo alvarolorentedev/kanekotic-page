@@ -3,7 +3,7 @@ title: 'Delivery Acceleration: Observability'
 subtitle: When runing services in production the most important thing is to understand
   the health of it
 domain: kanekotic.hashnode.dev
-tags: softwaredevelopment programming, devops, productivity
+tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover: https://www.kanekotic.com/img/no_alarms.png
 ignorePost: false
