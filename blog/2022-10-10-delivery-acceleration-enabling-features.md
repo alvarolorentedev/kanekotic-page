@@ -17,3 +17,4 @@ cover_image: ''
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
+Now that we know where our code lives, we need to make sure our users get access to it. 
