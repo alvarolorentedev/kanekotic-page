@@ -1,8 +1,7 @@
 ---
 title: Update your npm package dependencies and release with Travis
-summary: Update your npm package dependencies and release with Travis
 description: Update your npm package dependencies and release with Travis
-date: 2018-07-11T09:27:28+02:00
+authors: kanekotic
 tags: 
     - ci
     - cd

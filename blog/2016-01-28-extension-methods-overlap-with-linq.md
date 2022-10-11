@@ -1,8 +1,7 @@
 ---
 title: C# - Extension methods overlap with linq
-summary: C# - Extension methods overlap with linq
 description: C# - Extension methods overlap with linq
-date: 2016-01-28T09:56:49+02:00
+authors: kanekotic
 tags: 
     - daily
     - learn

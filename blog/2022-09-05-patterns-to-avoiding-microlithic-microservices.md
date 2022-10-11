@@ -1,10 +1,8 @@
 ---
-date: 2022-09-05T08:22:55.000+02:00
 draft: false
 title: Patterns to avoiding microlithic microservices
 description: how can we decouple services to avoid some common pitfalls
-authors:
-- kanekotic
+authors: kanekotic
 tags:
 - api
 - microservices
@@ -14,7 +12,7 @@ published: 2022-09-05T08:22:55.000+02:00
 series: The journey from the monolith to microservices
 canonical_url: https://www.kanekotic.com/blog/2022/09/05/patterns-to-avoiding-microlithic-microservices
 cover_image: https://www.kanekotic.com/img/microliths.jpg
-
+image: https://www.kanekotic.com/img/microliths.jpg
 ---
 On the previous installment of this series, we discussed the pitfalls that could happen when we split a monolith into microservices. In specific, we talked about creating what are called microliths.  
 ![](https://www.kanekotic.com/img/microliths.jpg)

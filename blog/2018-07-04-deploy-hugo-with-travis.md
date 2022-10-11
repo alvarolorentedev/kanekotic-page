@@ -1,8 +1,7 @@
 ---
 title: Create your User/Organization GitHub Page with Hugo + Travis
-summary: Create your User/Organization GitHub Page with Hugo + Travis
 description: Create your User/Organization GitHub Page with Hugo + Travis
-date:  2018-07-04T08:35:42+02:00
+authors: kanekotic
 tags: 
     - ci
     - cd

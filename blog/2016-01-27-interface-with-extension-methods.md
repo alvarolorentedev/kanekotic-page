@@ -1,8 +1,7 @@
 ---
 title: C# - Fluent Interfaces with Extension Methods
-summary: C# - Fluent Interfaces with Extension Methods
 description: C# - Fluent Interfaces with Extension Methods
-date:  2016-01-27T09:56:49+02:00
+authors: kanekotic
 tags: 
     - daily
     - learn
