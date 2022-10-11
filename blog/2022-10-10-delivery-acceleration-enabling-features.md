@@ -57,4 +57,21 @@ This approach provides us a way to reduce the blast radius from a big bang relea
 
 To improve upon the canary release strategy, we can move towards feature flags.
 
+Feature Flags are hiding our code behind a 'flag' this can help decide if the code is enabled or disabled, as in the next image.
+
 ![](https://www.kanekotic.com/img/toggles.jpeg)
+
+There are a multitude of services, libraries & SDKs that allow you to create flags in your code. They help by:
+
+*  Decouple activation of features from the release pipeline.
+* Solving incidents in a matter of seconds.
+* Do a controlled rollout. for example:
+  * Enable only for team.
+  * Enable for X% of the traffic.
+  * Enable for users in a specific country.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Deployment frequency**
+* ✔️ **Mean Time To Recovery**
+* ✔️ **Change Failure Rate**
