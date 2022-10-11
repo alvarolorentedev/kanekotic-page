@@ -1,5 +1,4 @@
 ---
-date: '2022-10-11T10:41:42.000+02:00'
 draft: false
 title: 'Delivery Acceleration: Testing & Validation'
 description: is testing enough to make sure our code works?
