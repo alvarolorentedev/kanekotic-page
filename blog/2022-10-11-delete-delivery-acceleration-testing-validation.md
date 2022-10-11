@@ -25,13 +25,17 @@ In reality, the most important thing, is to make sure we use the correct ratio o
 
 This ratio has always been shown as a pyramid with:
 
-* **Unit test**: validate individual pieces of logic that are isolated. 
+* **Unit test**: validate individual pieces of logic that are isolated.
 * **Integration test**: validates interactions with multiple parts of your system or other systems.
 * **Integrated test**: They test the system as a whole.
 
 ![](https://www.kanekotic.com/img/pyramid.jpeg)
 
 Tests are divided in these layers because there is a cost in time and complexity.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Change Failure Rate**
 
 ## Validation
 
@@ -41,4 +45,6 @@ As we have seen in the previous chapter, the recommendation is to do this in pro
 * Get real behaviors of interactions with other systems
 * Get real performance
 
-Change Failure Rate
+This affect the next DORA 4 metrics:
+
+* ✔️ **Change Failure Rate**
