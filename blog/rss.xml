@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Delivery Acceleration: Testing & Validation]]></title>
-            <link>https://www.kanekotic.com/blog/2022/10/11/delete-delivery-acceleration-testing-validation</link>
-            <guid>/2022/10/11/delete-delivery-acceleration-testing-validation</guid>
+            <link>https://www.kanekotic.com/blog/2022/10/11/delivery-acceleration-testing-validation</link>
+            <guid>/2022/10/11/delivery-acceleration-testing-validation</guid>
             <pubDate>Tue, 11 Oct 2022 08:41:42 GMT</pubDate>
             <description><![CDATA[is testing enough to make sure our code works?]]></description>
             <content:encoded><![CDATA[<p>Before we enable code for our clients, we need to test and validate it does what is expected. This could be an entire series of its own (please let me know if you want one), so I will keep it on a high level.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="testing">Testing<a class="hash-link" href="#testing" title="Direct link to heading">​</a></h2><p>I could probably spend hours sharing different types of testing strategies and where and why to use them.<br>
