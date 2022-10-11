@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-10-08T19:26:12.000Z</updated>
+    <updated>2022-10-10T10:52:08.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://www.kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Delivery Acceleration: Enabling Features]]></title>
+        <id>/2022/10/10/delivery-acceleration-enabling-features</id>
+        <link href="https://www.kanekotic.com/blog/2022/10/10/delivery-acceleration-enabling-features"/>
+        <updated>2022-10-10T10:52:08.000Z</updated>
+        <summary type="html"><![CDATA[How do we roll out features? What are some practices that can save us from the big bang release]]></summary>
+        <content type="html"><![CDATA[<p>Now that we know where our code lives, we need to make sure our users get access to the features. For this, we need to get our code to the environment we want to deploy to, and control the rollout (if you are not a big bang release fan).</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bluegreen-deployment-getting-to-prod-with-0-downtime">Blue/Green Deployment: Getting to prod with 0 downtime<a class="hash-link" href="#bluegreen-deployment-getting-to-prod-with-0-downtime" title="Direct link to heading">​</a></h2><p>What is this?, The concept is simple, we have a set of machines (ex. blue) where we currently have our app running, and we want to deploy. The intent is to create a new set of machines (ex. green) where our new version of the code will run. We would like to validate as much as possible (ex. automated e2e tests) that this new version is up to par with the previous one before moving the traffic and destroy the previous version.</p><p>You can see the process in the next graph:</p><p><img loading="lazy" src="https://www.kanekotic.com/img/blue_green.jpeg" class="img_ev3q"></p><p>With this, we are trying to achieve a 0 downtime while deploying a new version of our code. This is critical for teams that practice continuous deployment, as you want to avoid having systems down as you deploy multiple times a day.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enabling-feature-access-to-users">Enabling feature access to users<a class="hash-link" href="#enabling-feature-access-to-users" title="Direct link to heading">​</a></h2><p>there are multiple ways to enable access to users, in between them:</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="big-bang-releases">Big Bang Releases<a class="hash-link" href="#big-bang-releases" title="Direct link to heading">​</a></h3><p>This is the plug and pray solution. Pushing the code and expecting it to work as it's enabled for all users. This is a very dangerous strategy as your blast radius is all your users.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="canary-releases">Canary Releases<a class="hash-link" href="#canary-releases" title="Direct link to heading">​</a></h3><p>This is a practice that comes from the mining industry, The idea was the next one:</p><blockquote><p>If a canary is in the same place where humans are inside the mine, when there is a problem with the breathable air it will be the first one to perish.</p></blockquote><p>If we translate this to software, the idea is to have deployed the changes only to one or a few servers. With this, we can monitor this canary instances and act if any issue happens, we reduce the blast radius of issues to only the users who go through that server.</p><p><img loading="lazy" src="https://www.kanekotic.com/img/canary.jpeg" class="img_ev3q"></p><p>This affect the next DORA 4 metrics:</p><ul><li>✔️ <strong>Change Failure Rate</strong></li></ul><p>This approach provides us a way to reduce the blast radius from a big bang release. Nevertheless, it does not help us to prevent or act faster upon a bug in our code. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="feature-flag-releases">Feature Flag Releases<a class="hash-link" href="#feature-flag-releases" title="Direct link to heading">​</a></h3><p>To improve upon the canary release strategy, we can move towards feature flags.</p><p>Feature Flags are hiding our code behind a 'flag' this can help decide if the code is enabled or disabled, as in the next image.</p><p><img loading="lazy" src="https://www.kanekotic.com/img/toggles.jpeg" class="img_ev3q"></p><p>There are a multitude of services, libraries &amp; SDKs that allow you to create flags in your code. They help by:</p><ul><li>Decouple activation of features from the release pipeline.</li><li>Solving incidents in a matter of seconds.</li><li>Do a controlled rollout. for example:<ul><li>Enable only for team.</li><li>Enable for X% of the traffic.</li><li>Enable for users in a specific country.</li></ul></li></ul><p>This affect the next DORA 4 metrics:</p><ul><li>✔️ <strong>Deployment frequency</strong></li><li>✔️ <strong>Mean Time To Recovery</strong></li><li>✔️ <strong>Change Failure Rate</strong></li></ul>]]></content>
+        <author>
+            <name>Alvaro Jose</name>
+            <uri>https://github.com/kanekotic</uri>
+        </author>
+        <category label="productivity" term="productivity"/>
+        <category label="devops" term="devops"/>
+        <category label="programming" term="programming"/>
+        <category label="softwaredevelopment" term="softwaredevelopment"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Delivery Acceleration: Deployment Environments]]></title>
         <id>/2022/10/10/delivery-acceleration-environments</id>
