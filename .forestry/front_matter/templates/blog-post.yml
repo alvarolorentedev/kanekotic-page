@@ -12,6 +12,7 @@ fields:
   type: text
   default: kanekotic
   label: authors
+  hidden: true
 - type: list
   name: tags
   label: tags
