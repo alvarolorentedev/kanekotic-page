@@ -13,8 +13,6 @@ published: 2022-10-24T01:00:00.000+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/10/11/delivery-acceleration-testing-validation
 cover_image: https://www.kanekotic.com/img/testing.jpg
 series: Accelerate Continious Integration & Delivery Practices
-image: https://www.kanekotic.com/img/testing.jpg
-
 ---
 Before we enable code for our clients, we need to test and validate it does what is expected. This could be an entire series of its own (please let me know if you want one), so I will keep it on a high level.
 

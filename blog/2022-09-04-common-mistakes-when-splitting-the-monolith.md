@@ -12,7 +12,6 @@ published: 2022-09-04T12:32:34.000+02:00
 series: The journey from the monolith to microservices
 canonical_url: https://www.kanekotic.com/blog/2022/09/04/common-mistakes-when-splitting-the-monolith
 cover_image: https://user-images.githubusercontent.com/3071208/188307797-7c30c8cb-bff7-4755-822b-7cf469cba372.JPG
-image: https://user-images.githubusercontent.com/3071208/188307797-7c30c8cb-bff7-4755-822b-7cf469cba372.JPG
 ---
 ## The Monolith
 

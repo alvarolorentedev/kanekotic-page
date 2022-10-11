@@ -12,7 +12,6 @@ tags:
 published: 2022-10-12T01:00:00+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/09/10/delivery-acceleration-environments
 cover_image: https://www.kanekotic.com/img/cicd.png
-image: https://www.kanekotic.com/img/cicd.png
 series: Accelerate Continious Integration & Delivery Practices
 ---
 Our services need to run somewhere, so our users can access it. It's a very common practices to have multiple environments like dev, staging, and prod. Is this actually a good practices?

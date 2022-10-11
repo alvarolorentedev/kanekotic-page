@@ -12,7 +12,6 @@ tags:
 published: 2022-10-05T21:40:00+02:00
 canonical_url: https://www.kanekotic.com/blog/2022/09/27/delivery-acceleration-observability
 cover_image: https://www.kanekotic.com/img/no_alarms.png
-image: https://www.kanekotic.com/img/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
 ---
 When we talk about observability, we talk about:

@@ -138,11 +138,6 @@ fields:
   config:
     required: false
   label: cover image
-- name: image
-  type: text
-  config:
-    required: false
-  label: image
 - name: series
   type: text
   config:
