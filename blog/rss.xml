@@ -4,10 +4,24 @@
         <title>Kanekotic's Site Blog</title>
         <link>https://www.kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
-        <lastBuildDate>Mon, 10 Oct 2022 10:52:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Oct 2022 08:41:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Delete Delivery Acceleration: Testing & Validation]]></title>
+            <link>https://www.kanekotic.com/blog/2022/10/11/delete-delivery-acceleration-testing-validation</link>
+            <guid>/2022/10/11/delete-delivery-acceleration-testing-validation</guid>
+            <pubDate>Tue, 11 Oct 2022 08:41:42 GMT</pubDate>
+            <description><![CDATA[is testing enough to make sure our code works?]]></description>
+            <content:encoded><![CDATA[<p>Before we enable code for our clients, we need to test and validate it does what is expected. This could be an entire series of its own (please let me know if you want one), so I will keep it on a high level.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="testing">Testing<a class="hash-link" href="#testing" title="Direct link to heading">​</a></h2><p>I could probably spend hours sharing different types of testing strategies and where and why to use them.<br>
+<!-- -->In reality, the most important thing, is to make sure we use the correct ratio of the different types of tests, as it will highly affect the time and location of your testing.</p><p>This ratio has always been shown as a pyramid with:</p><ul><li><strong>Unit test</strong>: validate individual pieces of logic that are isolated.</li><li><strong>Integration test</strong>: validates interactions with multiple parts of your system or other systems.</li><li><strong>Integrated test</strong>: They test the system as a whole.</li></ul><p><img loading="lazy" src="https://www.kanekotic.com/img/pyramid.jpeg" class="img_ev3q"></p><p>Tests are divided in these layers because there is a cost in time and complexity.</p><p>This affect the next DORA 4 metrics:</p><ul><li>✔️ <strong>Change Failure Rate</strong></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="validation">Validation<a class="hash-link" href="#validation" title="Direct link to heading">​</a></h2><p>Validation differs from testing as it's the confirmation that the behavior is what the user expected, for now, humans are the only ones that can discern this.<br>
+<!-- -->As we have seen in the previous chapter, the recommendation is to do this in production, so you get:</p><ul><li>Get real behaviors of interactions with other systems</li><li>Get real performance</li></ul><p>This affect the next DORA 4 metrics:</p><ul><li>✔️ <strong>Change Failure Rate</strong></li></ul>]]></content:encoded>
+            <category>softwaredevelopment</category>
+            <category>programming</category>
+            <category>devops</category>
+            <category>productivity</category>
+        </item>
         <item>
             <title><![CDATA[Delivery Acceleration: Enabling Features]]></title>
             <link>https://www.kanekotic.com/blog/2022/10/10/delivery-acceleration-enabling-features</link>
