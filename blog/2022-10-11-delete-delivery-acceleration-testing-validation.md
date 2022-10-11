@@ -1,7 +1,7 @@
 ---
 date: 2022-10-11T10:41:42+02:00
 draft: false
-title: 'Delete Delivery Acceleration: Testing & Validation'
+title: 'Delivery Acceleration: Testing & Validation'
 description: is testing enough to make sure our code works?
 authors:
 - kanekotic
