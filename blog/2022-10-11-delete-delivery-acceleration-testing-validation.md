@@ -12,7 +12,14 @@ tags:
 - productivity
 published: 
 canonical_url: ''
-cover_image: ''
+cover_image: https://www.kanekotic.com/img/testing.jpg
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
+Before we enable code for our clients, we need to test and validate it does what is expected. This could be an entire series of its own (please let me know if you want one), so I will keep it on a high level.
+
+## Testing
+
+![](https://www.kanekotic.com/img/pyramid.jpeg)
+
+## Validation
