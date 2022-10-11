@@ -47,6 +47,14 @@ If we translate this to software, the idea is to have deployed the changes only 
 
 ![](https://www.kanekotic.com/img/canary.jpeg)
 
+This affect the next DORA 4 metrics:
+
+* ✔️ **Change Failure Rate**
+
+This approach provides us a way to reduce the blast radius from a big bang release. Nevertheless, it does not help us to prevent or act faster upon a bug in our code. 
+
 ### Feature Flag Releases
+
+To improve upon the canary release strategy, we can move towards feature flags.
 
 ![](https://www.kanekotic.com/img/toggles.jpeg)
