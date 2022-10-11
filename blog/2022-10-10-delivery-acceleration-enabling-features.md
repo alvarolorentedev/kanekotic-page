@@ -1,6 +1,6 @@
 ---
 date: 2022-10-10T12:52:08.000+02:00
-draft: true
+draft: false
 title: 'Delivery Acceleration: Enabling Features'
 description: How do we roll out features? What are some practices that can save us
   from the big bang release
@@ -13,7 +13,7 @@ tags:
 - softwaredevelopment
 published: 2022-10-17T00:00:00.000+02:00
 canonical_url: ''
-cover_image: ''
+cover_image: https://www.kanekotic.com/img/toggles.jpeg
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
