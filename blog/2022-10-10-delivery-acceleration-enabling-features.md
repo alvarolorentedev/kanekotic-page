@@ -1,5 +1,5 @@
 ---
-date: 2022-10-10T12:52:08+02:00
+date: 2022-10-10T12:52:08.000+02:00
 draft: true
 title: 'Delivery Acceleration: Enabling Features'
 description: How do we roll out features? What are some practices that can save us
@@ -11,7 +11,7 @@ tags:
 - devops
 - programming
 - softwaredevelopment
-published: 2022-10-17T00:00:00+02:00
+published: 2022-10-17T00:00:00.000+02:00
 canonical_url: ''
 cover_image: ''
 series: Accelerate Continious Integration & Delivery Practices
@@ -38,6 +38,12 @@ there are multiple ways to enable access to users, in between them:
 This is the plug and pray solution. Pushing the code and expecting it to work as it's enabled for all users. This is a very dangerous strategy as your blast radius is all your users.
 
 ### Canary Releases
+
+This is a practice that comes from the mining industry, The idea was the next one:
+
+> If a canary is in the same place where humans are inside the mine, when there is a problem with the breathable air it will be the first one to perish.
+
+If we translate this to software, the idea is to have deployed the changes only to one or a few servers. With this, we can monitor this canary instances and act if any issue happens, we reduce the blast radius of issues to only the users who go through that server.
 
 ![](https://www.kanekotic.com/img/canary.jpeg)
 
