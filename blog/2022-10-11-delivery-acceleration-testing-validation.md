@@ -11,7 +11,7 @@ tags:
 - devops
 - productivity
 published: 2022-10-24T01:00:00+02:00
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/10/11/delivery-acceleration-testing-validation
 cover_image: https://www.kanekotic.com/img/testing.jpg
 series: Accelerate Continious Integration & Delivery Practices
 
