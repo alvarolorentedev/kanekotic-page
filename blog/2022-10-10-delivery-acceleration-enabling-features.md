@@ -65,7 +65,7 @@ There are a multitude of services, libraries & SDKs that allow you to create fla
 
 *  Decouple activation of features from the release pipeline.
 * Solving incidents in a matter of seconds.
-* Do a controlled rollout. for example:
+* Do a controlled rollout. For example:
   * Enable only for team.
   * Enable for X% of the traffic.
   * Enable for users in a specific country.
