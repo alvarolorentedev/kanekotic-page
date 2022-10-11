@@ -12,7 +12,7 @@ tags:
 - programming
 - softwaredevelopment
 published: 2022-10-17T00:00:00.000+02:00
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/10/10/delivery-acceleration-enabling-features
 cover_image: https://www.kanekotic.com/img/toggles.jpeg
 series: Accelerate Continious Integration & Delivery Practices
 
