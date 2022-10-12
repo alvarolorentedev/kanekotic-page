@@ -15,3 +15,8 @@ cover_image: ''
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
+I have already written some [other post](https://www.kanekotic.com/blog/2022/08/08/stop-prs) on this topic. I will go straight to the point on comparing Git Flow (a [legacy strategy](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) that most companies use) and Trunk-Based Development.
+
+## Gitflow: The Bad & the Ugly
+
+## Trunk-Based Development: The Good
