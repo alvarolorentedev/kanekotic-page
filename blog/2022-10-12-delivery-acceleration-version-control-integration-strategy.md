@@ -19,16 +19,28 @@ I have already written some [other post](https://www.kanekotic.com/blog/2022/08/
 
 ## Gitflow: The Bad & The Ugly
 
-Why do I call it the bad and the ugly? Because it does not allow you to achieve Continuous Deployment.   
+Why do I call it the bad and the ugly? Because it does not allow you to achieve Continuous Deployment.  
 The idea is that every developer works isolated on their branch, validate on their branch and ask through a merge request to add their code to the X stage branch.
 
 ![](https://www.kanekotic.com/img/gitflow-diagram-768x973.png)  
 There are multiple issues with this:
 
-* Code does not exist isolated, we don't deploy isolated code. 
-* The peer review process happens at the end, causing a very slow feedback loop.
+* Code does not exist isolated, we don't deploy isolated code, so the isolated test is not valid as it will require retesting.
+* The peer review process happens at the end, causing a very slow feedback loop. Having to rewrite code that could be avoided.
 * The more time the branch lives, the more it diverges from the original behavior and the more complex it is to merge.
 * Merging can cause complex conflicts that require revalidation, and it might have side effect in other features.
-* Egos are normally part of the review process.
+* Egos and preferences become part of the review process, as it has become an 'accepted' practice that the 'experts' or 'leads' do the reviews.
+
+All of this is red tape to go through is a problem that makes delivery slower, and create a lack of ownership mentality farther away from what happen to the individual branch.
+
+  
+This affects mostly negatively, most of DORA 4 metrics:
+
+* ❌ **Deployment frequency**
+* ❌ **Lead Time for change**
+* ❌ **Mean Time To Recovery**
+* ❌ **Change Failure Rate**
+
+Is there a simpler and better way to collaborate on code way?
 
 ## Trunk-Based Development: The Good
