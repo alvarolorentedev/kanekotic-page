@@ -46,6 +46,8 @@ Is there a simpler and better way to collaborate on code way?
 
 ## Trunk-Based Development: The Good
 
-What happends if we all commit to the same branch.
+What happens if we all commit to the same branch.
 
 ![](https://www.kanekotic.com/img/trunk.png)
+
+Most of the expressed issues are solved.
