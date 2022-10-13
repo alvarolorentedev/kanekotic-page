@@ -10,7 +10,7 @@ tags:
 - programming
 - softwaredevelopment
 published: 2022-10-31T01:00:00+01:00
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/10/12/delivery-acceleration-version-control-integration-strategy
 cover_image: https://www.kanekotic.com/img/trunk.png
 series: Accelerate Continious Integration & Delivery Practices
 
