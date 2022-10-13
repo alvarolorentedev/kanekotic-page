@@ -1,6 +1,6 @@
 ---
 authors: kanekotic
-draft: true
+draft: false
 title: 'Delivery Acceleration: Version Control Integration Strategy'
 description: How do you integrate code in the team matters, it will directly affect
   the rest of your architecture and practices like we have seen in previous chapters
@@ -9,9 +9,9 @@ tags:
 - devops
 - programming
 - softwaredevelopment
-published: 
+published: 2022-10-31T01:00:00+01:00
 canonical_url: ''
-cover_image: ''
+cover_image: https://www.kanekotic.com/img/trunk.png
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
