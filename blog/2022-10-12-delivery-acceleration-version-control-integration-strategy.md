@@ -40,7 +40,6 @@ This affects mostly negatively, most of DORA 4 metrics:
 * ❌ **Deployment frequency**
 * ❌ **Lead Time for change**
 * ❌ **Mean Time To Recovery**
-* ❌ **Change Failure Rate**
 
 Is there a simpler and better way to collaborate on code way?
 
@@ -56,5 +55,12 @@ Most of the expressed issues are solved, in this scenario by:
 * Teams that do this practices also practice pair programming, making the peer review process is continuous and synchronous.
 * As individuals push multiple times a day, merge conflicts are non-existent or small.
 * Does not require revalidation, as validation is a continuous stream in the single environment.
-* No ego environment tent to appear as there is no centralize approver of code, so it's a team effort and ownership.
-* 
+* No ego environment tent to appear as there is no centralize approver of code, so it's not a matter of preference but a team effort and ownership.
+
+As we have seen before, having unfinished code does not need to affect users, as it is common practice to use feature flags and/or branching by abstraction.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Deployment frequency**
+* ✔️ **Lead Time for change**
+* ✔️ **Mean Time To Recovery**
