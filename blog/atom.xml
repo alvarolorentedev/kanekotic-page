@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-10-11T00:00:00.000Z</updated>
+    <updated>2022-10-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://www.kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Delivery Acceleration: Version Control Integration Strategy]]></title>
+        <id>/2022/10/12/delivery-acceleration-version-control-integration-strategy</id>
+        <link href="https://www.kanekotic.com/blog/2022/10/12/delivery-acceleration-version-control-integration-strategy"/>
+        <updated>2022-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How do you integrate code in the team matters, it will directly affect the rest of your architecture and practices like we have seen in previous chapters]]></summary>
+        <content type="html"><![CDATA[<p>I have already written some <a href="https://www.kanekotic.com/blog/2022/08/08/stop-prs" target="_blank" rel="noopener noreferrer">other post</a> on this topic. I will go straight to the point on comparing Git Flow (a <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener noreferrer">legacy strategy</a> that most companies use) and Trunk-Based Development.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="gitflow-the-bad--the-ugly">Gitflow: The Bad &amp; The Ugly<a class="hash-link" href="#gitflow-the-bad--the-ugly" title="Direct link to heading">​</a></h2><p>Why do I call it the bad and the ugly? Because it does not allow you to achieve Continuous Deployment.<br>
+<!-- -->The idea is that every developer works isolated on their branch, validate on their branch and ask through a merge request to add their code to the X stage branch.</p><p><img loading="lazy" src="https://www.kanekotic.com/img/gitflow-diagram-768x973.png" class="img_ev3q"><br>
+<!-- -->There are multiple issues with this:</p><ul><li>Code does not exist isolated, we don't deploy isolated code, so the isolated test is not valid as it will require retesting.</li><li>The peer review process happens at the end, causing a very slow feedback loop. Having to rewrite code that could be avoided.</li><li>The more time the branch lives, the more it diverges from the original behavior and the more complex it is to merge.</li><li>Merging can cause complex conflicts that require revalidation, and it might have side effect in other features. </li><li>As there needs to be validations of the merges, it's normal to have multiple environments that give a false sense of security, increases the $ cost and increases the lead time.</li><li>Egos and preferences become part of the review process, as it has become an 'accepted' practice that the 'experts' or 'leads' do the reviews.</li></ul><p>All of this is red tape to go through is a problem that makes delivery slower, and create a lack of ownership mentality farther away from what happen to the individual branch.</p><p>This affects mostly negatively, most of DORA 4 metrics:</p><ul><li>❌ <strong>Deployment frequency</strong></li><li>❌ <strong>Lead Time for change</strong></li><li>❌ <strong>Mean Time To Recovery</strong></li></ul><p>Is there a simpler and better way to collaborate on code way?</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="trunk-based-development-the-good">Trunk-Based Development: The Good<a class="hash-link" href="#trunk-based-development-the-good" title="Direct link to heading">​</a></h2><p>What happens if we all commit to the same branch.</p><p><img loading="lazy" src="https://www.kanekotic.com/img/trunk.png" class="img_ev3q"></p><p>Most of the expressed issues are solved, in this scenario by:</p><ul><li>Code is never isolated, as we all push code to the same place.</li><li>Teams that do this practices also practice pair programming, making the peer review process is continuous and synchronous.</li><li>As individuals push multiple times a day, merge conflicts are non-existent or small.</li><li>Does not require revalidation, as validation is a continuous stream in the single environment.</li><li>No ego environment tent to appear as there is no centralize approver of code, so it's not a matter of preference but a team effort and ownership.</li></ul><p>As we have seen before, having unfinished code does not need to affect users, as it is common practice to use feature flags and/or branching by abstraction.</p><p>This affect the next DORA 4 metrics:</p><ul><li>✔️ <strong>Deployment frequency</strong></li><li>✔️ <strong>Lead Time for change</strong></li><li>✔️ <strong>Mean Time To Recovery</strong></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a class="hash-link" href="#conclusion" title="Direct link to heading">​</a></h2><p>Simplicity is king. Having a simpler structure enables speed and quality of delivery, as it allow teams to work closely, take shared ownership and act faster related to a smaller change.</p>]]></content>
+        <author>
+            <name>Alvaro Jose</name>
+            <uri>https://github.com/kanekotic</uri>
+        </author>
+        <category label="productivity" term="productivity"/>
+        <category label="devops" term="devops"/>
+        <category label="programming" term="programming"/>
+        <category label="softwaredevelopment" term="softwaredevelopment"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Delivery Acceleration: Testing & Validation]]></title>
         <id>/2022/10/11/delivery-acceleration-testing-validation</id>
