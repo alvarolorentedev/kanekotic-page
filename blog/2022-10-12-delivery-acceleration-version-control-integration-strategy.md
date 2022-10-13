@@ -64,3 +64,7 @@ This affect the next DORA 4 metrics:
 * ✔️ **Deployment frequency**
 * ✔️ **Lead Time for change**
 * ✔️ **Mean Time To Recovery**
+
+## Conclusion
+
+Simplicity is king. Having a simpler structure enables speed and quality of delivery, as it allow teams to work closely, take shared ownership and act faster related to a smaller change.
