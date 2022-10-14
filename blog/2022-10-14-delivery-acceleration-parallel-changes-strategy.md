@@ -10,7 +10,7 @@ tags:
 - devops
 - productivity
 published: 2022-11-07T01:00:00+01:00
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/10/14/delivery-acceleration-parallel-changes-strategy
 cover_image: https://www.kanekotic.com/img/expand_contract.jpeg
 series: Accelerate Continious Integration & Delivery Practices
 
@@ -24,9 +24,13 @@ It also makes it more difficult to make a case for clients to migrate from one t
 
 ![](https://www.kanekotic.com/img/version.png)
 
-## Versionless: Expand & Contract 
+This affect mostly negatively the next DORA 4 metrics:
 
-As the name says, this strategy intents to have only one state of truth and not a multitude of them. Versionless has been heavily adopted as a principle by GraphQL for example.   
+* ❌ **Lead Time for change**
+
+## Versionless: Expand & Contract
+
+As the name says, this strategy intents to have only one state of truth and not a multitude of them. Versionless has been heavily adopted as a principle by GraphQL, for example.  
 We can achieve this in any code base by implementing a strategy for parallel changes called **Expand & Contract**, it's call this way due to the phases code goes through. Let's see for example we want to migrate from using one field value to a similar field with a more complex representation.
 
 * **Expand**: We add the new 'field' to the existing contract, and add the code to support this strategy on the existing code.
@@ -35,3 +39,7 @@ We can achieve this in any code base by implementing a strategy for parallel cha
 ![](https://www.kanekotic.com/img/expand_contract.jpeg)
 
 With this, we have a clean source code that we can evolve indefinitely as required by the business.
+
+This affect the next DORA 4 metrics:
+
+* ✔️ **Lead Time for change**
