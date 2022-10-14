@@ -2,8 +2,8 @@
 authors: kanekotic
 draft: true
 title: 'Delivery Acceleration: Parallel Changes Strategy'
-description: code evolve and changes. How do we make sure we dont break things in
-  a continious deployment environment
+description: Code evolve and changes. Making sure we don't break things in a continuous
+  deployment environment.
 tags:
 - softwaredevelopment
 - programming
