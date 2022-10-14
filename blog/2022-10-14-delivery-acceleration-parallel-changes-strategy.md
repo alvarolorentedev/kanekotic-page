@@ -1,6 +1,6 @@
 ---
 authors: kanekotic
-draft: true
+draft: false
 title: 'Delivery Acceleration: Parallel Changes Strategy'
 description: Code evolve and changes. Making sure we don't break things in a continuous
   deployment environment.
@@ -9,7 +9,7 @@ tags:
 - programming
 - devops
 - productivity
-published: 
+published: 2022-11-07T01:00:00+01:00
 canonical_url: ''
 cover_image: https://www.kanekotic.com/img/expand_contract.jpeg
 series: Accelerate Continious Integration & Delivery Practices
