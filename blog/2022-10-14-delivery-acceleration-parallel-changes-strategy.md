@@ -11,7 +11,7 @@ tags:
 - productivity
 published: 
 canonical_url: ''
-cover_image: ''
+cover_image: https://www.kanekotic.com/img/expand_contract.jpeg
 series: Accelerate Continious Integration & Delivery Practices
 
 ---
