@@ -1,12 +1,12 @@
 ---
 title: 'Delivery Acceleration: Deployment Environments'
-subtitle: Where should we run our services? are there hidden consts on certain
-  practices?
+subtitle: Where should we run our services? are there hidden consts on certain practices?
 domain: kanekotic.hashnode.dev
 tags: software-development, devops, programming, developer, web-development
 canonical: https://www.kanekotic.com/blog/2022/09/10/delivery-acceleration-environments
 cover: https://www.kanekotic.com/img/cicd.png
-ignorePost: true
+ignorePost: false
+
 ---
 Our services need to run somewhere, so our users can access it. It's a very common practices to have multiple environments like dev, staging, and prod. Is this actually a good practices?
 
