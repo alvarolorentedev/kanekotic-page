@@ -37,5 +37,6 @@ fields:
   default: false
 pages:
 - integrations/hashnode/delivery-acceleration-enabling-features.md
+- integrations/hashnode/delivery-acceleration-parallel-changes-strategy.md
 - integrations/hashnode/delivery-acceleration-testing-validation.md
 - integrations/hashnode/delivery-acceleration-version-control-integration-strategy.md
