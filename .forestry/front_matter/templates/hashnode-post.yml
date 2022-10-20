@@ -35,3 +35,5 @@ fields:
   type: boolean
   label: Draft
   default: false
+pages:
+- integrations/hashnode/delivery-acceleration-testing-validation.md
