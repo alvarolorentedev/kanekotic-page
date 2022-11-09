@@ -6,7 +6,7 @@ subtitle: Code evolve and changes. Making sure we don't break things in a contin
   deployment environment.
 canonical: https://www.kanekotic.com/blog/2022/10/14/delivery-acceleration-parallel-changes-strategy
 cover: https://www.kanekotic.com/img/expand_contract.jpeg
-ignorePost: true
+ignorePost: false
 
 ---
 As we develop a product over time, changes need to be made as we need to accommodate new functionality. As most of our systems don't run isolated, and we have clients that used them (ex. public API), We have to keep compatibility at least on a temporary basis. How do we achieve this?
