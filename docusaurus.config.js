@@ -104,6 +104,11 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/kanekotic',
               },
+              {
+                rel: 'me',
+                label: 'Mastodon',
+                href: 'https://tilde.zone/@Kanekotic',
+              },
             ],
           },
           {
