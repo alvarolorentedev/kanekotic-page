@@ -10,7 +10,7 @@ tags:
 - architecture
 - programming
 published: 2022-11-28T09:00:00+01:00
-canonical_url: ''
+canonical_url: https://www.kanekotic.com/blog/2022/11/24/tdd-is-not-called-tdt-for-a-reason
 cover_image: https://www.kanekotic.com/img/tdd.png
 series: ''
 
