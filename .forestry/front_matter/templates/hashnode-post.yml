@@ -40,3 +40,4 @@ pages:
 - integrations/hashnode/delivery-acceleration-parallel-changes-strategy.md
 - integrations/hashnode/delivery-acceleration-testing-validation.md
 - integrations/hashnode/delivery-acceleration-version-control-integration-strategy.md
+- integrations/hashnode/tdd-is-not-called-tdt-for-a-reason.md
