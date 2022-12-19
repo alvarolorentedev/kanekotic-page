@@ -1,7 +1,7 @@
 ---
-title: 'Double-edge Microservices: MacroInfrastructure due Microservice Obsesion'
-description: MacroInfrastructure due Microservice Obsesion the over-engineering of
-  our age
+title: 'Double-edge Microservices: Macro Infrastructure due to Microservice Obsession'
+description: Macro Infrastructure due to Microservice Obsession the over-engineering
+  of our age
 authors: kanekotic
 tags:
 - webdev
