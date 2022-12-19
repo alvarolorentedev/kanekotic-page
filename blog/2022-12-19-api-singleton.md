@@ -13,7 +13,9 @@ published: 2022-12-20T14:00:00+01:00
 series: microservices a double-edged sword
 
 ---
-The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases. With the proliferation of microservices, have APIs become the new singleton?
+The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases. With the proliferation of microservices, **have APIs become the new singleton?**
+
+## The Problem
 
 APIs, or application programming interfaces, have become a ubiquitous part of modern software development. They allow different systems and applications to communicate with one another, enabling the creation of complex, interconnected systems that can share data and functionality. However, there has been a growing concern that APIs are being overused, leading to a proliferation of unnecessarily complex and fragile systems that are difficult to maintain and scale.
 
@@ -25,6 +27,8 @@ In addition to these issues, the reliance on APIs can also lead to fragile syste
 
 There are also concerns about the security of APIs. As they allow systems to communicate with one another, they can also provide a potential entry point for attackers to gain access to sensitive data or functionality. Properly securing APIs can be a complex and time-consuming task, and if not done correctly, can lead to significant vulnerabilities.
 
-So what can be done to address these issues? One solution is to use APIs more judiciously, carefully evaluating whether an API is truly necessary before implementing it. This can help reduce the overall complexity of the system and make it easier to maintain and scale. Another solution is to adopt API design standards and guidelines, which can help ensure that APIs are consistent and easy to understand and use. Finally, proper API security practices should be implemented to protect against potential vulnerabilities.
+## The Solution
 
-In conclusion, while APIs have become an essential part of modern software development, there is a growing concern that they are being overused, leading to unnecessarily complex and fragile systems that are difficult to maintain and scale. To address this issue, it is important to use APIs more judiciously, adopt design standards and guidelines, and implement proper security practices. By doing so, we can create more robust and scalable systems that can better meet the needs of users and businesses.
+So, what can be done to address these issues? One solution is to use APIs more judiciously, carefully evaluating whether an API is truly necessary before implementing it. This can help reduce the overall complexity of the system and make it easier to maintain and scale. 
+
+It's also important to adopt API design standards and guidelines, which can help ensure that APIs are consistent and easy to understand and use. Finally, proper API security practices should be implemented to protect against potential vulnerabilities.
