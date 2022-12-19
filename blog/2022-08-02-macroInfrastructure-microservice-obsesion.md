@@ -1,15 +1,17 @@
 ---
 title: 'Double-edge Microservices: MacroInfrastructure due Microservice Obsesion'
-description: The over-engineering of our age
+description: MacroInfrastructure due Microservice Obsesion the over-engineering of
+  our age
 authors: kanekotic
 tags:
 - webdev
 - api
 - programming
 - architecture
-draft: true
-published: 2030-08-02T00:00:00.000+02:00
+draft: false
+published: 2022-12-20T01:00:00+01:00
 series: microservices a double-edged sword
+
 ---
 ## The Context
 
@@ -29,7 +31,7 @@ Could that also happen with microservices?
 
 ### Clarity Of The Domain
 
-When a system grows too much in small pieces, it becomes more and more complex to understand the big picture.   
+When a system grows too much in small pieces, it becomes more and more complex to understand the big picture.  
 When pieces are too small, domain events start becoming exchange of information in between nodes of a network. All this removes cohesion on the knowledge over the domain of a system, making it difficult to grasp the real intention and capabilities of concepts and actors across a system.
 
 ### Babel tower Issue
@@ -53,3 +55,7 @@ One of the main ideas of microservices was to be able to validate assumptions fa
 When we create pieces of code that are independent, there is always a certain level of bootstrapping that is required and repeated in each node of our systems. This will cause not only a set of duplicated code, but also has a development time cost attached to it. Bootstrapping a project in a high granularity system can be complex to standardize.
 
 Microservices, the cloud, and infrastructure as a service have definitely revolutionized our industry, nevertheless as in everything there is a need for balance. Making sure we use the right tool for the job, and we don't over-engineer things, not only at a code level but also at infrastructure level, as everything has a cost.
+
+## Conclusion
+
+In conclusion, a macro infrastructure due to microservice obsession can lead to increased complexity and overhead costs, as well as challenges in making changes and updates to the system. While microservices can offer benefits such as increased scalability and flexibility, it is important for organizations to carefully consider their specific needs and choose the right level of granularity for their architecture.
