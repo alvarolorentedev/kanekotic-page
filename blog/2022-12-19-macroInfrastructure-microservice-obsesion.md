@@ -12,6 +12,7 @@ draft: false
 published: 2022-12-27T02:00:00+01:00
 series: microservices a double-edged sword
 canonical_url: https://www.kanekotic.com/blog/2022/12/19/macroInfrastructure-microservice-obsesion
+cover_image: https://www.kanekotic.com/img/captura-de-pantalla-2022-12-19-a-las-17-17-49.png
 
 ---
 ## The Context
