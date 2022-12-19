@@ -8,8 +8,8 @@ tags:
 - api
 - architecture
 - programming
-draft: true
-published: 2030-08-02T00:00:00.000+02:00
+draft: false
+published: 2022-12-20T14:00:00+01:00
 series: microservices a double-edged sword
 
 ---
