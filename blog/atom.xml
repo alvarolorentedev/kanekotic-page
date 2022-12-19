@@ -24,11 +24,11 @@
         <category label="programming" term="programming"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Double-edge Microservices: MacroInfrastructure due Microservice Obsesion]]></title>
+        <title type="html"><![CDATA[Double-edge Microservices: Macro Infrastructure due to Microservice Obsession]]></title>
         <id>/2022/12/19/macroInfrastructure-microservice-obsesion</id>
         <link href="https://www.kanekotic.com/blog/2022/12/19/macroInfrastructure-microservice-obsesion"/>
         <updated>2022-12-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[MacroInfrastructure due Microservice Obsesion the over-engineering of our age]]></summary>
+        <summary type="html"><![CDATA[Macro Infrastructure due to Microservice Obsession the over-engineering of our age]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-context">The Context<a class="hash-link" href="#the-context" title="Direct link to heading">​</a></h2><p>Cloud and infrastructure as code have revolutionized our industry. They allowed us to be able to procure infrastructure in a simple, adaptable way.<br>
 <!-- -->This allowed us to move from writing huge monolithic applications to write microservices that interact between them.<br>
 <!-- -->One of the most accepted definition of a microservice can be expressed as:</p><blockquote><p>A self-contained portion of code that does not share resources with other services, can be deployed independently, and should be easy to rewrite in a small portion of time.</p></blockquote><p>This sounds great when we talk about individual parts of a software projects. Nevertheless, when thinking about systems and how they operate, There is a point to make about granularity as software does never work fully isolated. It requires interactions with other systems to fulfill their purpose.</p><p>Most of the monolithic applications of the past had an issue of being over-engineered to allow changes that might never happen.</p><p>Could that also happen with microservices?</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-issues">The Issues<a class="hash-link" href="#the-issues" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="clarity-of-the-domain">Clarity Of The Domain<a class="hash-link" href="#clarity-of-the-domain" title="Direct link to heading">​</a></h3><p>When a system grows too much in small pieces, it becomes more and more complex to understand the big picture.<br>
