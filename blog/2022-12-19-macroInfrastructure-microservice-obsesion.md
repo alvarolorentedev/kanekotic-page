@@ -9,8 +9,9 @@ tags:
 - programming
 - architecture
 draft: false
-published: 2022-12-20T01:00:00+01:00
+published: 2022-12-27T02:00:00+01:00
 series: microservices a double-edged sword
+canonical_url: https://www.kanekotic.com/blog/2022/12/19/macroInfrastructure-microservice-obsesion
 
 ---
 ## The Context
