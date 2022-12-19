@@ -13,7 +13,7 @@ published: 2022-12-20T14:00:00+01:00
 series: microservices a double-edged sword
 
 ---
-The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases. With the proliferation of microservices, **have APIs become the new singleton?**
+The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases. With the proliferation of microservices, have APIs become the new singleton?
 
 APIs, or application programming interfaces, have become a ubiquitous part of modern software development. They allow different systems and applications to communicate with one another, enabling the creation of complex, interconnected systems that can share data and functionality. However, there has been a growing concern that APIs are being overused, leading to a proliferation of unnecessarily complex and fragile systems that are difficult to maintain and scale.
 
