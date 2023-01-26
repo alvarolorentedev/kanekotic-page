@@ -10,7 +10,7 @@ tags:
 - motivation
 published: 2023-01-27T01:00:00+01:00
 canonical_url: https://www.kanekotic.com/blog/2023-01-26-psycological-safety-in-software-developmente
-cover_image: ''
+cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/unnamed-1.jpg
 series: 'What makes high-performing teams '
 
 ---
