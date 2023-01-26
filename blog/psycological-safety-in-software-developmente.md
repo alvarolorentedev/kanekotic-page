@@ -1,16 +1,17 @@
 ---
 authors: kanekotic
-draft: true
+draft: false
 title: Psycological safety in software development
-description: ''
+description: 'What are some succes factor of high performing teams and organizations?
+  One undoubtedly is the ability to share and exchange without fear or shame '
 tags:
 - programming
 - productivity
 - motivation
-published: 
+published: 2023-01-27T01:00:00+01:00
 canonical_url: ''
 cover_image: ''
-series: ''
+series: 'Whwt makes high performing teams '
 
 ---
 # TL:DR;
