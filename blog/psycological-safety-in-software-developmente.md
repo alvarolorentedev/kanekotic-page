@@ -1,9 +1,12 @@
 ---
 authors: kanekotic
 draft: true
-title: Psycological safety in software developmente
+title: Psycological safety in software development
 description: ''
-tags: []
+tags:
+- programming
+- productivity
+- motivation
 published: 
 canonical_url: ''
 cover_image: ''
