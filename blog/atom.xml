@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.kanekotic.com/blog</id>
     <title>Kanekotic's Site Blog</title>
-    <updated>2022-12-19T00:00:00.000Z</updated>
+    <updated>2023-01-26T20:41:30.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.kanekotic.com/blog"/>
     <subtitle>Kanekotic's Site Blog</subtitle>
     <icon>https://www.kanekotic.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Psycological safety in software development]]></title>
+        <id>/psycological-safety-in-software-developmente</id>
+        <link href="https://www.kanekotic.com/blog/psycological-safety-in-software-developmente"/>
+        <updated>2023-01-26T20:41:30.000Z</updated>
+        <summary type="html"><![CDATA[What are some succes factor of high performing teams and organizations? One undoubtedly is the ability to share and exchange without fear or shame ]]></summary>
+        <content type="html"><![CDATA[<p>psychological safety is essential for the success of software development teams. By fostering open communication and encouraging a culture of learning and innovation, teams can work more efficiently, effectively and creatively. By promoting psychological safety, managers and leaders can help their team members to reach their full potential and take the team to the next level.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="long-version">Long Version<a class="hash-link" href="#long-version" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-psicological-safety">What is psicological safety<a class="hash-link" href="#what-is-psicological-safety" title="Direct link to heading">​</a></h3><blockquote><p>Psychological safety refers to the belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns or mistakes. It is a shared belief held by members of a team that the team is safe for interpersonal risk-taking. This safety allows team members</p></blockquote><h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-is-psicological-safety-important">Why is psicological safety important<a class="hash-link" href="#why-is-psicological-safety-important" title="Direct link to heading">​</a></h3><p>Psychological safety is an essential aspect of any successful organization. Software development organizations are no exception.</p><p>One of the main benefits of psychological safety is the ability to foster open and honest communication. When team members feel safe to speak up, they are more likely to share their thoughts and ideas, which can lead to more efficient problem-solving and decision-making. In a field that is constantly evolving and where new technologies and approaches are continually emerging, it is essential to stay up-to-date and adapt to change.</p><p>Furthermore, it allows for creativity and innovation to flourish. When team members feel secure in their ability to express themselves, they are more likely to think outside the box and come up with new and unique solutions. In software development this can be the diference in between the success and failure of a project or a huge diference in ROI.</p><p>However, creating a culture of psychological safety is not always easy. It requires active effort and commitment from everyone on the team, including managers and leaders. One important step is to actively listen to and encourage open dialogue among team members. Managers should also create an environment where mistakes are viewed as opportunities for learning, not as failures.</p><p>Another important step is to establish clear guidelines and expectations for communication and behavior within the team. This can include things like setting ground rules for respectful dialogue, and providing training on active listening and conflict resolution.</p><p>Finally, it is essential to hold everyone on the team accountable for maintaining a culture of psychological safety. This includes managers, who should lead by example and model the behavior they expect from their team.</p>]]></content>
+        <author>
+            <name>Alvaro Jose</name>
+            <uri>https://github.com/kanekotic</uri>
+        </author>
+        <category label="programming" term="programming"/>
+        <category label="productivity" term="productivity"/>
+        <category label="motivation" term="motivation"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Double-edge Microservices: APIs the New Singleton]]></title>
         <id>/2022/12/19/api-singleton</id>
