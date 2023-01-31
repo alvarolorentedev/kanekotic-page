@@ -2,6 +2,7 @@ backend:
   name: github
   repo: kanekotic/kanekotic-page
   branch: main
+  base_url: 'https://www.kanekotic.com'
 media_folder: "static/img"
 public_folder: "/img/"
 collections:
