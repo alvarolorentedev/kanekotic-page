@@ -1,4 +1,28 @@
 backend:
   name: github
-  repo: owner-name/repo-name
+  repo: kanekotic/kanekotic-page
   branch: main
+media_folder: "static/img"
+public_folder: "/img/"
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Authors", name: "authors", widget: "hidden", default: "kanekotic"}
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 4
+        options: ["Design", "UX", "Dev"]
+        default: ["Design"]
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "published", widget: "datetime"}
+      - {label: "Cover Image", name: "cover_image", widget: "image"}
+      - {label: "Series", name: "series", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
