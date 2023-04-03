@@ -20,10 +20,112 @@ collections:
         multiple: true
         min: 1
         max: 4
-        options: ["Design", "UX", "Dev"]
-        default: ["Design"]
+        options: 
+        - javascript
+        - webdev
+        - beginners
+        - programming
+        - tutorial
+        - react
+        - archlinux
+        - python
+        - news
+        - android
+        - productivity
+        - css
+        - discuss
+        - devops
+        - career
+        - node
+        - html
+        - codenewbie
+        - opensource
+        - latestnigerianewslat
+        - typescript
+        - aws
+        - java
+        - github
+        - showdev
+        - testing
+        - php
+        - newsbrief
+        - security
+        - linux
+        - vue
+        - docker
+        - angular
+        - uncategorized
+        - blockchain
+        - database
+        - machinelearning
+        - git
+        - go
+        - ruby
+        - laravel
+        - southafricanews
+        - design
+        - cloud
+        - mobile
+        - dotnet
+        - computerscience
+        - datascience
+        - csharp
+        - kubernetes
+        - serverless
+        - azure
+        - api
+        - rails
+        - technology
+        - algorithms
+        - codepen
+        - help
+        - reactnative
+        - softwaredevelopment
+        - architecture
+        - flutter
+        - 100daysofcode
+        - startup
+        - ios
+        - blog
+        - macosapps
+        - development
+        - learning
+        - coding
+        - vscode
+        - watercooler
+        - sportnews
+        - nextjs
+        - frontend
+        - wordpress
+        - django
+        - graphql
+        - sql
+        - interview
+        - cpp
+        - ubuntu
+        - cryptocurrency
+        - gamedev
+        - kotlin
+        - rust
+        - web
+        - performance
+        - google
+        - hacktoberfest
+        - business
+        - ai
+        - todayilearned
+        - motivation
+        - software
+        - ux
+        - bitcoin
+        - functional
+        - challenge
+        - fundingamer
+        default: []
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Publish Date", name: "published", widget: "datetime"}
       - {label: "Cover Image", name: "cover_image", widget: "image"}
+      - {label: "Canonical URL", name: "canonical_url", widget: "string"}
       - {label: "Series", name: "series", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
