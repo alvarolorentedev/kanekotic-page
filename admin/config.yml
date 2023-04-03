@@ -129,3 +129,124 @@ collections:
       - {label: "Canonical URL", name: "canonical_url", widget: "string"}
       - {label: "Series", name: "series", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "hashnode" # Used in routes, e.g., /admin/collections/blog
+    label: "Hashnode post" # Used in the UI
+    folder: "integrations/hashnode" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Domain", name: "domain", widget: "hidden", default: "kanekotic.hashnode.dev"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 4
+        options: 
+        - javascript
+        - webdev
+        - beginners
+        - programming
+        - tutorial
+        - react
+        - archlinux
+        - python
+        - news
+        - android
+        - productivity
+        - css
+        - discuss
+        - devops
+        - career
+        - node
+        - html
+        - codenewbie
+        - opensource
+        - latestnigerianewslat
+        - typescript
+        - aws
+        - java
+        - github
+        - showdev
+        - testing
+        - php
+        - newsbrief
+        - security
+        - linux
+        - vue
+        - docker
+        - angular
+        - uncategorized
+        - blockchain
+        - database
+        - machinelearning
+        - git
+        - go
+        - ruby
+        - laravel
+        - southafricanews
+        - design
+        - cloud
+        - mobile
+        - dotnet
+        - computerscience
+        - datascience
+        - csharp
+        - kubernetes
+        - serverless
+        - azure
+        - api
+        - rails
+        - technology
+        - algorithms
+        - codepen
+        - help
+        - reactnative
+        - softwaredevelopment
+        - architecture
+        - flutter
+        - 100daysofcode
+        - startup
+        - ios
+        - blog
+        - macosapps
+        - development
+        - learning
+        - coding
+        - vscode
+        - watercooler
+        - sportnews
+        - nextjs
+        - frontend
+        - wordpress
+        - django
+        - graphql
+        - sql
+        - interview
+        - cpp
+        - ubuntu
+        - cryptocurrency
+        - gamedev
+        - kotlin
+        - rust
+        - web
+        - performance
+        - google
+        - hacktoberfest
+        - business
+        - ai
+        - todayilearned
+        - motivation
+        - software
+        - ux
+        - bitcoin
+        - functional
+        - challenge
+        - fundingamer
+        default: []
+      - {label: "Draft", name: "ignorePost", widget: "boolean", default: true}
+      - {label: "Cover Image", name: "cover", widget: "image"}
+      - {label: "Canonical URL", name: "canonical", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
