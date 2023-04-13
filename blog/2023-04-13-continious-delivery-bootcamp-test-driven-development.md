@@ -10,7 +10,7 @@ description: Learn how to get things fast into production with good quality
 draft: true
 published: 2023-04-18T07:30:00.000Z
 cover_image: /img/copy-of-continious.png
-canonical_url: https://www.kanekotic.com/blog/2023/04/13/continious-delivery-bootcamp-intro
+canonical_url: https://www.kanekotic.com/blog/2023/04/13/continious-delivery-bootcamp-test-driven-development
 series: Continuous Delivery Bootcamp
 ---
 # ﻿Context
