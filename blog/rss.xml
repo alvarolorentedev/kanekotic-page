@@ -4,10 +4,22 @@
         <title>Kanekotic's Site Blog</title>
         <link>https://www.kanekotic.com/blog</link>
         <description>Kanekotic's Site Blog</description>
-        <lastBuildDate>Thu, 26 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Continious Delivery Bootcamp: Intro]]></title>
+            <link>https://www.kanekotic.com/blog/2023/04/13/continious-delivery-bootcamp-intro</link>
+            <guid>/2023/04/13/continious-delivery-bootcamp-intro</guid>
+            <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to get things fast into production with good quality]]></description>
+            <content:encoded><![CDATA[<p>Welcome to our Continuous Delivery Bootcamp! We'll teach you the skills you need to get your projects out the door fast, without sacrificing quality. By the end of this program, you'll be a pro at transforming code into working software. Sign up today and start transforming your workflow! </p><p>This chapter we will do an intro on the tools we will use and how to commit code with git and GitHub works</p><h1>Video</h1><iframe width="100%" height="444" src="https://www.youtube.com/embed/nwpUtvHulWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe><p>{% embed <a href="https://youtu.be/nwpUtvHulWM" target="_blank" rel="noopener noreferrer">https://youtu.be/nwpUtvHulWM</a> %}</p><p><a href="https://youtu.be/nwpUtvHulWM" target="_blank" rel="noopener noreferrer">﻿Watch the video on Youtube</a></p>]]></content:encoded>
+            <category>programming</category>
+            <category>productivity</category>
+            <category>devops</category>
+            <category>development</category>
+        </item>
         <item>
             <title><![CDATA[Psychological safety in software development]]></title>
             <link>https://www.kanekotic.com/blog/2023/01/26/psycological-safety-in-software-developmente</link>
