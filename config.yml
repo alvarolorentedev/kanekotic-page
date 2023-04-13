@@ -1,4 +1,0 @@
-backend:
-  name: github
-  repo: owner-name/repo-name
-  branch: main
