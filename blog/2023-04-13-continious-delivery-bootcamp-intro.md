@@ -6,14 +6,11 @@ tags:
   - productivity
   - devops
   - development
-description: "H1: Continuous Delivery Bootcamp Subtitle: Learn how to get things
-  fast into production with good quality H2 Option 1: Upgrade your skills with
-  our CI/CD training H2 Option 2: Streamline your development process with our
-  Continuous Delivery Bootcamp H2 Option 3: Master the art of fast, high-quality
-  production with our Bootcamp"
+description: Learn how to get things fast into production with good quality
 draft: true
 published: 2023-04-14T05:00:02.679Z
 cover_image: null
+series: Continuous Delivery Bootcamp
 ---
 # ﻿Context
 
