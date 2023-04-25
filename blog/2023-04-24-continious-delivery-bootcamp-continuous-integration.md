@@ -12,7 +12,7 @@ published: 2023-04-25T07:24:00.000Z
 cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/continious-integration.png
 series: Continuous Delivery Bootcamp
 ---
-# ﻿Context
+# Context
 
 Welcome to our Continuous Delivery Bootcamp! We'll teach you the skills you need to get your projects out the door fast, without sacrificing quality. By the end of this program, you'll be a pro at transforming code into working software. Sign up today and start transforming your workflow! 
 

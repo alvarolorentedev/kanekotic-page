@@ -13,7 +13,7 @@ cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/sta
 canonical_url: https://www.kanekotic.com/blog/2023/04/13/continious-delivery-bootcamp-intro
 series: Continuous Delivery Bootcamp
 ---
-# ﻿Context
+# Context
 
 Welcome to our Continuous Delivery Bootcamp! We'll teach you the skills you need to get your projects out the door fast, without sacrificing quality. By the end of this program, you'll be a pro at transforming code into working software. Sign up today and start transforming your workflow! 
 

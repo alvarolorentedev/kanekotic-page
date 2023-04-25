@@ -12,7 +12,7 @@ published: 2023-04-24T18:35:14.580Z
 cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/fpusing-kotlin.png
 series: Functional Programming With Kotlin
 ---
-# ﻿Context
+# Context
 
 This is a #functional #programming series focusing on the main concepts using #kotlin.
 
