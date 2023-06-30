@@ -16,5 +16,59 @@ D﻿ocker-desktop is a paid product, their licensing mode is by user, and it pro
 
 ## Steps
 
-### Clean-up Docker Desktop (Optional)
+### 1. Clean-up Docker Desktop (Optional)
 
+ ﻿you will need to run the next [bash script](<Docker Toolbox Uninstall Shell Script>)
+
+```shell
+#!/bin/bash
+
+# Uninstall Script
+
+if [ "${USER}" != "root" ]; then
+	echo "$0 must be run as root!"
+	exit 2
+fi
+
+while true; do
+  read -p "Remove all Docker Machine VMs? (Y/N): " yn
+  case $yn in
+    [Yy]* ) docker-machine rm -f $(docker-machine ls -q); break;;
+    [Nn]* ) break;;
+    * ) echo "Please answer yes or no."; exit 1;;
+  esac
+done
+
+echo "Removing Applications..."
+rm -rf /Applications/Docker.app
+
+echo "Removing docker binaries..."
+rm -f /usr/local/bin/docker
+rm -f /usr/local/bin/docker-machine
+rm -r /usr/local/bin/docker-machine-driver*
+rm -f /usr/local/bin/docker-compose
+
+echo "Removing boot2docker.iso"
+rm -rf /usr/local/share/boot2docker
+
+echo "Forget packages"
+pkgutil --forget io.docker.pkg.docker
+pkgutil --forget io.docker.pkg.dockercompose
+pkgutil --forget io.docker.pkg.dockermachine
+pkgutil --forget io.boot2dockeriso.pkg.boot2dockeriso
+
+echo "All Done!"
+```
+
+### 2﻿. Install Homebrew
+
+[Homebrew](https://brew.sh/) is the defacto command line package manager for OSX, if you don't have it is very recommendable to have it.
+
+```s﻿hell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+### 3﻿. Install Podman
+
+### 4. Install Podman Desktop (Optional)
+```
