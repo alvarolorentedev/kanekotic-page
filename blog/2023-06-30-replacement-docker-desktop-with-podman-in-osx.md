@@ -6,8 +6,9 @@ tags:
   - docker
   - softwaredevelopment
 description: a how to tutorial migrate from docker desktop to podman in OSX
-draft: true
+draft: false
 published: 2023-07-07T08:34:37.867Z
+cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/docker-desktop.png
 series: OSX How To...
 ---
 ## Why would I do this?
