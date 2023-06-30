@@ -91,6 +91,25 @@ You can then verify the installation information using:
 podman info
 ```
 
+At this point, podman should have created a proxy file in `/usr/local/bin/docker`, if it does not exist you will have to create it with:
 
+```s﻿hell
+sudo vim /usr/local/bin/docker
+```
+
+a﻿dd in that file the content:
+
+```
+#!/bin/sh
+[ -e /etc/containers/nodocker ] || \
+echo "Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg." >&2
+exec podman "$@"
+```
+
+y﻿ou should now be able to run a docker as normal
+
+```
+docker run -it docker.io/hello-world
+```
 
 ### 4. Install Podman Desktop (Optional)
