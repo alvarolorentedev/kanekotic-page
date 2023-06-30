@@ -14,7 +14,11 @@ series: OSX How To
 
 D﻿ocker-desktop is a paid product, their licensing mode is by user, and it provides value not for the software side but for their cloud offering (registry, etc). For this, if the intent of you're a company is to use containers locally to facilitate software development,  the cost tends to be high.
 
-## Steps
+## What is podman?
+
+Podman (short for Pod Manager) is an open-source, Linux-native tool designed to develop, manage, and run containers and container images. It offers a Docker-compatible command-line interface (CLI) that does not rely on a daemon, but directly interacts with the Image registry, container, and image storage, and container process operations.
+
+## Migration Steps
 
 ### 1. Clean-up Docker Desktop (Optional)
 
@@ -64,7 +68,7 @@ echo "All Done!"
 
 [Homebrew](https://brew.sh/) is the defacto command line package manager for OSX, if you don't have it is very recommendable to have it.
 
-```s﻿hell
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -74,42 +78,69 @@ On Mac, each Podman machine is backed by a [QEMU](https://www.qemu.org/) based
 
 For Mac, Podman is provided through [Homebrew](https://brew.sh/). Once you have set up brew, you can use the `brew install` command to install Podman:
 
-```s﻿hell
+```shell
 brew install podman
 ```
 
 Next, create and start your first Podman machine:
 
-```s﻿hell
+```shell
 podman machine init
 podman machine start
 ```
 
 You can then verify the installation information using:
 
-```
+```shell
 podman info
 ```
 
 At this point, podman should have created a proxy file in `/usr/local/bin/docker`, if it does not exist you will have to create it with:
 
-```s﻿hell
+```shell
 sudo vim /usr/local/bin/docker
 ```
 
 a﻿dd in that file the content:
 
-```
+```shell
 #!/bin/sh
 [ -e /etc/containers/nodocker ] || \
 echo "Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg." >&2
 exec podman "$@"
 ```
 
+t﻿he script needs to be made executable by:
+
+```powershell
+chmod +x /usr/local/bin/docker
+```
+
 y﻿ou should now be able to run a docker as normal
 
-```
+```shell
 docker run -it docker.io/hello-world
 ```
 
-### 4. Install Podman Desktop (Optional)
+### 4. Use podman-mac-help
+
+Y﻿ou should consider using `podman-mac-help` to migrate transparently to Podman on macOS.
+
+* Continue using familiar Docker commands.
+* Take advantage of the benefits of Podman on macOS.
+* Your tools, such as [Maven](https://maven.apache.org/) or [Testcontainers](https://www.testcontainers.org/), communicate with Podman without reconfiguration.
+
+The `podman-mac-helper` tool provides a compatibility layer that allows you to use most Docker commands with Podman on macOS. The service redirects `/var/run/docker` to the fixed user-assigned UNIX socket location.
+
+T﻿o enable this, you just need to run:
+```shell
+sudo podman-mac-helper install
+```
+
+### 5. Install Podman Desktop (Optional)
+
+Finally, to have a better compatibility and a UI to work with as with docker desktop, you can install [Podman desktop](https://podman-desktop.io/)b﻿y running: 
+
+```
+brew install podman-desktop
+```
