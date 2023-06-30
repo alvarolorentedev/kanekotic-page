@@ -1,6 +1,6 @@
 ---
 authors: kanekotic
-title: Replacement Docker Desktop with Podman in OSX
+title: Replace Docker Desktop with Podman in OSX
 tags:
   - devops
   - docker
@@ -8,7 +8,7 @@ tags:
 description: a how to tutorial migrate from docker desktop to podman in OSX
 draft: true
 published: 2023-07-07T08:34:37.867Z
-series: OSX How To
+series: OSX How To...
 ---
 ## Why would I do this?
 
