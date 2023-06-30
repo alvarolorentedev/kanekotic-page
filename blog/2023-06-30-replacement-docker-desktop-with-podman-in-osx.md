@@ -66,9 +66,31 @@ echo "All Done!"
 
 ```s﻿hell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+```
 
 ### 3﻿. Install Podman
 
-### 4. Install Podman Desktop (Optional)
+On Mac, each Podman machine is backed by a [QEMU](https://www.qemu.org/) based virtual machine. Once installed, the podman command can be run directly from the Unix shell in `Terminal`, where it remotely communicates with the podman service running in the Machine VM.
+
+For Mac, Podman is provided through [Homebrew](https://brew.sh/). Once you have set up brew, you can use the `brew install` command to install Podman:
+
+```s﻿hell
+brew install podman
 ```
+
+Next, create and start your first Podman machine:
+
+```s﻿hell
+podman machine init
+podman machine start
+```
+
+You can then verify the installation information using:
+
+```
+podman info
+```
+
+
+
+### 4. Install Podman Desktop (Optional)
