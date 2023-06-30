@@ -23,7 +23,7 @@ Podman (short for Pod Manager) is an open-source, Linux-native tool designed to 
 
 ### 1. Clean-up Docker Desktop (Optional)
 
- ﻿you will need to run the next [bash script](<Docker Toolbox Uninstall Shell Script>)
+ ﻿you will need to run the next [bash script](https://github.com/docker-archive/toolbox/blob/master/osx/uninstall.sh)
 
 ```shell
 #!/bin/bash
