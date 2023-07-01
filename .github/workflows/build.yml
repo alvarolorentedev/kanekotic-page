@@ -31,10 +31,10 @@ jobs:
           publish_dir: ./build
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-#      - name: Sycing Article to dev.to
-#        uses: kanekotic/TheActionDev@main
-#        with:
-#          api-key: ${{ secrets.DEVTO_TOKEN }}
-#          directory: ./blog
-#          ignore: 201**.md, 2022-**.md
+      - name: Sycing Article to dev.to
+        uses: kanekotic/TheActionDev@main
+        with:
+          api-key: ${{ secrets.DEVTO_TOKEN }}
+          directory: ./blog
+          ignore: 201**.md, 2022-**.md
 
