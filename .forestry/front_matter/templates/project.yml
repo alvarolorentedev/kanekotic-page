@@ -1,7 +1,0 @@
----
-label: Project
-hide_body: false
-fields:
-- type: number
-  name: sidebar_position
-  label: sidebar_position
