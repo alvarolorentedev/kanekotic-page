@@ -20,6 +20,18 @@
             <category>softwaredevelopment</category>
         </item>
         <item>
+            <title><![CDATA[Continious Delivery Bootcamp:  Continuous Integration]]></title>
+            <link>https://www.kanekotic.com/blog/2023/04/24/continious-delivery-bootcamp-continuous-integration</link>
+            <guid>/2023/04/24/continious-delivery-bootcamp-continuous-integration</guid>
+            <pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to get things fast into production with good quality]]></description>
+            <content:encoded><![CDATA[<p>Welcome to our Continuous Delivery Bootcamp! We'll teach you the skills you need to get your projects out the door fast, without sacrificing quality. By the end of this program, you'll be a pro at transforming code into working software. Sign up today and start transforming your workflow! </p><p>This chapter we will do an example on how to build and validate our project in github actions.</p><h1>Video</h1><iframe width="100%" height="444" src="https://www.youtube.com/embed/QMwXxezykHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe><p>{% embed <a href="https://youtu.be/QMwXxezykHc" target="_blank" rel="noopener noreferrer">https://youtu.be/QMwXxezykHc</a> %}</p><p><a href="https://youtu.be/QMwXxezykHc" target="_blank" rel="noopener noreferrer">﻿Watch the video on Youtube</a></p>]]></content:encoded>
+            <category>programming</category>
+            <category>productivity</category>
+            <category>devops</category>
+            <category>development</category>
+        </item>
+        <item>
             <title><![CDATA[Functional Programming With Kotlin Bootcamp - Initialize the Project]]></title>
             <link>https://www.kanekotic.com/blog/2023/04/24/functional-programming-with-kotlin-bootcamp-initialize-the-project</link>
             <guid>/2023/04/24/functional-programming-with-kotlin-bootcamp-initialize-the-project</guid>
