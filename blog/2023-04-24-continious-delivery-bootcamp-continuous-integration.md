@@ -1,6 +1,6 @@
 ---
 authors: kanekotic
-title: "Continious Delivery Bootcamp:  Continuous Integration"
+title: "Continious Delivery Bootcamp: Continuous Integration"
 tags:
   - programming
   - productivity
