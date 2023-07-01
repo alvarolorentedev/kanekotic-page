@@ -7,9 +7,10 @@ tags:
   - devops
   - development
 description: Learn how to get things fast into production with good quality
-draft: true
+draft: false
 published: 2023-04-25T07:24:00.000Z
 cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/continious-integration.png
+canonical_url: https://www.kanekotic.com/blog/2023/04/24/continious-delivery-bootcamp-continuous-integration
 series: Continuous Delivery Bootcamp
 ---
 # Context

@@ -10,6 +10,7 @@ description: Learn how to do functional programming with kotlin
 draft: false
 published: 2023-04-24T18:35:59.294Z
 cover_image: https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/fp-with-kotlin-gradle.png
+canonical_url: https://www.kanekotic.com/blog/2023/04/24/functional-programming-with-kotlin-bootcamp-initialize-the-project
 series: Functional Programming With Kotlin
 ---
 # Context
