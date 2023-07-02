@@ -33,6 +33,8 @@ jobs:
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
       - name: Sycing Article to dev.to
         uses: kanekotic/TheActionDev@main
+        timeout-minutes: 10
+        continue-on-error: true
         with:
           api-key: ${{ secrets.DEVTO_TOKEN }}
           directory: ./blog
