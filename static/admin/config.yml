@@ -2,7 +2,6 @@ backend:
   name: github
   repo: kanekotic/kanekotic-page
   branch: main
-  base_url: https://snow-sheer-wishbone.glitch.me
 media_folder: "static/img"
 public_folder: "https://raw.githubusercontent.com/kanekotic/kanekotic-page/main/static/img/"
 collections:
