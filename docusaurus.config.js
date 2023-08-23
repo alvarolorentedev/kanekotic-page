@@ -75,6 +75,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://tweetback.kanekotic.com/',
+            label: 'TweetBack',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/kanekotic',
             label: 'GitHub',
             position: 'right',
