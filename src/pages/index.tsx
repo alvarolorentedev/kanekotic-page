@@ -58,7 +58,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <div class="ml-embedded" data-form="BS01I2"></div>
+        <div className="ml-embedded" data-form="BS01I2"></div>
       </main>
     </Layout>
   );
